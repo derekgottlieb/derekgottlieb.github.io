@@ -1,0 +1,13 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-02-19'
+slug: wordpress-pages
+title: WordPress... pages
+url: /2005/02/19/wordpress-pages
+wordpress_id: 812
+---
+
+
+So the pages feature looks like it'll be pretty slick.  I've managed to set up the main frontpage for the site so that it loads up the page I created inside of WP.  I'm not sure it's the most efficient way to do it, but it does work.  Definitely looks like WP is well on it's way to being a fairly complete CMS (content management system).  Will have to see if I can differentiate between blog pages and normal content pages so that I can have a reduced sidebar for all things not blog.

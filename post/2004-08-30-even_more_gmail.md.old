@@ -1,0 +1,13 @@
+---
+categories:
+- Geek
+comments: true
+date: '2004-08-30'
+slug: even_more_gmail
+title: Even more Gmail
+url: /2004/08/30/even_more_gmail
+wordpress_id: 759
+---
+
+
+I haven't had much luck getting the GNOME GTray app to work under Fedora.  Dug around a little bit, and came up with a [Firefox extension](http://weblogs.mozillazine.org/doron/archives/005836.html) that largely does the trick (although you should probably just go to [the front page](http://weblogs.mozillazine.org/doron/) and look for the newest version).  Now I have to check my browser window to see if I've got new Gmail as opposed to simply looking at the GNOME system tray, but at least it works.

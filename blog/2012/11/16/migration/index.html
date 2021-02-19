@@ -1,0 +1,221 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="D.G.">
+		<meta name="description" content="">
+		<meta name="generator" content="Hugo 0.75.1" />
+		<title>Migration &middot; Thoughts</title>
+		<link rel="shortcut icon" href="https://thoughts.derekgottlieb.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/style.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/highlight.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/dbgcustom.css">
+                
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-16x16.png" sizes="16x16">
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+		<a href='https://thoughts.derekgottlieb.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://thoughts.derekgottlieb.com/atom.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Migration</h1>
+                    <h2 class="headline">
+                    November 16, 2012 
+                    <br>
+                    
+                    
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/sysadmin">sysadmin</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/hosting">hosting</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/blog">blog</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>Yet another time of migration (blog-wise)&hellip;</p>
+<h3 id="textdrive---joyent---textdrive-2">TextDrive -&gt; Joyent -&gt; TextDrive 2</h3>
+<p>My web hosting has been a little up in the air recently (see <a href="http://news.slashdot.org/story/12/08/17/1734250/joyent-drops-lifetime-account-holders">Slashdot: Joyent Drops Lifetime Account Holders</a>).</p>
+<p>I paid a few hundred bucks several years back (2005) for &ldquo;lifetime&rdquo; web hosting
+at what I perceived to be a cool up and coming company (read: they claimed to
+be pushing to support a lot of the flashy new web tech that wasn&rsquo;t well
+supported by most shared web hosting providers at the time).  It was their
+alternative to seeking VC money, and clearly lawyers weren&rsquo;t involved or they
+would&rsquo;ve left themselves an easy out. I re-upped after they merged with another
+company, changed names, and made a new Lifetime upgrade offer (with similar
+very clear terms on what constituded &ldquo;lifetime&rdquo;). Leap forward to 2012 and the
+company wanted to shed this liability, leading to a big PR mess since they
+handled it horribly. I&rsquo;m still waiting to see how things shake out, but it
+looks like they&rsquo;ve spawned a new company (with the original company&rsquo;s name),
+brought back the founder, and will release a revamped shared hosting product
+and maintain lifetime account holders under this new company. I still worry
+about whether this is a scheme to be able to kill off this new company soon and
+legally nuke the &ldquo;lifetime&rdquo; accounts, but I&rsquo;ll see what comes since I have
+arguably gotten my money&rsquo;s worth out of the hosting I&rsquo;ve had to date.</p>
+<h3 id="linode-vps">Linode VPS</h3>
+<p>With all of this going on, I&rsquo;d been hearing good things about the VPS provider
+<a href="http://www.linode.com/?r=7ae9287ffd592e3a596b4fcad4c3fc99036ae251">Linode</a>,
+and they had an anniversary celebration where they were offering effectively 6
+months of free VPS hosting, so I took them up on it. Now I&rsquo;ve got a nice Linux
+VM that I manage and can do with as I please as opposed to being constrained to
+the software stack a shared host provides me. I&rsquo;ve really liked it so far, so
+perhaps at some point I&rsquo;ll get around to doing a quick writeup on it and my
+setup there.</p>
+<h3 id="wordpress---octopress">Wordpress -&gt; Octopress</h3>
+<p>I honestly haven&rsquo;t updated my blog nearly as much since having kids, and got
+tired of having to check in on it every few weeks to install all the Wordpress
+security patches. Moving to a VPS meant I had to start worrying about memory
+footprint and was more directly concerned about host security, so I decided it
+was time to follow the current trend and go back in time with a statically
+generated website. That&rsquo;s where I ran into <a href="http://octopress.org/">Octopress</a>
+that looked like it was full of good stuff. I was able to migrate all the old
+Wordpress content by doing an export and running a converter tool
+(<a href="https://github.com/thomasf/exitwp">exitwp</a>) and some manual cleanup for image
+content and long since dead links due to previous Wordpress upgrades. Overall,
+I&rsquo;m pretty happy with it since it ends up being nice and portable across web
+hosts, drops the need for a DB backend, and mitigates performance and security
+concerns.</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+            
+            &lt;&lt;&lt; <a class="basic-alignment left" href="https://thoughts.derekgottlieb.com/blog/2012/11/16/baby-eleanora/" title="Older Post: Baby Eleanora">Baby Eleanora</a>
+            
+            -----
+            
+            <a class="basic-alignment right" href="https://thoughts.derekgottlieb.com/blog/2011/12/23/adieu-android-or-bienvenue-iphone/" title="Newer Post: Adieu Android, or bienvenue iPhone!">Adieu Android, or bienvenue iPhone!</a> >>>
+            
+            </footer>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/derekgottlieb">
+                        <img class="avatar" src="https://thoughts.derekgottlieb.com/images/avatar.png">
+                        <div>
+                            <span class="dark">D.G.</span>
+                            <span>Trained in the ancient art of yak shaving</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fthoughts.derekgottlieb.com%2fblog%2f2012%2f11%2f16%2fmigration%2f - Migration by @derekgottlieb"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/06/3d-print-extra-car-cup-holders/">3D Print: Extra Car Cup Holders<aside class="dates">Nov 6 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-usb-stylus-holder/">3D Print: USB Stylus Holder<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-collapsible-dice-tower/">3D Print: Collapsible Dice Tower<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-wine-bottle-bird-feeder/">3D Print: Wine Bottle Bird Feeder<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-dragon-eggs-with-escher-lizards/">3D Print: Dragon Eggs with Escher Lizards<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-playing-card-case/">3D Print: Playing Card Case<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-basalt-pencil-holder/">3D Print: Basalt Pencil Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-baby-dragon-pen-holder/">3D Print: Baby Dragon Pen Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-cute-dragon/">3D Print: Cute Dragon<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/10/31/3d-print-chip-bag-clip/">3D Print: Chip Bag Clip<aside class="dates">Oct 31 2020</aside></a>
+        </li>
+    
+</ul>
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/derekgottlieb">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/derekgottlieb">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2021 D.G.
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/main.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

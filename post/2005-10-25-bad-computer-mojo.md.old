@@ -1,0 +1,32 @@
+---
+categories:
+- Geek
+- Work
+comments: true
+date: '2005-10-25'
+slug: bad-computer-mojo
+title: Bad Computer Mojo
+url: /2005/10/25/bad-computer-mojo
+wordpress_id: 902
+---
+
+
+I've been suffering from some bad computer mojo as of recent.
+
+
+
+
+
+  1. First our group fileserver tanked.  Not that I really came into physical contact with it, but I talked to it over the network all the time.
+
+
+  2. Then my brand spankin' new NAS drive (got a Buffalo LinkStation, basically an external hard drive enclosure with ethernet instead of USB/Firewire) had some sort of catastrophic firmware failure while I was using it and I was forced to RMA it.  Fortunately they would do an advance RMA where they'd ship me a replacement, I'd put the busted one in that box and return it to them (with the assumption that they'll charge my credit card if I fail to return the busted one within 2 weeks).
+
+
+  3. Now, I've somehow managed to kill the USB/Firewire interface in my normal hard drive enclosure (the one I leave at work with my music so I have good tunes to listen to).  The drive is ok (ie I put it in my desktop and my data was still there), and the enclosure will power up and spin up the drive, but the computer can't see it when hooked up to either USB or Firewire.  Guess I'm in the market for a new enclosure.
+
+
+
+On a related note, one of the guys in another research group (who also happened to get wonked by our fileserver crash) pointed me at the following PhD Comics yesterday.  Seems amazingly poignant right now.
+
+[Part 1](http://www.phdcomics.com/comics/archive.php?comicid=638), [Part 2](http://www.phdcomics.com/comics/archive.php?comicid=639), [Part 3](http://www.phdcomics.com/comics/archive.php?comicid=640)

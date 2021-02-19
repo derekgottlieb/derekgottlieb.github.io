@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Film on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/categories/film/</link>
+    <description>Recent content in Film on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Apr 2004 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/categories/film/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movie DB</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/04/15/movie_db/</link>
+      <pubDate>Thu, 15 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/04/15/movie_db/</guid>
+      <description>So my movie database continues to evolve. I guess first I should mention what it does at this point. Basically, I feed movie title in, my script searches for it in the IMDB, presents the possible matches, and then fills in all the info from IMDB (title, year, genres, director, stars, etc). Then I can easily edit it as needed. Tonight I added some basic caching of the main page. In other words, if you aren&amp;rsquo;t doing any sort of special query (ie list everything), it will dump the webpage to a file and simply display that if it&amp;rsquo;s current, and only recreate it when the database has been updated.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/blog/</link>
+    <description>Recent content in blog on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Mar 2017 20:59:09 -0600</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/blog/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finally Migrated to Hugo</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2017/03/07/finally-migrated-to-hugo/</link>
+      <pubDate>Tue, 07 Mar 2017 20:59:09 -0600</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2017/03/07/finally-migrated-to-hugo/</guid>
+      <description>Finally got around to migrating the blog from Jekyll/Octopress to Hugo. I managed to preserve the RSS feed URL, so it was a fairly smooth migration aside from a blip when feed readers thought all the posts were new again it. I&amp;rsquo;ve still got some work tweaking the theme and category/tag pages, but seems to be working out pretty well.</description>
+    </item>
+    
+    <item>
+      <title>Forgot about RSS</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/10/11/forgot-about-rss/</link>
+      <pubDate>Sun, 11 Oct 2015 08:13:18 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/10/11/forgot-about-rss/</guid>
+      <description>Welp. Seems I forgot to test out my RSS feeds in Hugo, so I&amp;rsquo;m reverting to Octopress until I have time to sort that out.</description>
+    </item>
+    
+    <item>
+      <title>Blog software du jour - Hugo</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/10/09/blog-software-du-jour-hugo/</link>
+      <pubDate>Fri, 09 Oct 2015 19:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/10/09/blog-software-du-jour-hugo/</guid>
+      <description>A few years ago, I&amp;rsquo;d migrated from Wordpress to a static site generator for my blog as part of migrating off a shared web host to a VPS. I&amp;rsquo;d started with Octopress since it had been getting a fair bit of buzz at the time. I was pretty happy with the rendered output, but the underlying software had its flaws. The author (Brandon Mathis) highlighted some of those flaws in his post on the road to Octopress 3.</description>
+    </item>
+    
+    <item>
+      <title>Odd request from someone at the Public Health Foundation</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/02/15/odd-request-from-someone-at-the-public-health-foundation/</link>
+      <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/02/15/odd-request-from-someone-at-the-public-health-foundation/</guid>
+      <description>&lt;p&gt;Recently, someone from the &lt;a href=&#34;http://www.phf.org/&#34;&gt;Public Health Foundation&lt;/a&gt;
+contacted me because they found a blog post I had from back in 2005,
+specifically &lt;a href=&#34;https://thoughts.derekgottlieb.com/blog/2005/04/28/corporategovernment-parodies-on-the-web/&#34;&gt;Corporate/Government Parodies on the
+Web&lt;/a&gt;. They asked if
+I&amp;rsquo;d like to update the broken reference to mypyramid.gov (which no longer
+exists) in favor of a new government nutrition website. Having gone back and
+re-read the post for context, I initially thought I&amp;rsquo;d just ignore it for the
+moment since I figured it had to be some automated webcrawler of sending emails
+to DNS contacts for any hits referencing the old .gov URL. But they actually
+sent me a followup email, so I thought I might go ahead and make some updates.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migration</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2012/11/16/migration/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2012/11/16/migration/</guid>
+      <description>Yet another time of migration (blog-wise)&amp;hellip;
+TextDrive -&amp;gt; Joyent -&amp;gt; TextDrive 2 My web hosting has been a little up in the air recently (see Slashdot: Joyent Drops Lifetime Account Holders).
+I paid a few hundred bucks several years back (2005) for &amp;ldquo;lifetime&amp;rdquo; web hosting at what I perceived to be a cool up and coming company (read: they claimed to be pushing to support a lot of the flashy new web tech that wasn&amp;rsquo;t well supported by most shared web hosting providers at the time).</description>
+    </item>
+    
+    <item>
+      <title>Baby Adelaide blog</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2010/11/25/baby-adelaide-blog/</link>
+      <pubDate>Thu, 25 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2010/11/25/baby-adelaide-blog/</guid>
+      <description>You can track her progress at:
+acgottlieb.blogspot.com</description>
+    </item>
+    
+    <item>
+      <title>Web migration complete... well mostly</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2008/02/29/web-migration-complete-well-mostly/</link>
+      <pubDate>Fri, 29 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2008/02/29/web-migration-complete-well-mostly/</guid>
+      <description>So my hosting provider (was textdrive, now Joyent) is working on retiring all their old FreeBSD servers they were leasing. Yeah, it hadn&amp;rsquo;t occurred to me that you could lease a server like that. Anyway, they&amp;rsquo;re buying up fancy &amp;ldquo;Shared Accelerators&amp;rdquo; (8-core Opteron boxes with 4GB RAM/core from Sun running OpenSolaris) backed by SunFire x4500 Thumpers running ZFS.
+I&amp;rsquo;d started off with this provider a couple years ago as part of a VC campaign (give us a large wad of cash, and we&amp;rsquo;ll give you an account for as long as we&amp;rsquo;re in business), and I&amp;rsquo;d upgraded at some point when they had a similar campaign that bumped up the specs on my hosting account and added their Connector service (group email, calendar, etc services with their own chunk of attached storage) and Strongspace service (large reliable online backup storage accessible via sftp/rsync over ssh/web over ssl).</description>
+    </item>
+    
+    <item>
+      <title>Social micro-blogging?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2007/07/11/social-micro-blogging/</link>
+      <pubDate>Wed, 11 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2007/07/11/social-micro-blogging/</guid>
+      <description>There&amp;rsquo;s been a fair bit of hubbub about the social network/micro-blog services twitter and most recently pownce.
+twitter is a bit of an interesting concept as it boils down to very short (less than 140 characters), text-only posts about what you&amp;rsquo;re up to. You can post updates in a variety of ways (web, email, im, sms message via cell, desktop client) and receive updates from your circle of twittery friends in a similar way (web, email, im, sms, desktop client, or rss feed).</description>
+    </item>
+    
+    <item>
+      <title>Getting there...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/02/11/getting-there/</link>
+      <pubDate>Sat, 11 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/02/11/getting-there/</guid>
+      <description>I&amp;rsquo;ve gotten a bit farther in my updates for Malkier. I&amp;rsquo;ve fixed how I&amp;rsquo;d set up the databases. Basically I realized webmin had greater flexibility for creating databases than phpMyAdmin is currently set up to support. Things are nicely organized now in that respect. I&amp;rsquo;ve also upgraded to the latest version of WordPress, so I&amp;rsquo;ve gotten all those goodies and bugfixes now.
+The main task left is to do some customization and update the style for my site.</description>
+    </item>
+    
+    <item>
+      <title>K2 here I come</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/02/11/k2-here-i-come/</link>
+      <pubDate>Sat, 11 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/02/11/k2-here-i-come/</guid>
+      <description>Part way through switching over to K2. Looks like I need to fine tune the custom page themes I&amp;rsquo;ve previously created (for movies and header_graphics). They work at present, but the two column setup isn&amp;rsquo;t really formatted right under the new theme.
+I also want to set up a new header graphic, probably tweak the color scheme, and maybe look into some other cool options/extensions (such as embedding a flickr feed in the sidebar).</description>
+    </item>
+    
+    <item>
+      <title>Part way there...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/02/11/part-way-there/</link>
+      <pubDate>Sat, 11 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/02/11/part-way-there/</guid>
+      <description>Well, I&amp;rsquo;ve gotten the critical stuff transferred over. Stuff that&amp;rsquo;s up and running:
+ DNS now points to my new server. Email has all been transferred over (hooray for IMAP!). My databases are up and running (although not set up quite how Iâ€™d like). The blog is functional (along with most of the site, since I&amp;rsquo;m using WordPress as a basic content management system for a large portion of the site).</description>
+    </item>
+    
+    <item>
+      <title>Switching servers...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/02/10/switching-servers/</link>
+      <pubDate>Fri, 10 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/02/10/switching-servers/</guid>
+      <description>Looks like I&amp;rsquo;m finally going to get around to moving Malkier over to a new server.
+iPowerWeb has been decent as far as hosting providers go, but they&amp;rsquo;re clearly targetting a different market than whatever category I fall into. They provide (read: push) a bunch of web business stuff, but don&amp;rsquo;t seem to be quite as concerned with cool webtech or security. The server I&amp;rsquo;m on has been hit by security flaws on a few occasions, resulting in either server downtime or mass defacement of the php source throughout my site&amp;hellip; inserted spam code in every php file on my site&amp;hellip; Funny because it pointed to a non-existent web address and was written in such a way that every page it was on was broken and wouldn&amp;rsquo;t even render in a browser.</description>
+    </item>
+    
+    <item>
+      <title>Malkier back up...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/09/01/malkier-back-up/</link>
+      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/09/01/malkier-back-up/</guid>
+      <description>Finally got the site back up. Turns out there was some sort of security breach this past weekend that slipped evil javascript into all of my php/html pages on the site. Looked like it was intended to be some sort of browser buffer overflow attack or something along those lines (the support folk at ipowerweb said it would download a virus?). Anyway, things should be cleared up and safe again for now.</description>
+    </item>
+    
+    <item>
+      <title>Movies DB themed</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/06/27/movies-themed/</link>
+      <pubDate>Mon, 27 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/06/27/movies-themed/</guid>
+      <description>Finally got around to integrating my movies page with the rest of the site. It&amp;rsquo;s definitely hacky at this point (made a custom wordpress page style containing most of the php code and simply created an empty page that uses that style), but at least it works. Still need to refine it some. I stripped out most of the db fields from getting displayed since I&amp;rsquo;m don&amp;rsquo;t have as much screen width to work with, but I should fine tune what I display.</description>
+    </item>
+    
+    <item>
+      <title>Domain Name Greed</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/30/domain-name-greed/</link>
+      <pubDate>Mon, 30 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/30/domain-name-greed/</guid>
+      <description>So I did a little more research into the gottlieb.* domain names. I had considered something along those lines before ending up with malkier.com since all the appropriate gottlieb stuff was taken. Most are held by legitimate parties (ie people/businesses with the name gottlieb), but gottlieb.net is actually being squatted on by a rather shifting looking domain service, buydomains.com. Turns out these scumbags run around buying up domains with the hopes that someone would buy them for a pretty penny.</description>
+    </item>
+    
+    <item>
+      <title>WordPress... pages</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/19/wordpress-pages/</link>
+      <pubDate>Sat, 19 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/19/wordpress-pages/</guid>
+      <description>So the pages feature looks like it&amp;rsquo;ll be pretty slick. I&amp;rsquo;ve managed to set up the main frontpage for the site so that it loads up the page I created inside of WP. I&amp;rsquo;m not sure it&amp;rsquo;s the most efficient way to do it, but it does work. Definitely looks like WP is well on it&amp;rsquo;s way to being a fairly complete CMS (content management system). Will have to see if I can differentiate between blog pages and normal content pages so that I can have a reduced sidebar for all things not blog.</description>
+    </item>
+    
+    <item>
+      <title>WordPress upgrade</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/18/wordpress-upgrade/</link>
+      <pubDate>Fri, 18 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/18/wordpress-upgrade/</guid>
+      <description>As you may notice, I&amp;rsquo;m in the middle of upgrading my WordPress install for the blog. I thought I&amp;rsquo;d gotten the key stuff translated over to the new setup, so I switched over to the new stuff. While my blog looks mostly right (sans access buttons in the header), I&amp;rsquo;d forgotten that a lot of the rest of my site was using chunks of old blog code for their appearance. Hence, when I swapped them out, the rest of the stuff tanked.</description>
+    </item>
+    
+    <item>
+      <title>WordPress upgrade... work in progress</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/18/wordpress-upgrade-work-in-progress/</link>
+      <pubDate>Fri, 18 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/18/wordpress-upgrade-work-in-progress/</guid>
+      <description>Slowly making progress on the transition to 1.5. You&amp;rsquo;ll note I sorta have the links back up in the header, but they aren&amp;rsquo;t formatted like the rest of the site quite yet&amp;hellip; And I still need to integrate the rest of the site with the new theme code instead of having to keep around the old blog code.
+I&amp;rsquo;ve made a mock-up of the malkier frontpage that you can see here.</description>
+    </item>
+    
+    <item>
+      <title>New Header... Part III (Return of the Header)</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/12/22/new-header-part-iii/</link>
+      <pubDate>Wed, 22 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/12/22/new-header-part-iii/</guid>
+      <description>Decided to make a new header graphic yesterday. Figured the Matrix-esque binary conflicted a bit with the title &amp;ldquo;Pondering Dragonflies&amp;rdquo;&amp;hellip; especially since I&amp;rsquo;m using the header graphic throughout the site and not just on the blog, and the site&amp;rsquo;s named Malkier. So what better to catch the essence of something like Malkier? An old castle of course! Dug through some of my Ireland photos and came up with that pic of Blarney castle.</description>
+    </item>
+    
+    <item>
+      <title>New Header... Again</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/26/new-header-again/</link>
+      <pubDate>Tue, 26 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/26/new-header-again/</guid>
+      <description>So, I&amp;rsquo;ve decided to try out a new header image. Last one was a bit too girly. The new one&amp;rsquo;s not quite as &amp;ldquo;artsy,&amp;rdquo; but it&amp;rsquo;s definitely a bit manly-er (is that even a word?) and a whole lot geekier.</description>
+    </item>
+    
+    <item>
+      <title>Comment Spam</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/20/comment-spam/</link>
+      <pubDate>Wed, 20 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/20/comment-spam/</guid>
+      <description>So it seems some of the spammers have picked up on my blog for some reason. I&amp;rsquo;ve started receiving a lot of very spammy comments as of recent (ie one &amp;ldquo;person&amp;rdquo; slowly iterating over all blog posts starting at #1, each post being largely nonsense but containing a gambling link in the homepage section). So I&amp;rsquo;ve turned on comment moderation for anything phishy. With any luck this will at least prevent anything from ever showing up on the blog itself, but it still means I&amp;rsquo;ll get alerts about them (which I may eventually turn off if it grows to frequent) and have to go through and clear them out every so often.</description>
+    </item>
+    
+    <item>
+      <title>New Header Image</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/09/25/new-header-image/</link>
+      <pubDate>Sat, 25 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/09/25/new-header-image/</guid>
+      <description>So, I&amp;rsquo;ve finally gotten around to working on a custom header image for my blog. Not sure that I&amp;rsquo;m quite happy with it yet, but I like the feel of it better than the default that came with Kubrick. One of the flowers Amanda painted for our wedding invitations was the inspiration&amp;hellip; but I think it may be a bit too girly. Will have to see what I think after a bit more time.</description>
+    </item>
+    
+    <item>
+      <title>New Blog Software</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/09/05/new-blog-software/</link>
+      <pubDate>Sun, 05 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/09/05/new-blog-software/</guid>
+      <description>So I&amp;rsquo;ve decided to upgrade my blog software from b2 to what it evolved into, WordPress. For the moment, the old setup will continue to reside here, while the new version will reside here. This will be the last post to the old setup, to point people over to the new one. I figured while I was at it, I would revamp the style once again, since I was never 100% happy with the old one.</description>
+    </item>
+    
+    <item>
+      <title>In the beginning...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/01/24/begin/</link>
+      <pubDate>Fri, 24 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/01/24/begin/</guid>
+      <description>Got Movable Type up and running. Can now conveniently post my incoherent ramblings for the world to see (and mock).</description>
+    </item>
+    
+  </channel>
+</rss>

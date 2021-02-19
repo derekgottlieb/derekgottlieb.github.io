@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geek on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/geek/</link>
+    <description>Recent content in geek on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2005 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/geek/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bad Computer Mojo</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/25/bad-computer-mojo/</link>
+      <pubDate>Tue, 25 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/25/bad-computer-mojo/</guid>
+      <description>I&amp;rsquo;ve been suffering from some bad computer mojo as of recent.
+ First our group fileserver tanked. Not that I really came into physical contact with it, but I talked to it over the network all the time. Then my brand spankin&#39; new NAS drive (got a Buffalo LinkStation, basically an external hard drive enclosure with ethernet instead of USB/Firewire) had some sort of catastrophic firmware failure while I was using it and I was forced to RMA it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,227 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="D.G.">
+		<meta name="description" content="">
+		<meta name="generator" content="Hugo 0.75.1" />
+		<title>Web migration complete... well mostly &middot; Thoughts</title>
+		<link rel="shortcut icon" href="https://thoughts.derekgottlieb.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/style.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/highlight.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/dbgcustom.css">
+                
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-16x16.png" sizes="16x16">
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+		<a href='https://thoughts.derekgottlieb.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://thoughts.derekgottlieb.com/atom.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Web migration complete... well mostly</h1>
+                    <h2 class="headline">
+                    February 29, 2008 
+                    <br>
+                    
+                    
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/blog">blog</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/hosting">hosting</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>So my hosting provider (was <a href="http://www.textdrive.com/">textdrive</a>, now
+<a href="http://www.joyent.com/">Joyent</a>) is working on retiring all their old FreeBSD
+servers they were leasing.  Yeah, it hadn&rsquo;t occurred to me that you could lease
+a server like that.  Anyway, they&rsquo;re buying up fancy &ldquo;Shared Accelerators&rdquo;
+(8-core Opteron boxes with 4GB RAM/core from Sun running OpenSolaris) backed by
+SunFire x4500 Thumpers running ZFS.</p>
+<p>I&rsquo;d started off with this provider a couple years ago as part of a VC campaign
+(give us a large wad of cash, and we&rsquo;ll give you an account for as long as
+we&rsquo;re in business), and I&rsquo;d upgraded at some point when they had a similar
+campaign that bumped up the specs on my hosting account and added their
+Connector service (group email, calendar, etc services with their own chunk of
+attached storage) and Strongspace service (large reliable online backup storage
+accessible via sftp/rsync over ssh/web over ssl).  Anyway, all of this
+translates into my having the equivalent of a &ldquo;Premier&rdquo; service (see
+<a href="http://www.joyent.com/connector/pricing/">here</a>).  Long story short, I&rsquo;ve got
+a lifetime account with the following specs:</p>
+<ul>
+<li>Connector: 100 users/100 GB</li>
+<li>Strongspace: 100GB</li>
+<li>Hosting: 50 websites, 20GB Disk, 60GB Bandwidth, 100 databases</li>
+</ul>
+<p>Considering what I paid for my initial VC lifetime account, and later the
+upgrade that added Connector and Strongspace, and the fact this level of
+account now runs $100/month, I think I got off like a bandit.  I wouldn&rsquo;t even
+get close to a year of service with what I&rsquo;ve paid, and that&rsquo;s for &ldquo;lifetime&rdquo;
+service at the above levels.</p>
+<p>And the Premier level account means there&rsquo;s 14 other accounts/virtual servers
+on my Shared Accelerator, so it should remain nice and snappy for me.  So far
+it&rsquo;s been much zippier for my sites as they were getting kinda bogged down on
+the old box.  I&rsquo;m not sure what all was going on there, if they&rsquo;d simply
+oversubscribed the box or were starting to have issues with their storage
+backend for the old servers since they were pushing hard to move away from
+them, etc.</p>
+<p>Now I just need to take some time to finish some of the manual migration for
+changes from FreeBSD to OpenSolaris, and fix up some stuff that was broken a
+while back due to a Wordpress upgrade.  I&rsquo;m also taking this opportunity to
+start picking up Ruby on Rails, and am vaguely contemplating ditching Wordpress
+in favor of something of my own creation built on RoR.</p>
+<p>It&rsquo;s still early (i.e., I&rsquo;ve got a lot to learn about Rails), but so far it
+looks like a really sexy web framework and I threw together something
+resembling a blog after watching a 15-minute screencast that runs through the
+process to getting a basic app up and running.  It&rsquo;s still very basic but
+functional: add posts, edit them, list all posts, add comments to a post, and
+some of the unit testing framework in Rails.  I&rsquo;ve started thinking about what
+all else is really needed, and there&rsquo;s a fair bit: authentication (so only I
+can post to the blog or edit stuff), more advanced comment handling (akismet
+for spam, etc), categorization/tagging, searching through posts, and of course
+actually putting some style into the whole thing with CSS.  But what I&rsquo;ve got&rsquo;s
+a start and now that I&rsquo;ve got my performance issues sorted out following the
+migration, I&rsquo;m not in as big a rush to dump Wordpress.</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+            
+            &lt;&lt;&lt; <a class="basic-alignment left" href="https://thoughts.derekgottlieb.com/blog/2008/03/04/define-alcoholiday/" title="Older Post: #define alcoholiday">#define alcoholiday</a>
+            
+            -----
+            
+            <a class="basic-alignment right" href="https://thoughts.derekgottlieb.com/blog/2007/12/25/merry-christmas-movie-house/" title="Newer Post: Merry Christmas, Movie-House!">Merry Christmas, Movie-House!</a> >>>
+            
+            </footer>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/derekgottlieb">
+                        <img class="avatar" src="https://thoughts.derekgottlieb.com/images/avatar.png">
+                        <div>
+                            <span class="dark">D.G.</span>
+                            <span>Trained in the ancient art of yak shaving</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fthoughts.derekgottlieb.com%2fblog%2f2008%2f02%2f29%2fweb-migration-complete-well-mostly%2f - Web%20migration%20complete...%20well%20mostly by @derekgottlieb"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/06/3d-print-extra-car-cup-holders/">3D Print: Extra Car Cup Holders<aside class="dates">Nov 6 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-usb-stylus-holder/">3D Print: USB Stylus Holder<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-collapsible-dice-tower/">3D Print: Collapsible Dice Tower<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-wine-bottle-bird-feeder/">3D Print: Wine Bottle Bird Feeder<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-dragon-eggs-with-escher-lizards/">3D Print: Dragon Eggs with Escher Lizards<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-playing-card-case/">3D Print: Playing Card Case<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-basalt-pencil-holder/">3D Print: Basalt Pencil Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-baby-dragon-pen-holder/">3D Print: Baby Dragon Pen Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-cute-dragon/">3D Print: Cute Dragon<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/10/31/3d-print-chip-bag-clip/">3D Print: Chip Bag Clip<aside class="dates">Oct 31 2020</aside></a>
+        </li>
+    
+</ul>
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/derekgottlieb">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/derekgottlieb">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2021 D.G.
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/main.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

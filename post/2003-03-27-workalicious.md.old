@@ -1,0 +1,21 @@
+---
+categories:
+- Work
+comments: true
+date: '2003-03-27'
+slug: workalicious
+title: Workalicious
+url: /2003/03/27/workalicious
+wordpress_id: 26
+---
+
+
+Finished the final touches on my MSE paper and uploaded it to their server.  I already faxed over the copyright form, so I should be good to go to head out to Anaheim in June.  Pretty sweet.  I've got postscript and pdf versions of the paper ready to go up on my work [page](http://www.crhc.uiuc.edu/~dgottlie/) whenever I decide it's appropriate to be publicly available.    
+  
+
+
+The conference should prove interesting seeing as it falls smack between the abstract and paper deadlines for MICRO...  Hopefully I'll be in a position to worry about it at that point instead of still debugging the local data caches and getting more benchmarks up and running.  I should have two undergrads reporting exclusively to me as of next Monday, and in theory Jeff's undergrad will write a benchmark or two as well.  Guess I should figure out what benchmarks they're all going to write.    
+  
+
+
+Oh, that reminds me.  I have 1, 2, 4, and 8 programmable cluster versions of DNA up and running from compiled C code.  The 2 and the 4 actually see a significant performance improvement over the 1 after I bumped up the input data to a reasonable size.  Haven't quite figured out why the 8 isn't performing as well.  I suppose it could be the limited memory bandwidth of the system (similar to the old assembly version of dither, where going from 4 to 8 main cache banks resulted in significant performance improvement).  Will have to check that out.

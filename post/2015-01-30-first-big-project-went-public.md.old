@@ -1,0 +1,32 @@
+---
+categories:
+- Work
+comments: false
+date: '2015-01-30'
+published: true
+title: First big project went public!
+url: /2015/01/30/first-big-project-went-public
+---
+
+
+It's been busy week, but I feel I've at least got something to show for it.
+The first big project I've worked on has gone public at ITEXPO East 2015 and I
+can actually talk about it now. The new service is called [Switchvox Rescue](http://www.digium.com/rescue).
+
+<!--more-->
+
+High level idea is businesses who have a Switchvox appliance can get a DCS SIP
+trunk with Rescue service, toggle a little switch in the web UI, and then
+barebones configs of their PBX are shipped to one of our cloud servers nightly.
+In the event the customer has some sort of major outage, they can place a call
+to support and ask to activate their emergency rescue cloud PBX. Support clicks
+a button and a Switchvox Rescue instance is automatically spun up, the
+customer's most recent PBX config is loaded into it, and they're up and running
+with a cloud PBX with basic phone services restored in 10-15 minutes (time
+varies depending on how complex the customer's PBX config was, etc). 
+
+Pretty complicated getting it all to work seamlessly. As part of the process,
+I've worked on building HTTP APIs, building and automating OpenStack clouds,
+some of the basics of SIP telephony. It's been quite interesting learning all
+of this stuff, and I expect there's more interesting stuff ahead given the rate
+we've been cranking stuff out so far.

@@ -1,0 +1,15 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-08-24'
+slug: talkgooglecom
+title: talk.google.com
+url: /2005/08/24/talkgooglecom
+wordpress_id: 888
+---
+
+
+There's been some rumors making their way through the geek community that Google has been working on its own IM service (ala ICQ, AIM, MSN, Yahoo, etc).  Turns out it's live!  Mike was ever so kind as to hook me up with an invite, and it seems fairly slick so far.  Appears that anyone with a Gmail account can use it.
+
+They've only got a Windows client that integrates with your Gmail account and even supports voice chats, but their server's running Jabber (opensource IM server).  So you can connect to it with just about anything for basic IM (read: Linux and OS X).  They don't actually have instructions up currently for [Adium](http://www.adiumx.com/) (my OS X client of choice), but they're pretty similar to those for [Gaim](http://gaim.sourceforge.net/) (client of choice for Linux/Windows).  Just be sure to include @gmail.com in your Jabber ID.  Sweet!  Oh, and if you add buddies in other clients, you need to be sure to include the @gmail.com in their buddy name too.

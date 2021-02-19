@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cluster on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/cluster/atom/index.xml</link>
+    <description>Recent content in Cluster on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://thoughts.derekgottlieb.com/tags/cluster/atom/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Savannah</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2008/03/19/savannah</link>
+      <pubDate>Wed, 19 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2008/03/19/savannah</guid>
+      <description>&lt;p&gt;Took a trip for work back in December to provide cluster training for some of the engineers at &lt;a href=&#34;http://www.gulfaero.com/&#34;&gt;Gulfstream&lt;/a&gt;.  Seems like we also did some very minor maintenance on the cluster we administer there.  Anyway, I brought the camera along and had a chance to take a few pics while wandering around the riverfront.  Only got around to pulling them off my camera today, so here they are:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/derekgottlieb/2345503631/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2232/2345503631_354a1d9688_t.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

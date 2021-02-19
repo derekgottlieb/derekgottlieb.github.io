@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>philosophy on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/philosophy/</link>
+    <description>Recent content in philosophy on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2015 16:32:26 -0500</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/philosophy/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ramblings About IT Philosophy</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/10/10/ramblings-about-it-philosophy/</link>
+      <pubDate>Sat, 10 Oct 2015 16:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/10/10/ramblings-about-it-philosophy/</guid>
+      <description>&lt;p&gt;Recently, I&amp;rsquo;ve been thinking that I should write down some of my views on IT. I
+don&amp;rsquo;t believe in a black &amp;amp; white world, but in one that&amp;rsquo;s full of realities,
+tradeoffs, and compromises. I&amp;rsquo;ve worked with people who refuse to (or are
+unable to) recognize that and spend energy trying to dictate instead of
+collaborate, typically to the detriment of themselves and frustration of
+everyone around them. IT exists to support and enable an organization, and
+should not be an end unto itself.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

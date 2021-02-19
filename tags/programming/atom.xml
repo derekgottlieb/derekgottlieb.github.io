@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/programming/</link>
+    <description>Recent content in programming on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/programming/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Monoliths</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/06/07/distributed-monoliths/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/06/07/distributed-monoliths/</guid>
+      <description>As part of developing RESTful HTTP APIs at work, there&amp;rsquo;s been a lot of discussion over the &amp;ldquo;best&amp;rdquo; way to architect/implement everything. To avoid relying strictly on my own instincts and relearning mistakes that many others have already learned from, I&amp;rsquo;ve been reading O&amp;rsquo;Reilly&amp;rsquo;s Building Microservices. I haven&amp;rsquo;t finished it yet, but have gotten a lot out of what I&amp;rsquo;ve read so far (and been pleased to see that my instincts have been largely supported by someone who&amp;rsquo;s experienced implementing such systems).</description>
+    </item>
+    
+    <item>
+      <title>GCC4</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/04/17/gcc4/</link>
+      <pubDate>Sun, 17 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/04/17/gcc4/</guid>
+      <description>So apparently GCC4 should be released before too long. Release candidates are out and release date is set for some time in April. Recently found out Fedora Core 4 will include it, which made me a little wary of trying it out (seems like it took a while for the GCC3 release to settle down and for apps to fix compatibility issues). Weird thing is, I was looking through a feature comparison for OS X (Tiger.</description>
+    </item>
+    
+    <item>
+      <title>Misconceptions: GCC (followup)</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/03/08/misconceptions-gcc-followup/</link>
+      <pubDate>Tue, 08 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/03/08/misconceptions-gcc-followup/</guid>
+      <description>Ack! My pants are on fire. Was just perusing the gcc website when I noticed they&amp;rsquo;re refering to it as the GNU Compiler Collection. Hmm. Wonder if it&amp;rsquo;s always been that way, or just since they added other languages&amp;hellip;
+Edit: Dug around their wiki some more. Looks like it used to be GNU C Compiler (at least the initial release was), just as I thought.</description>
+    </item>
+    
+    <item>
+      <title>Misconceptions: GCC</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/25/misconceptions-gcc/</link>
+      <pubDate>Fri, 25 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/25/misconceptions-gcc/</guid>
+      <description>Don&amp;rsquo;t know what made me think of it this morning, but I was remembering something my first programming teacher said. He was teaching a course in introductory C programming for engineering applications and we were using gcc as our compiler. At the time, he claimed GCC stood for Good C Compiler. Seems pretty suspect since the gcc most everyone knows is actually the GNU C Compiler since it&amp;rsquo;s been developed by the GNU organization which was founded back in 1984 (although the first release of gcc wasn&amp;rsquo;t until 1987, but that was long before I took this course).</description>
+    </item>
+    
+    <item>
+      <title>UR-5beta</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/26/ur-5beta/</link>
+      <pubDate>Wed, 26 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/26/ur-5beta/</guid>
+      <description>I&amp;rsquo;ve decided to work a bit on porting over some of my old content to the new site/format. So far, I&amp;rsquo;ve converted over the pages about the senior design project I developed with John, the UR-5beta. Figure I may put up a copy of my public key at some point, but since the only one I use with any regularity is already up at my CRHC site, I&amp;rsquo;m not sure there&amp;rsquo;s much point.</description>
+    </item>
+    
+    <item>
+      <title>Logic Simulator</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/17/logic_simulator/</link>
+      <pubDate>Mon, 17 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/17/logic_simulator/</guid>
+      <description>After a little bit of work, I got the simulation of 32 input vectors in parallel up and running in my simulator. Pretty sweet. Shouldn&amp;rsquo;t be too bad to get basic sequential circuit support added in and then I&amp;rsquo;ll have done both extra credit options. Mainly need to figure out how to time my program and the rest is trivial. Will probably look into doing some further optimizing of my code, but seems pretty zippy for any circuit I&amp;rsquo;ve run it on so far.</description>
+    </item>
+    
+    <item>
+      <title>Work update</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/15/work_update/</link>
+      <pubDate>Sat, 15 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/15/work_update/</guid>
+      <description>Yeah, so I&amp;rsquo;ve been pretty busy this past week, and haven&amp;rsquo;t really had time to post. Chi-Wei checked in fixes for the bulk of the bugs I had encountered in the gui, so I&amp;rsquo;m pretty happy. I can actually sorta use the thing now. More importantly, Jeff and I have made some comments about additional features we REALLY want, so with any luck, we&amp;rsquo;ll actually get some of those before long.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Beginnings of Coherency&#34; and the &#34;Mess we call a GUI&#34;</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</link>
+      <pubDate>Wed, 05 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</guid>
+      <description>So my local data caches finally started doing stuff today. Cluster 0 requests M[0x0]. The main cache sends all words in that local cache line and informs cluster 0 that it has exclusive access. Cluster 1 then requests M[0x0]. The main cache informs Cluster 0 that the block is now shared and waits for an ACK to confirm that it hasn&amp;rsquo;t become modified. Pretty sweet! I may actually have it all up and running before much longer.</description>
+    </item>
+    
+  </channel>
+</rss>

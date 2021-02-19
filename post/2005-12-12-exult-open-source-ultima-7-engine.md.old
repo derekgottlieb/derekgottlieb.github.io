@@ -1,0 +1,18 @@
+---
+categories:
+- Gaming
+- Geek
+comments: true
+date: '2005-12-12'
+slug: exult-open-source-ultima-7-engine
+title: Exult - open-source Ultima 7 engine
+url: /2005/12/12/exult-open-source-ultima-7-engine
+wordpress_id: 906
+---
+
+
+So recently I'd been thinking a fair bit about how good some old DOS games were back in the day.  The ones that really came to mind were the Ultima series (particularly U6: The False Prophet, U7: The Black Gate, and U7: Serpent Isle).  Those were outstanding games.  I'd done a bit of research and found [DOSBox](http://dosbox.sourceforge.net), which allows you to play a wide range of old DOS games on an assortment of platforms (ie it performs x86/DOS emulation).
+
+Once I knew I could potentially get some of my old Ultima games up and running on a modern machine without all the hassle of setting up VMware or something like that with DOS installed and all the headaches in getting Ultima to run natively in DOS, I decided to grab it when I next visited my folks.  Ended up going through all my old crap anyway while I was there (which will shortly be dropped off on my doorstep I've recently realized).  But I digress.  Got Ultima 7: The Black Gate up and running on my notebook and realized there are still some minor issues, some with DOSBox and some with the game itself (I'd forgotten just how buggy some of these games were).
+
+Overall it was good.  After remembering that you have to save often (and you have to make sure not to tick off Iolo with too much stealing), I ran across [Exult](http://exult.sourceforge.net), which is actually an open-source Ultima 7 engine that reads from the old U7 data files, but is a completely rewritten engine that runs natively on a number of different platforms (XP, Linux, OSX, etc).  Being completely from scratch, it doesn't suffer from many of the bugs present in the DOSBox/U7 combo, and even introduces a number of nice additional features.  It's made the whole experience substantially more enjoyable.  Good stuff!

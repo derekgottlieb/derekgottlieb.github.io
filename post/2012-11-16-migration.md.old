@@ -1,0 +1,62 @@
+---
+categories:
+- Geek
+comments: false
+date: '2012-11-16'
+title: Migration
+url: /2012/11/16/migration
+---
+
+
+Yet another time of migration (blog-wise)...
+
+### TextDrive -> Joyent -> TextDrive 2
+
+My web hosting has been a little up in the air recently (see [Slashdot: Joyent Drops Lifetime Account Holders](http://news.slashdot.org/story/12/08/17/1734250/joyent-drops-lifetime-account-holders)).
+
+I paid a few hundred bucks several years back (2005) for "lifetime" web hosting
+at what I perceived to be a cool up and coming company (read: they claimed to
+be pushing to support a lot of the flashy new web tech that wasn't well
+supported by most shared web hosting providers at the time).  It was their
+alternative to seeking VC money, and clearly lawyers weren't involved or they
+would've left themselves an easy out. I re-upped after they merged with another
+company, changed names, and made a new Lifetime upgrade offer (with similar
+very clear terms on what constituded "lifetime"). Leap forward to 2012 and the
+company wanted to shed this liability, leading to a big PR mess since they
+handled it horribly. I'm still waiting to see how things shake out, but it
+looks like they've spawned a new company (with the original company's name),
+brought back the founder, and will release a revamped shared hosting product
+and maintain lifetime account holders under this new company. I still worry
+about whether this is a scheme to be able to kill off this new company soon and
+legally nuke the "lifetime" accounts, but I'll see what comes since I have
+arguably gotten my money's worth out of the hosting I've had to date.
+
+### Linode VPS
+
+With all of this going on, I'd been hearing good things about the VPS provider
+[Linode](http://www.linode.com/?r=7ae9287ffd592e3a596b4fcad4c3fc99036ae251),
+and they had an anniversary celebration where they were offering effectively 6
+months of free VPS hosting, so I took them up on it. Now I've got a nice Linux
+VM that I manage and can do with as I please as opposed to being constrained to
+the software stack a shared host provides me. I've really liked it so far, so
+perhaps at some point I'll get around to doing a quick writeup on it and my
+setup there.
+
+### Wordpress -> Octopress
+
+I honestly haven't updated my blog nearly as much since having kids, and got
+tired of having to check in on it every few weeks to install all the Wordpress
+security patches. Moving to a VPS meant I had to start worrying about memory
+footprint and was more directly concerned about host security, so I decided it
+was time to follow the current trend and go back in time with a statically
+generated website. That's where I ran into [Octopress](http://octopress.org/)
+that looked like it was full of good stuff. I was able to migrate all the old
+Wordpress content by doing an export and running a converter tool
+([exitwp](https://github.com/thomasf/exitwp)) and some manual cleanup for image
+content and long since dead links due to previous Wordpress upgrades. Overall,
+I'm pretty happy with it since it ends up being nice and portable across web
+hosts, drops the need for a DB backend, and mitigates performance and security
+concerns.
+
+
+

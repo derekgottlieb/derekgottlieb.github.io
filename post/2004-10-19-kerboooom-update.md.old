@@ -1,0 +1,13 @@
+---
+categories:
+- Work
+comments: true
+date: '2004-10-19'
+slug: kerboooom-update
+title: KERBOOOOM! Update
+url: /2004/10/19/kerboooom-update
+wordpress_id: 776
+---
+
+
+Got some more info on all of yesterday's hub-bub.  Apparently, one of the Lieberts (air conditioners) blew up in the server room yesterday, spraying cold water everywhere.  The admins spent all day yesterday cleaning up the mess (disassembling the servers, cleaning them out, drying everying, testing them, etc).  The main servers are all back up as of this morning, so email, home directories, and the firewall are all available again.  The bad news is our group fileserver was directly in front of the Liebert when it blew up.  Both power supplies are toast, but it sounds like the hard drives might be ok (they started to spin up during testing shortly before the second power supply failed).  Replacements have been dispatched from the company that made it, so with any luck it'll be back up and running by the end of the day tomorrow.  As such, it's going to be interesting getting much work done until then.  For example, if I accidently try to do a directory listing in Linux, it'll choke since it can't talk to our NFS server and I'll basically have to close that terminal.

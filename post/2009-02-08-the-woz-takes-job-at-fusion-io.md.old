@@ -1,0 +1,18 @@
+---
+comments: true
+date: '2009-02-08'
+slug: the-woz-takes-job-at-fusion-io
+tags:
+- apple
+- hpc
+title: The Woz takes job at Fusion-io
+url: /2009/02/08/the-woz-takes-job-at-fusion-io
+wordpress_id: 1016
+---
+
+
+So this story has been all over the place (at least if you read computing/HPC news).  Steve Wozniak, co-founder of Apple Computer and designer of the historically significant Apple I and Apple II, took a job as chief scientist at a startup I was already aware of, [Fusion-io](http://www.fusionio.com/).  They've been designing PCIe boards loaded with flash memory to deliver super high performance storage to servers and maybe high-end gamers.  In theory it's using similar technology to SSDs, but they're able to achieve significantly higher bandwidth and IOPs than has been achieved in an SSD that is focused on stuffing flash into a conventional SATA hard drive form factor.  This isn't the first time companies have tried using flash memory as a hard disk for HPC (Dave would remind me that one of the old Crays had a sea of flash memory intended for this purpose), but flash densities are finally getting high enough to put a useful amount of storage in a machine (as opposed to just using it to speed up your swap file/virtual memory).  
+
+What makes this particularly interesting to me is that John (buddy from UR and best man at my wedding) is chief hardware architect at Fusion-io.  Hopefully this announcement, combined with their deals with some of the major manufacturers (Dell, HP, IBM) solidifies their company in the storage arena.  I really think they have a cool product that sets them apart from everyone else trying to use flash memory in servers.
+
+For more details, see the [story at insideHPC.](http://insidehpc.com/2009/02/06/wozniak-joins-fusion-io/)

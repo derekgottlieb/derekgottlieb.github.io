@@ -1,0 +1,213 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="D.G.">
+		<meta name="description" content="">
+		<meta name="generator" content="Hugo 0.75.1" />
+		<title>ARGH! &middot; Thoughts</title>
+		<link rel="shortcut icon" href="https://thoughts.derekgottlieb.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/style.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/highlight.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/dbgcustom.css">
+                
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-16x16.png" sizes="16x16">
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+		<a href='https://thoughts.derekgottlieb.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://thoughts.derekgottlieb.com/atom.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>ARGH!</h1>
+                    <h2 class="headline">
+                    October 3, 2005 
+                    <br>
+                    
+                    
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/sysadmin">sysadmin</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/raid">raid</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/rants">rants</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/work">work</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>Fairly recently, the company that made our group fileserver was bought up by
+Sun.  So we&rsquo;re not really sure whether we&rsquo;ll be able to renew our service
+contract (which runs out October 20th), or if we&rsquo;ll be forced to buy a new Sun
+fileserver at a discount.  The cynic in all of us should know what&rsquo;s coming
+next&hellip;</p>
+<p>On Friday, our group fileserver sorta flaked.  Took the admins an hour or more
+to get it back up and running, and when it did our current group mount (ie the
+one with all the stuff I really care about right now) did not come up with it.
+The admins contacted tech support and apparently this sounds like a &ldquo;relatively
+common error&rdquo; associated with a failing RAID controller.  A new one is en route
+and slated to arrive some time on Tuesday.  In the interim, another group&rsquo;s
+mount suddenly disappeared, which led the admins to actually shut down the
+fileserver to avoid any further damage.</p>
+<p>Here&rsquo;s the real kicker though.  Apparently when the admins created our current
+group mount, they failed to add it to the list that gets backed up to tape
+every night.  So there is no current backup beyond whatever&rsquo;s on the drives in
+the fileserver.  And with a flaking RAID controller, I&rsquo;m not so certain what
+sort of shape that will be in when they install a new controller and bring the
+machine back up.  My data might all be there, or the controller may have done
+all sorts of nasty things to it.  Not really sure.  I used to keep my own
+offsite backups that I&rsquo;d synch up every week or so, but haven&rsquo;t done that in a
+while.  I may have some version of our subversion repository, but it&rsquo;s not
+exactly current.  And since I&rsquo;ve been working fairly feverishly as of recent,
+that kind of sucks.</p>
+<p>Here&rsquo;s hoping my data comes back up when they install the new RAID controller,
+and that Nick rips the admins a new one for their flakiness.  I certainly don&rsquo;t
+blame them for hardware failure, and some of them are very effective and know
+their stuff and are able to recover from failures pretty quickly.  But a lot of
+them are just complete dumbasses who can only administer machines as long as
+someone else has written up a step-by-step guide to what they need to do (and
+then they slip up and leave out steps like adding new mounts to the backup
+list).</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+            
+            &lt;&lt;&lt; <a class="basic-alignment left" href="https://thoughts.derekgottlieb.com/blog/2005/10/11/you-eeediot/" title="Older Post: You eeediot!">You eeediot!</a>
+            
+            -----
+            
+            <a class="basic-alignment right" href="https://thoughts.derekgottlieb.com/blog/2005/10/03/whew/" title="Newer Post: WHEW!">WHEW!</a> >>>
+            
+            </footer>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/derekgottlieb">
+                        <img class="avatar" src="https://thoughts.derekgottlieb.com/images/avatar.png">
+                        <div>
+                            <span class="dark">D.G.</span>
+                            <span>Trained in the ancient art of yak shaving</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fthoughts.derekgottlieb.com%2fblog%2f2005%2f10%2f03%2fargh%2f - ARGH%21 by @derekgottlieb"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/06/3d-print-extra-car-cup-holders/">3D Print: Extra Car Cup Holders<aside class="dates">Nov 6 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-usb-stylus-holder/">3D Print: USB Stylus Holder<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-collapsible-dice-tower/">3D Print: Collapsible Dice Tower<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-wine-bottle-bird-feeder/">3D Print: Wine Bottle Bird Feeder<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-dragon-eggs-with-escher-lizards/">3D Print: Dragon Eggs with Escher Lizards<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-playing-card-case/">3D Print: Playing Card Case<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-basalt-pencil-holder/">3D Print: Basalt Pencil Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-baby-dragon-pen-holder/">3D Print: Baby Dragon Pen Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-cute-dragon/">3D Print: Cute Dragon<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/10/31/3d-print-chip-bag-clip/">3D Print: Chip Bag Clip<aside class="dates">Oct 31 2020</aside></a>
+        </li>
+    
+</ul>
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/derekgottlieb">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/derekgottlieb">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2021 D.G.
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/main.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>work on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/categories/work/</link>
+    <description>Recent content in work on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 May 2004 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/categories/work/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting close...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/07/getting_close/</link>
+      <pubDate>Fri, 07 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/07/getting_close/</guid>
+      <description>So I&amp;rsquo;m finally getting close to wrapping up this semester, which marks the end of my required course credits. All of the stuff for Nick&amp;rsquo;s class finished up yesterday afternoon. The slides for all of the project presentations are up at the ECE497NC website. We managed to slap together something for the poster session for Matt&amp;rsquo;s class this afternoon. Went ok, but since a large portion of the project is compiler stuff, and I haven&amp;rsquo;t the remotest clue about compilers in general so&amp;hellip; I wasn&amp;rsquo;t much help in fielding questions.</description>
+    </item>
+    
+    <item>
+      <title>Projects Galore</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/04/07/projects_galore/</link>
+      <pubDate>Wed, 07 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/04/07/projects_galore/</guid>
+      <description>So I&amp;rsquo;ve been going nuts working on class projects this semester. I&amp;rsquo;m trying to wrap up the last of my class work and am currently taking a couple of ECE497 courses (special topics grad courses where professors largely discuss their own research interests).
+Nick&amp;rsquo;s teaching one on Unconventional Computer Architecture that&amp;rsquo;s been pretty interesting so far. Project&amp;rsquo;s coming along pretty well for that and most of my responsibilities have been finished.</description>
+    </item>
+    
+    <item>
+      <title>Busy busy busy...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/07/23/busy_busy_busy/</link>
+      <pubDate>Wed, 23 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/07/23/busy_busy_busy/</guid>
+      <description>Well, as you probably could have guessed by the lack of posts, I&amp;rsquo;ve been quite busy this summer. Submitted a paper to HPCA (International Symposium on High-Performance Computer Architecture for those not in the know). Crossing my fingers that it gets accepted because I&amp;rsquo;ve been working my ass off for it, and it would be cool for my work to appear in a big conference like HPCA, and hella cool to get to go to Madrid to present it.</description>
+    </item>
+    
+    <item>
+      <title>Workalicious</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/03/27/workalicious/</link>
+      <pubDate>Thu, 27 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/03/27/workalicious/</guid>
+      <description>Finished the final touches on my MSE paper and uploaded it to their server. I already faxed over the copyright form, so I should be good to go to head out to Anaheim in June. Pretty sweet. I&amp;rsquo;ve got postscript and pdf versions of the paper ready to go up on my work page whenever I decide it&amp;rsquo;s appropriate to be publicly available.
+The conference should prove interesting seeing as it falls smack between the abstract and paper deadlines for MICRO&amp;hellip; Hopefully I&amp;rsquo;ll be in a position to worry about it at that point instead of still debugging the local data caches and getting more benchmarks up and running.</description>
+    </item>
+    
+    <item>
+      <title>Logic Simulator</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/17/logic_simulator/</link>
+      <pubDate>Mon, 17 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/17/logic_simulator/</guid>
+      <description>After a little bit of work, I got the simulation of 32 input vectors in parallel up and running in my simulator. Pretty sweet. Shouldn&amp;rsquo;t be too bad to get basic sequential circuit support added in and then I&amp;rsquo;ll have done both extra credit options. Mainly need to figure out how to time my program and the rest is trivial. Will probably look into doing some further optimizing of my code, but seems pretty zippy for any circuit I&amp;rsquo;ve run it on so far.</description>
+    </item>
+    
+    <item>
+      <title>Work update</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/15/work_update/</link>
+      <pubDate>Sat, 15 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/15/work_update/</guid>
+      <description>Yeah, so I&amp;rsquo;ve been pretty busy this past week, and haven&amp;rsquo;t really had time to post. Chi-Wei checked in fixes for the bulk of the bugs I had encountered in the gui, so I&amp;rsquo;m pretty happy. I can actually sorta use the thing now. More importantly, Jeff and I have made some comments about additional features we REALLY want, so with any luck, we&amp;rsquo;ll actually get some of those before long.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Beginnings of Coherency&#34; and the &#34;Mess we call a GUI&#34;</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</link>
+      <pubDate>Wed, 05 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</guid>
+      <description>So my local data caches finally started doing stuff today. Cluster 0 requests M[0x0]. The main cache sends all words in that local cache line and informs cluster 0 that it has exclusive access. Cluster 1 then requests M[0x0]. The main cache informs Cluster 0 that the block is now shared and waits for an ACK to confirm that it hasn&amp;rsquo;t become modified. Pretty sweet! I may actually have it all up and running before much longer.</description>
+    </item>
+    
+    <item>
+      <title>Pizza Prices</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/01/31/pizza_prices/</link>
+      <pubDate>Fri, 31 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/01/31/pizza_prices/</guid>
+      <description>Yeah, so they&amp;rsquo;ve bumped up the price of pizza at work. For as long as I&amp;rsquo;ve been working at CRHC, we could get a slice of Papa Del&amp;rsquo;s on Fridays for a buck. The way this works is corporations give our professors all kinds of money for being cool. One excellent example is Professor Hwu&amp;rsquo;s IMPACT group (without which Intel wouldn&amp;rsquo;t have made Itanium). Well, with the economy as it is, the corporate money isn&amp;rsquo;t flowing like it used to.</description>
+    </item>
+    
+    <item>
+      <title>Goals and Dreams</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/01/27/goals_and_dreams/</link>
+      <pubDate>Mon, 27 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/01/27/goals_and_dreams/</guid>
+      <description>So Nick scheduled our first Amalgam meeting of the semester for today. But unfortunately, our meetings are scheduled for right before his class (which he has never taught before). As a result, he ditched our meeting to finish preparing his lecture. Nothing like getting things done early. Anyway, he dropped by around 1/2 hour before the meeting to tell Jeff and me that he wasn&amp;rsquo;t coming and we should figure out where the project will be around the end of the semester and what conferences we should shoot for.</description>
+    </item>
+    
+  </channel>
+</rss>

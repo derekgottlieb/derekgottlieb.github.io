@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/</link>
+    <description>Recent content in Tags on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 17:09:17 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3dprinting</title>
+      <link>https://thoughts.derekgottlieb.com/tags/3dprinting/</link>
+      <pubDate>Fri, 06 Nov 2020 17:09:17 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/3dprinting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://thoughts.derekgottlieb.com/tags/blog/</link>
+      <pubDate>Tue, 07 Mar 2017 20:59:09 -0600</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hosting</title>
+      <link>https://thoughts.derekgottlieb.com/tags/hosting/</link>
+      <pubDate>Tue, 07 Mar 2017 20:59:09 -0600</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://thoughts.derekgottlieb.com/tags/hugo/</link>
+      <pubDate>Tue, 07 Mar 2017 20:59:09 -0600</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hpc</title>
+      <link>https://thoughts.derekgottlieb.com/tags/hpc/</link>
+      <pubDate>Wed, 01 Jun 2016 20:46:56 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/hpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raid</title>
+      <link>https://thoughts.derekgottlieb.com/tags/raid/</link>
+      <pubDate>Wed, 01 Jun 2016 20:46:56 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/raid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sysadmin</title>
+      <link>https://thoughts.derekgottlieb.com/tags/sysadmin/</link>
+      <pubDate>Wed, 01 Jun 2016 20:46:56 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rss</title>
+      <link>https://thoughts.derekgottlieb.com/tags/rss/</link>
+      <pubDate>Sun, 11 Oct 2015 08:13:18 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https://thoughts.derekgottlieb.com/tags/philosophy/</link>
+      <pubDate>Sat, 10 Oct 2015 16:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rants</title>
+      <link>https://thoughts.derekgottlieb.com/tags/rants/</link>
+      <pubDate>Sat, 10 Oct 2015 16:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/rants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://thoughts.derekgottlieb.com/tags/work/</link>
+      <pubDate>Sat, 10 Oct 2015 16:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>https://thoughts.derekgottlieb.com/tags/books/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microservices</title>
+      <link>https://thoughts.derekgottlieb.com/tags/microservices/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monolith</title>
+      <link>https://thoughts.derekgottlieb.com/tags/monolith/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/monolith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://thoughts.derekgottlieb.com/tags/programming/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>humor</title>
+      <link>https://thoughts.derekgottlieb.com/tags/humor/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/humor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kids</title>
+      <link>https://thoughts.derekgottlieb.com/tags/kids/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/kids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>https://thoughts.derekgottlieb.com/tags/video/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>moab</title>
+      <link>https://thoughts.derekgottlieb.com/tags/moab/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/moab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numa</title>
+      <link>https://thoughts.derekgottlieb.com/tags/numa/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/numa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>torque</title>
+      <link>https://thoughts.derekgottlieb.com/tags/torque/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/torque/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>btrfs</title>
+      <link>https://thoughts.derekgottlieb.com/tags/btrfs/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/btrfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>filesystems</title>
+      <link>https://thoughts.derekgottlieb.com/tags/filesystems/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/filesystems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zfs</title>
+      <link>https://thoughts.derekgottlieb.com/tags/zfs/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/zfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>https://thoughts.derekgottlieb.com/tags/ios/</link>
+      <pubDate>Wed, 21 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://thoughts.derekgottlieb.com/tags/mac/</link>
+      <pubDate>Wed, 21 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://thoughts.derekgottlieb.com/tags/security/</link>
+      <pubDate>Wed, 21 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photography</title>
+      <link>https://thoughts.derekgottlieb.com/tags/photography/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://thoughts.derekgottlieb.com/tags/android/</link>
+      <pubDate>Fri, 23 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alabama</title>
+      <link>https://thoughts.derekgottlieb.com/tags/alabama/</link>
+      <pubDate>Thu, 18 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/alabama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tales of the weird</title>
+      <link>https://thoughts.derekgottlieb.com/tags/tales-of-the-weird/</link>
+      <pubDate>Thu, 18 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/tales-of-the-weird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>huntsville</title>
+      <link>https://thoughts.derekgottlieb.com/tags/huntsville/</link>
+      <pubDate>Thu, 07 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/huntsville/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>illinois</title>
+      <link>https://thoughts.derekgottlieb.com/tags/illinois/</link>
+      <pubDate>Thu, 07 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/illinois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snow</title>
+      <link>https://thoughts.derekgottlieb.com/tags/snow/</link>
+      <pubDate>Thu, 07 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/snow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://thoughts.derekgottlieb.com/tags/music/</link>
+      <pubDate>Mon, 15 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apple</title>
+      <link>https://thoughts.derekgottlieb.com/tags/apple/</link>
+      <pubDate>Sun, 08 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auto</title>
+      <link>https://thoughts.derekgottlieb.com/tags/auto/</link>
+      <pubDate>Sat, 03 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/auto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nashville</title>
+      <link>https://thoughts.derekgottlieb.com/tags/nashville/</link>
+      <pubDate>Sat, 03 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/nashville/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tennessee</title>
+      <link>https://thoughts.derekgottlieb.com/tags/tennessee/</link>
+      <pubDate>Sat, 03 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/tennessee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://thoughts.derekgottlieb.com/tags/travel/</link>
+      <pubDate>Sat, 03 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cat Diary</title>
+      <link>https://thoughts.derekgottlieb.com/tags/cat-diary/</link>
+      <pubDate>Thu, 24 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/cat-diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cats</title>
+      <link>https://thoughts.derekgottlieb.com/tags/cats/</link>
+      <pubDate>Thu, 24 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/cats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
+      <link>https://thoughts.derekgottlieb.com/tags/science/</link>
+      <pubDate>Thu, 10 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uab</title>
+      <link>https://thoughts.derekgottlieb.com/tags/uab/</link>
+      <pubDate>Thu, 10 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/uab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apollo</title>
+      <link>https://thoughts.derekgottlieb.com/tags/apollo/</link>
+      <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/apollo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aviation</title>
+      <link>https://thoughts.derekgottlieb.com/tags/aviation/</link>
+      <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/aviation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>georgia</title>
+      <link>https://thoughts.derekgottlieb.com/tags/georgia/</link>
+      <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/georgia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nasa</title>
+      <link>https://thoughts.derekgottlieb.com/tags/nasa/</link>
+      <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/nasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Space &amp;amp; Rocket Center</title>
+      <link>https://thoughts.derekgottlieb.com/tags/space-amp-rocket-center/</link>
+      <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/space-amp-rocket-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>savannah</title>
+      <link>https://thoughts.derekgottlieb.com/tags/savannah/</link>
+      <pubDate>Wed, 19 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/savannah/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comics</title>
+      <link>https://thoughts.derekgottlieb.com/tags/comics/</link>
+      <pubDate>Sat, 15 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/comics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>college</title>
+      <link>https://thoughts.derekgottlieb.com/tags/college/</link>
+      <pubDate>Tue, 04 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/college/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>define</title>
+      <link>https://thoughts.derekgottlieb.com/tags/define/</link>
+      <pubDate>Tue, 04 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/define/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autumn</title>
+      <link>https://thoughts.derekgottlieb.com/tags/autumn/</link>
+      <pubDate>Sun, 16 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/autumn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>caverns</title>
+      <link>https://thoughts.derekgottlieb.com/tags/caverns/</link>
+      <pubDate>Sun, 16 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/caverns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>halloween</title>
+      <link>https://thoughts.derekgottlieb.com/tags/halloween/</link>
+      <pubDate>Sun, 16 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/halloween/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monte sano</title>
+      <link>https://thoughts.derekgottlieb.com/tags/monte-sano/</link>
+      <pubDate>Sun, 16 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/monte-sano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pumpkins</title>
+      <link>https://thoughts.derekgottlieb.com/tags/pumpkins/</link>
+      <pubDate>Sun, 16 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/pumpkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scottsboro</title>
+      <link>https://thoughts.derekgottlieb.com/tags/scottsboro/</link>
+      <pubDate>Sun, 16 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/scottsboro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hong kong</title>
+      <link>https://thoughts.derekgottlieb.com/tags/hong-kong/</link>
+      <pubDate>Mon, 30 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/hong-kong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ireland</title>
+      <link>https://thoughts.derekgottlieb.com/tags/ireland/</link>
+      <pubDate>Mon, 30 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/ireland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>film</title>
+      <link>https://thoughts.derekgottlieb.com/tags/film/</link>
+      <pubDate>Wed, 25 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/film/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meme</title>
+      <link>https://thoughts.derekgottlieb.com/tags/meme/</link>
+      <pubDate>Wed, 25 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/meme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://thoughts.derekgottlieb.com/tags/tech/</link>
+      <pubDate>Wed, 11 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://thoughts.derekgottlieb.com/tags/personal/</link>
+      <pubDate>Mon, 09 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cooking</title>
+      <link>https://thoughts.derekgottlieb.com/tags/cooking/</link>
+      <pubDate>Wed, 20 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/cooking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>botanical gardens</title>
+      <link>https://thoughts.derekgottlieb.com/tags/botanical-gardens/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/botanical-gardens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distillery</title>
+      <link>https://thoughts.derekgottlieb.com/tags/distillery/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/distillery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lynchburg</title>
+      <link>https://thoughts.derekgottlieb.com/tags/lynchburg/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/lynchburg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>california</title>
+      <link>https://thoughts.derekgottlieb.com/tags/california/</link>
+      <pubDate>Mon, 30 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/california/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>san francisco</title>
+      <link>https://thoughts.derekgottlieb.com/tags/san-francisco/</link>
+      <pubDate>Mon, 30 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/san-francisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>https://thoughts.derekgottlieb.com/tags/research/</link>
+      <pubDate>Fri, 20 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chicago</title>
+      <link>https://thoughts.derekgottlieb.com/tags/chicago/</link>
+      <pubDate>Sun, 12 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/chicago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaming</title>
+      <link>https://thoughts.derekgottlieb.com/tags/gaming/</link>
+      <pubDate>Mon, 12 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>florida</title>
+      <link>https://thoughts.derekgottlieb.com/tags/florida/</link>
+      <pubDate>Mon, 28 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/florida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monkeys</title>
+      <link>https://thoughts.derekgottlieb.com/tags/monkeys/</link>
+      <pubDate>Mon, 28 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/monkeys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geek</title>
+      <link>https://thoughts.derekgottlieb.com/tags/geek/</link>
+      <pubDate>Tue, 25 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/geek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comparch</title>
+      <link>https://thoughts.derekgottlieb.com/tags/comparch/</link>
+      <pubDate>Tue, 11 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/comparch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>haiku</title>
+      <link>https://thoughts.derekgottlieb.com/tags/haiku/</link>
+      <pubDate>Mon, 22 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/haiku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poetry</title>
+      <link>https://thoughts.derekgottlieb.com/tags/poetry/</link>
+      <pubDate>Mon, 22 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>https://thoughts.derekgottlieb.com/tags/history/</link>
+      <pubDate>Sat, 02 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politics</title>
+      <link>https://thoughts.derekgottlieb.com/tags/politics/</link>
+      <pubDate>Wed, 03 Nov 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the bus</title>
+      <link>https://thoughts.derekgottlieb.com/tags/on-the-bus/</link>
+      <pubDate>Thu, 15 Jul 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/on-the-bus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>amalgam</title>
+      <link>https://thoughts.derekgottlieb.com/tags/amalgam/</link>
+      <pubDate>Thu, 27 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/amalgam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+---
+categories:
+- Geek
+- General
+comments: true
+date: '2006-02-10'
+slug: switching-servers
+title: Switching servers...
+url: /2006/02/10/switching-servers
+wordpress_id: 910
+---
+
+
+Looks like I'm finally going to get around to moving Malkier over to a new server.
+
+iPowerWeb has been decent as far as hosting providers go, but they're clearly targetting a different market than whatever category I fall into.  They provide (read: push) a bunch of web business stuff, but don't seem to be quite as concerned with cool webtech or security.  The server I'm on has been hit by security flaws on a few occasions, resulting in either server downtime or mass defacement of the php source throughout my site... inserted spam code in every php file on my site... Funny because it pointed to a non-existent web address and was written in such a way that every page it was on was broken and wouldn't even render in a browser.  So I'm not really sure what they were trying to accomplish.  I tried discussing site security with their support staff (ie any chance it was a php bug in code I'd written or code from packages I'd installed), but couldn't get much out of them.  My guess is it was just some unpatched security flaw in their php install, but who knows for sure.
+
+Anyway, a while back I ran across [TextDrive](http://textdrive.com/), a hosting provider run by people who love webtech.  They provide all sorts of stuff that I haven't seen elsewhere... especially not all in one package: Apache2+lighttpd side-by-side, PHP5/PHP4, RubyOnRails, Python CGI,  mod_spelling, mod_deflate, WebDAV, WebDAV iCal sharing, Subversion (with SWIG, Python, http/https access), automatic subdomains (foo.tld.com -> tld.com/foo), support for a broad range of CMS apps (Wordpress, Textpattern, Instiki, Drupal, Basecamp uploads, Blogger, Trac, Smarty, Movable Type), other version control systems (SVK, Darcs, Monotone, Arch), shell access via SSH (with VIM, Mutt, etc), lots of good email stuff (Spamassassin, content/attachment filtering, Mailman lists), and a range of database servers (MySQL, PostgreSQL, SQLite, Berkeley DB).  I got in on one of their "venture capital" fundraisers (ie instead of actually going out to venture capitalists for funding, they sell a number of lifetime accounts to raise cash).  So I'm set with a pretty slick "lifetime" hosting account that'll let me host 3 top-level domains (eg abc.com, xyz.com, malkier.com) and all the usual extras (tons of email addresses, 1G disk storage, more bandwidth than I'll even need, etc).  If they only stick around a couple of years, I break even so I felt pretty confident supporting them.  They even donate a chunk of their fees to an opensource project of your choice.  Looks like they have an even better deal going on right now that gives 2G storage, 15 top-level domains, as well as adding 9G of Strongspace storage and a 5 user license for Joyent (a web-based groupware app).  I can't really justify signing up for a second one of these, but it looks like a pretty sweet deal.
+
+Anyway, I'm hoping to get all the old Malkier stuff switched over this weekend (including transitioning all email over to their server via IMAP).  To ease in the transition, I've disabled comments on the blog for the moment (I hope).  May take me a little while to get up and running over there, since I'm hoping to upgrade Wordpress while I'm at it...

@@ -1,0 +1,25 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-08-03'
+slug: first-x86-now-a-multibutton-mouse
+title: First x86, now a multibutton mouse?
+url: /2005/08/03/first-x86-now-a-multibutton-mouse
+wordpress_id: 884
+---
+
+
+Apple is full of interesting surprises this year.  First they announced they'd be ditching PowerPC in favor of [x86](/blog/2005/06/10/applex86).  Now, they've gone and released a [multibutton mouse](http://www.apple.com/mightymouse/).  But without any buttons.  Er... something like that.
+
+![](/old-wp-images/apple_mightymouse.jpg)
+
+In place of buttons, it features touch-sensitive capacitive sensors beneath the top shell (ala the iPod) that "detect where your fingers are and predict your clicking intentions".  Or at least that's according to their marketing speak.  By that, what they really mean is you click the entire mouse (like an Apple Pro Mouse), but it detects whether you were pressing down on the left or right half of the mouse using these sensors.  It also features a couple of side sensors that detect when you're squeezing the mouse for another "button".  To top all that off, it features a tiny trackball where you'd typically find a scrollwheel.  Idea is you can scroll in any direction as opposed to being restricted to vertical scrolling (or the hacky side-to-side tilt I've seen in some recent scrollwheels to support horizontal scrolling).  And of course, you can click the "scroll ball" for a fourth button.
+
+
+[![](/old-wp-images/apple_mightymouse_settings_t.jpg)](/old-wp-images/apple_mightymouse_settings.jpg)
+
+
+Looks like Apple even made the driver configurable.  All four buttons may be programmed to perform left/right clicks, access Exposé, Dashboard, Application Switcher, Spotlight, or some other app of your choosing.  Pretty slick.  I gotta wonder who in marketing came up with the silly name Mighty Mouse.  If you look at the bottom of Apple's page, you'll notice they've given copyright credit for the cartoon of the same name.
+
+Oh, and be sure to check out the [Ars review](http://arstechnica.com/reviews/hardware/mightymouse.ars) for the actual hands-on experience from a bunch who probably forgot to put their Apple rose-colored glasses on before using it. :)

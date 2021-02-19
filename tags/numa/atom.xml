@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>numa on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/numa/</link>
+    <description>Recent content in numa on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/numa/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NUMA and torque/Moab</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</guid>
+      <description>&lt;p&gt;TL;DR Support for NUMA systems in torque/Moab breaks existing means of
+specifying shared memory jobs and limits scheduling flexibility in
+heterogeneous compute environments.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

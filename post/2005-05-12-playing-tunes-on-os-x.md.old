@@ -1,0 +1,19 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-05-12'
+slug: playing-tunes-on-os-x
+title: Playing tunes on OS X
+url: /2005/05/12/playing-tunes-on-os-x
+wordpress_id: 859
+---
+
+
+So it would seem that the release of iTunes by Apple largely killed off the other music playing apps (ie mp3 players).  Which is lame because I find the interface a little bulky, doesn't seem like I can have it sort based on directory structure, and I find it a little annoying that by default it wants to copy all of your music to a "My Music" type folder when you import new stuff.  This behavior can be changed (which is good since I store my music on a network share on another machine and don't have enough storage on my mini to copy it all over), but seems a bit odd for default behavior.  Guess they figure they're being helpful by organizing your music for you in a central location.  Also, iTunes only supports MP3, and Apple's formats (AAC) out of the box.  I've found a program/plugin that provides [OGG support](http://www.nouturn.com/oggdrop/index.html) (both playback and encoding).  Somewhere I also found [iTunes-LAME](http://blacktree.com/apps/iTunes-LAME/), a plugin that'll let you use the [LAME MP3 encoder](http://lame.sourceforge.net/) in iTunes.  But I haven't had much luck for some more unusual formats, in particular lossless formats such as Shorten and FLAC (commonly used online to distribute live recordings).  Which brings us to... XMMS.
+
+[XMMS](http://www.xmms.org/) will build as part of [Fink](http://fink.sourceforge.net/).  There are input plugins for XMMS for just about everything under the sun (MP3, OGG, Shorten, FLAC, etc etc etc... even AAC).  By default, this build uses the esound output plugin, which sucked pretty hard on my machine (maybe it's ok on faster machines, but there's all sorts of 'books out there with similar specs to the mini).  Fortunately, I ran across the [DBMix](http://dbmix.sourceforge.net/) project (MP3-based DJ mixer as far as I can tell).  They've developed a [native OS X XMMS output plugin](http://sourceforge.net/project/showfiles.php?group_id=846&package_id=120865), which seems pretty solid (at least on Panther).  Sweet!
+
+Question remaining... can I get xmms-scrobbler (for [Audioscrobbler](http://www.audioscrobbler.com/user/Molloch/)) working under OS X?  It builds and appears to work, but it's not submitting songs to the site at this point.  Anyone's guess whether there's a problem with my build, or the site's just getting bogged down again (as it frequently does).
+
+![](/old-wp-images/topicaposx.gif)

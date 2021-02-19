@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>haiku on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/haiku/</link>
+    <description>Recent content in haiku on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Aug 2005 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/haiku/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carbondale</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/08/22/carbondale/</link>
+      <pubDate>Mon, 22 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/08/22/carbondale/</guid>
+      <description>Made for a long day
+Driving home from Carbondale
+Bugs splat like popcorn</description>
+    </item>
+    
+  </channel>
+</rss>

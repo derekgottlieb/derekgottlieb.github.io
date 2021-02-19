@@ -1,0 +1,250 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="D.G.">
+		<meta name="description" content="">
+		<meta name="generator" content="Hugo 0.75.1" />
+		<title>Btrfs production experiences &middot; Thoughts</title>
+		<link rel="shortcut icon" href="https://thoughts.derekgottlieb.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/style.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/highlight.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/dbgcustom.css">
+                
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-16x16.png" sizes="16x16">
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+		<a href='https://thoughts.derekgottlieb.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://thoughts.derekgottlieb.com/atom.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Btrfs production experiences</h1>
+                    <h2 class="headline">
+                    April 29, 2013 
+                    <br>
+                    
+                    
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/hpc">hpc</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/btrfs">btrfs</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/filesystems">filesystems</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/sysadmin">sysadmin</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/zfs">zfs</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/work">work</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>My experience is based on SUSE SLES 11 SP1/SP2 with a stock kernel, so YMMV if
+you&rsquo;re running a newer mainline kernel without all the backports.</p>
+<p>I tested on two Supermicro systems. One with an LSI HBA card with 22x 2TB
+enterprise SATA drives (originally purchased to run OpenSolaris/ZFS). Second
+has an Adaptec hardware RAID controller with 36x 2TB enterprise SATA drives.
+Some of the data loss and stability issues I experienced may be attributed to
+later discovering the &ldquo;enterprise&rdquo; drives used in the first system turned out
+to be less RAID-friendly than the manufacturer claimed, eventually leading to
+them to replace ALL of my drives with a different model.</p>
+<p>Btrfs was a preview in SLES SP1 and is &ldquo;supported&rdquo; in SP2 but with major
+restrictions if you wanted a supported configuration. Support in SP2 requires
+that you create btrfs filesystems using Yast and live with the limited options
+it allows.  I&rsquo;m guessing what you can do via Yast is the subset of features
+they tested enough to be willing to try and support.  I tried using Yast to set
+up btrfs on one of our systems, but found their constraints too limiting given
+my use case and the organization I&rsquo;d settled on in the SP1 days.</p>
+<p>It was pretty stable in SP1 for my needs (simple backup server that pulled
+daily changes from production using rsync and then grabbed a snapshot), but
+management utilities needed work.  SP2 was pretty rocky for several months
+after it was released.  My memory is a little foggy but I think I had kernel
+panics at times in the btrfs code, but that could be a mix of SuSE backport
+issues, hardware issues, etc.</p>
+<p>Storing bits and snapshots seem to work as advertised.  SLES has included an
+fsck for quite some time (e.g., I think it was there in SP1).  It seemed to do
+something, but I can&rsquo;t comment on the odds of it being helpful vs. harmful.  It
+did report things it was fixing when I&rsquo;d run it after a system crash, and if
+memory serves it took a filesystem I couldn&rsquo;t mount and repaired it
+sufficiently that I could mount it, but again YMMV since the lack of fsck has
+been a bone of contention for many.  I&rsquo;ve also verified that online resize
+(both grow and shrink) appeared to work well on my production systems, at least
+when used in conjunction with LVM.  I tried the tool to convert in place from
+an existing ext filesystem on a small test VM, but haven&rsquo;t tried it on a
+production system.</p>
+<p>The one key feature I was interested in and was disatisfied with was the
+integrated software RAID.  I tried out the RAID0/1 support on the system with
+the HBA, but found it to be seriously lacking. I&rsquo;ve run a lot of systems with
+Linux mdraid and ZFS raid, and so I was surprised the btrfs folks didn&rsquo;t
+provide a good way to view info about the drives in the pool, errors/status per
+drive, etc. The tools for working with the RAID features were just generally
+not well flushed out. I&rsquo;m sure it will come in time, but I quickly gave up on
+trying to use that feature and reverted to the classic layered solution with
+mdraid for redundancy, LVM for volume management, and btrfs on top.</p>
+<p>Another thing I missed from ZFS is getting disk usage info for a single
+snapshot (e.g., the space consumed by the deltas between neighboring
+snapshots).  There are certainly times when one of my users does something
+wonky and creates hundreds of spurious GBs only to realize it a few days later
+and cleans it up.   Proper btrfs send/receive to remotely replicate snapshot
+data would also be useful, but for the moment I have scripts that can do it
+manually by iteratively rsyncing over the specified range of local snapshots
+and capturing snapshots on the remote system.</p>
+<p>I&rsquo;m hopeful btrfs will at least alert me to any data corruption, but I&rsquo;m not
+yet confident it will be helpful in identifying where the problem is, or that
+any aforementioned alert wouldn&rsquo;t be buried amongst other spurious noise in
+syslog. Mdraid at least can be configured to monitor and send an email alert
+when there&rsquo;s trouble. In that sense, ZFS isn&rsquo;t necessarily much better since
+I&rsquo;ve always written my own monitoring scripts that alert me to pool problems
+since there didn&rsquo;t seem to be a monitoring daemon available out if the box.</p>
+<p>I missed the better tools and features you got with ZFS, so I eventually
+switched the system with the HBA to FreeBSD/ZFS. Now that ZFS on Linux has made
+it further along, I&rsquo;ve switched it over to Scientific Linux (ZoL is available
+in their addon repo). Of note, I was able to migrate all ZFS data in place by
+doing a simple &lsquo;zfs export&rsquo; before rebooting into the SL installer, and then a
+&lsquo;zfs import&rsquo; once I&rsquo;d loaded all the necessary packages into SL. I&rsquo;m hedging my
+bets by leaving the server with the hardware RAID running SLES with btrfs in
+the hopes I won&rsquo;t be hit by software bugs on disparate platforms at the same
+time.</p>
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+            
+            &lt;&lt;&lt; <a class="basic-alignment left" href="https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/" title="Older Post: NUMA and torque/Moab">NUMA and torque/Moab</a>
+            
+            -----
+            
+            <a class="basic-alignment right" href="https://thoughts.derekgottlieb.com/blog/2012/11/21/locking-your-mac-based-on-iphone-proximity/" title="Newer Post: Locking your Mac based on iPhone proximity">Locking your Mac based on iPhone proximity</a> >>>
+            
+            </footer>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/derekgottlieb">
+                        <img class="avatar" src="https://thoughts.derekgottlieb.com/images/avatar.png">
+                        <div>
+                            <span class="dark">D.G.</span>
+                            <span>Trained in the ancient art of yak shaving</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fthoughts.derekgottlieb.com%2fblog%2f2013%2f04%2f29%2fbtrfs-production-experiences%2f - Btrfs%20production%20experiences by @derekgottlieb"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/06/3d-print-extra-car-cup-holders/">3D Print: Extra Car Cup Holders<aside class="dates">Nov 6 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-usb-stylus-holder/">3D Print: USB Stylus Holder<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-collapsible-dice-tower/">3D Print: Collapsible Dice Tower<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-wine-bottle-bird-feeder/">3D Print: Wine Bottle Bird Feeder<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-dragon-eggs-with-escher-lizards/">3D Print: Dragon Eggs with Escher Lizards<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-playing-card-case/">3D Print: Playing Card Case<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-basalt-pencil-holder/">3D Print: Basalt Pencil Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-baby-dragon-pen-holder/">3D Print: Baby Dragon Pen Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-cute-dragon/">3D Print: Cute Dragon<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/10/31/3d-print-chip-bag-clip/">3D Print: Chip Bag Clip<aside class="dates">Oct 31 2020</aside></a>
+        </li>
+    
+</ul>
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/derekgottlieb">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/derekgottlieb">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2021 D.G.
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/main.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,128 @@
+---
+categories:
+- HPC
+- Geek
+- Work
+comments: false
+date: '2013-05-09'
+published: true
+title: NUMA and torque/Moab
+url: /2013/05/09/numa-and-torque-slash-moab
+---
+
+
+TL;DR Support for NUMA systems in torque/Moab breaks existing means of
+specifying shared memory jobs and limits scheduling flexibility in
+heterogeneous compute environments.  
+
+<!--more-->
+
+## Torque NUMA implementation
+
+For torque NUMA, you manually define your NUMA nodes within a system, which
+gives you some flexibility for how topology information is exposed to the queue
+system.  The provided mom_gencfg utility defaults to defining a node per CPU
+sockets, but you can manually craft your mom.layout file to aggregate sockets
+together into larger NUMA nodes if desired.
+
+While you run a single pbs_mom on the SMP, you'll see that torque tracks one
+"compute node" per NUMA node in your system. To illustrate, if you have a
+4-socket system with the hostname "smallsmp", you may see the following:
+
+    > pbsnodes -l
+    smallsmp-0 offline
+    smallsmp-1 offline
+    smallsmp-2 offline
+    smallsmp-3 offline
+
+There are some interesting side effects to this approach. For one, yes you can
+offline individual sockets. The other side of that is you have to offline all
+of the sockets if you're draining the system for maintenance. I think this also
+highlights why you may not want to do this on anything except your big SMPs
+(e.g., you have 1000 dual socket boxes, you suddenly see 2000 every time you
+type pbsnodes). 
+
+## Submitting shared memory jobs
+
+In our environment, we use two ways to submit shared memory jobs given our Moab
+configuration. We typically do "qsub -l nodes=1:ppn=N" to request N cores on a
+single shared memory node. I've used tpn as well since I found the
+interpretation of ppn a little unintuitive if you use something other than
+"nodes=1". For distributed memory jobs, we use "nodes=N" and Moab is free to
+distribute or pack cores across systems (we aim to maximize throughput over
+single job performance and let jobs share nodes). 
+
+## Moab NUMA limitations
+
+In theory, Moab supports torque NUMA integration. But it is currently unable to
+grok that it's dealing with an SMP and enforces unnecessary limitations if you
+specify a shared memory job using ppn/tpn. For example, if I have 8 cores per
+socket in my SMP and I configure a NUMA node per socket, then I can only run
+jobs requesting up to "ppn=8".  If I request any more than that, Moab won't
+schedule them because it is unable to aggregate NUMA nodes within the same
+system to run a shared memory job submitted in this manner.  Torque/Moab really
+treat your NUMA SMP as a distributed memory cluster.  
+
+The way they address this is by telling you to submit shared memory jobs like
+you would distributed memory jobs, but tack on some extra flags to constrain it
+to one of your SMPs (e.g., "-l nodes=N,flags=sharedmem").  This is less than
+ideal for our HPC environment, and Adaptive has been unable to recommend a
+satisfactory workaround for us since we raised the issue with them 4 months
+ago.
+
+## Our environment and NUMA scheduling limitations
+
+Our HPC environment consists of two clusters managed by a single torque/Moab
+instance. One is a commodity cluster that's a mix of 8-core and 16-core nodes
+with between 24 and 128GB of memory per node. The other is a small cluster of
+SMPs with the largest having 256 cores (8 cores per socket) and 4TB of memory
+in a single system image. 
+
+When possible, we install new software packages on both clusters. We then write
+queue submit scripts for our users that abstracts away the details of the queue
+system and let's them focus on the app and resources that they need for a
+particular job (e.g., cores, memory, runtime). By setting it up this way and
+managing it all with a single queue system instance, we are able to abstract
+away where the job runs as long as it's installed on both clusters and allows
+jobs to run on the first cluster that has the required resources available,
+easily load balancing across the two clusters to keep our cores busy. 
+
+We unfortunately didn't realize the scheduling limitations imposed by
+torque/Moab NUMA until after deploying it on our new SMP.  Previously, we'd
+written custom utilities that handled processor core allocation to jobs in a
+NUMA topology-aware way and configured a single large node entry in the queue
+system config.  We'd hoped to move away from this toward using more
+standard/supported tools, but didn't have the time/resources to adequately test
+the new NUMA support to discover its shortcomings.
+
+## How we submit shared memory jobs now
+
+Here's what we have implemented currently in our submit scripts based on how
+many cores a user requests for a shared memory app installed on both clusters:
+
+* For up to 8 cores, "-l nodes=1:ppn=N,partition=commodity:smp"
+* For 9-16 cores, "-l nodes=1:ppn=N,partition=commodity"
+* For more than 16 cores, "-l nodes=N,partition=smp"
+
+Small jobs can take advantage of flexible scheduling across both clusters.
+Large jobs can only run on the SMP due to hardware constraints.  We were faced
+with a choice for medium-sized jobs.  We could either submit them so they'd run
+on the SMP only or submit them so they'd only run on the larger commodity
+nodes.  We opted for the latter since we have more capacity on the commodity
+cluster.
+
+## Next steps
+
+During our next maintenance window, I intend to try reworking our NUMA config
+to aggregate both sockets on a node board into a single NUMA node so we'd have
+16 cores instead of 8 per NUMA node.  Assuming that works as advertised, we
+should be able to submit small to medium shared memory jobs so they'd run on
+either cluster... at least until we deploy commodity nodes with more than 16
+cores, which may happen as soon as this fall with the release of Ivy Bridge.
+
+I've had several discussions with high level folks at Adaptive about this (and
+other issues related to the 4.1 series).  I'm hopeful that I've pressed the
+issue strongly enough with them that they make it a priority on their
+development roadmap to better address these limitations, but it's anyone's
+guess when/if we'll see a release that provides a satisfactory resolution to my
+complaints.

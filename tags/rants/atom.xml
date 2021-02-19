@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rants on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/rants/</link>
+    <description>Recent content in rants on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2015 16:32:26 -0500</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/rants/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ramblings About IT Philosophy</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/10/10/ramblings-about-it-philosophy/</link>
+      <pubDate>Sat, 10 Oct 2015 16:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/10/10/ramblings-about-it-philosophy/</guid>
+      <description>&lt;p&gt;Recently, I&amp;rsquo;ve been thinking that I should write down some of my views on IT. I
+don&amp;rsquo;t believe in a black &amp;amp; white world, but in one that&amp;rsquo;s full of realities,
+tradeoffs, and compromises. I&amp;rsquo;ve worked with people who refuse to (or are
+unable to) recognize that and spend energy trying to dictate instead of
+collaborate, typically to the detriment of themselves and frustration of
+everyone around them. IT exists to support and enable an organization, and
+should not be an end unto itself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Distributed Monoliths</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/06/07/distributed-monoliths/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/06/07/distributed-monoliths/</guid>
+      <description>As part of developing RESTful HTTP APIs at work, there&amp;rsquo;s been a lot of discussion over the &amp;ldquo;best&amp;rdquo; way to architect/implement everything. To avoid relying strictly on my own instincts and relearning mistakes that many others have already learned from, I&amp;rsquo;ve been reading O&amp;rsquo;Reilly&amp;rsquo;s Building Microservices. I haven&amp;rsquo;t finished it yet, but have gotten a lot out of what I&amp;rsquo;ve read so far (and been pleased to see that my instincts have been largely supported by someone who&amp;rsquo;s experienced implementing such systems).</description>
+    </item>
+    
+    <item>
+      <title>NUMA and torque/Moab</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</guid>
+      <description>&lt;p&gt;TL;DR Support for NUMA systems in torque/Moab breaks existing means of
+specifying shared memory jobs and limits scheduling flexibility in
+heterogeneous compute environments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adieu Android, or bienvenue iPhone!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2011/12/23/adieu-android-or-bienvenue-iphone/</link>
+      <pubDate>Fri, 23 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2011/12/23/adieu-android-or-bienvenue-iphone/</guid>
+      <description>&lt;p&gt;My foray into the world of Android phones is finally at an end, and am now the
+owner of a shiny iPhone 4S.  It was an interesting experiment, and there were a
+few features that I will miss that I haven&amp;rsquo;t found a way to do on the iPhone,
+but the Android experience finally got bad enough (and I hit my 2 year contract
+anniversary) to push for a phone upgrade at work.  There were just too many
+issues with my Droid and Android in general from a usability standpoint to
+suffer it any further.  Issues with the Android ecosystem (at least as I&amp;rsquo;ve
+been able to experience it&amp;hellip; maybe 4.0 will really start to address some of
+their problems):&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The cost of supercomputing</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2010/11/12/the-cost-of-supercomputing/</link>
+      <pubDate>Fri, 12 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2010/11/12/the-cost-of-supercomputing/</guid>
+      <description>&lt;p&gt;So this upcoming week is the big annual supercomputing convention,
+&lt;a href=&#34;http://sc10.supercomputing.org&#34;&gt;SC10&lt;/a&gt;, down in New Orleans.  Since I&amp;rsquo;m
+skipping out (anxiously waiting for the arrival of Little Miss Sunshine), I&amp;rsquo;ve
+got time to actually try and read through the slew of new product announcements
+and news coverage.  So today I saw this quote on twitter from
+&lt;a href=&#34;http://twitter.com/hpc_guru&#34;&gt;hpc_guru&lt;/a&gt; and just had to share:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Cost of the building next generation of supercomputers is not the problem. The cost of running the machines is what concerns engineers.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>eMusic makes me a sad panda</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2009/06/15/emusic-makes-me-a-sad-panda/</link>
+      <pubDate>Mon, 15 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2009/06/15/emusic-makes-me-a-sad-panda/</guid>
+      <description>I&amp;rsquo;ve been a happy happy joy joy subscriber at eMusic since 2005. I wasn&amp;rsquo;t sure what I thought initially when Lee clued me into it (indie music being a new thing for me), but after that first month I was hooked. Took me a few months and then I bumped up to the annual subscription option. Until recently, my most recent subscription plan worked out to $16/month, which got me 90 tracks a month.</description>
+    </item>
+    
+    <item>
+      <title>Bad Karma</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/04/28/bad-karma/</link>
+      <pubDate>Fri, 28 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/04/28/bad-karma/</guid>
+      <description>I guess I&amp;rsquo;ve been swimming in bad karma or something lately. First, I broke the nice set of Sennheiser HD515 cans I use at work leaving me with the craptacular closed Aiwas I&amp;rsquo;d used before seeing the light. Then, I broke the belt clip on my cellphone. Fortunately, superglue seems to have solved both problems.
+Then, I realized my Thinkpad wasn&amp;rsquo;t charging like it should. Everything indicated it was charging, but the battery meter kept getting lower.</description>
+    </item>
+    
+    <item>
+      <title>Damn Dolphins!... or hanging out with Rachel and Tammy</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/04/24/damn-dolphins-or-hanging-out-with-rachel-and-tammy/</link>
+      <pubDate>Mon, 24 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/04/24/damn-dolphins-or-hanging-out-with-rachel-and-tammy/</guid>
+      <description>Rachel and her roommate Tammy (who&amp;rsquo;s a hoot btw) came down Friday night to catch the show at the Canopy Club featuring The Living Blue, Tractor Kings, Dark Country, and The Dolphin. We showed up some time during the Dolphin&amp;rsquo;s set and all I have to say is weird. I couldn&amp;rsquo;t really tell whether they were playing something or just getting setup and making random noises on-stage. We elected to wait out at the bar until after their set was over.</description>
+    </item>
+    
+    <item>
+      <title>That time of year again... Ethics Training!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/25/that-time-of-year-again-ethics-training/</link>
+      <pubDate>Tue, 25 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/25/that-time-of-year-again-ethics-training/</guid>
+      <description>What an unbelievable waste of time. Some state law passed last year (at least I assume last year&amp;hellip; I started having to do this last year anyway) requires that all state employees must go through ethics training every year. Interesting how grad students are considered employees when it means additional requirements/constraints be placed on us and students when they&amp;rsquo;re talking about salary/benefits/parking/etc. Fortunately it&amp;rsquo;s done through the web instead of requiring us to attend an actual class.</description>
+    </item>
+    
+    <item>
+      <title>You eeediot!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/11/you-eeediot/</link>
+      <pubDate>Tue, 11 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/11/you-eeediot/</guid>
+      <description>What&amp;rsquo;s the deal with stupid people getting union secretary gigs in Universities? Don&amp;rsquo;t get me wrong, I&amp;rsquo;ve met some great and helpful secretaries in my time. But so many of them are just so useless! I&amp;rsquo;ve been dealing a bit with one in the business office for our department trying to place orders for my students in senior design. Here are my two experiences so far:
+ Took a couple of days to get my first order placed.</description>
+    </item>
+    
+    <item>
+      <title>ARGH!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/03/argh/</link>
+      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/03/argh/</guid>
+      <description>Fairly recently, the company that made our group fileserver was bought up by Sun. So we&amp;rsquo;re not really sure whether we&amp;rsquo;ll be able to renew our service contract (which runs out October 20th), or if we&amp;rsquo;ll be forced to buy a new Sun fileserver at a discount. The cynic in all of us should know what&amp;rsquo;s coming next&amp;hellip;
+On Friday, our group fileserver sorta flaked. Took the admins an hour or more to get it back up and running, and when it did our current group mount (ie the one with all the stuff I really care about right now) did not come up with it.</description>
+    </item>
+    
+    <item>
+      <title>Soda prices</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/07/20/soda-prices/</link>
+      <pubDate>Wed, 20 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/07/20/soda-prices/</guid>
+      <description>Was just down to the basement in CSL to buy a soda only to find they&amp;rsquo;ve jacked the 20oz price up to $1.25. Lame. They don&amp;rsquo;t provide us with free espresso-based beverages, they don&amp;rsquo;t provide us with a convenient places to buy espresso-based beverages, and now they&amp;rsquo;re mugging us on the sodas. How are grad students supposed to work into the wee hours without a cheap source of caffeine? :( Might have to just start bringing my own.</description>
+    </item>
+    
+    <item>
+      <title>Stupid people suck!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/07/18/stupid-people-suck/</link>
+      <pubDate>Mon, 18 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/07/18/stupid-people-suck/</guid>
+      <description>I hate stupid people. I can accept that the population at large is generally clueless about all things tech, and so I have a fairly high tolerance level when they do annoying newb things. The people that really tick me off are the ones who are clearly in a technical field (say, a whole bunch of people in academia on a FPGA research/education mailing list), and are clearly clueless about very basic concepts such as email&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Heathens!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/06/23/heathens/</link>
+      <pubDate>Thu, 23 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/06/23/heathens/</guid>
+      <description>I hate stupid people. Amanda and I were enjoying a nice dinner at Nitaya Thai last night when this flock of heathens came in. I knew they were heathens because they promptly asked for a kids&#39; menu. Where do they think they were&amp;hellip; Denny&amp;rsquo;s? Gets worse from there. When they find out there&amp;rsquo;s no kids&#39; menu, they&amp;rsquo;re youngest broodling has the nerve to confront the waitress with a loud, finger-quoted &amp;ldquo;what do you mean no kids&#39; menu?</description>
+    </item>
+    
+    <item>
+      <title>Blech... It&#39;s Hot!!!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/03/02/blech-its-hot/</link>
+      <pubDate>Wed, 02 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/03/02/blech-its-hot/</guid>
+      <description>Wouldn&amp;rsquo;t think I&amp;rsquo;d be complaining about how hot it is in winter. Truth be told, it&amp;rsquo;s ass cold outside. But when I came into the office today it was close to 90 degrees in there! I&amp;rsquo;ve propped the door open and tried to get in touch with Dan the friendly building manager guy any way possible. I think they&amp;rsquo;ve tweaked something since it&amp;rsquo;s started to come down (about 86 now), but it&amp;rsquo;s taking a while.</description>
+    </item>
+    
+    <item>
+      <title>Rant: Parking</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/09/17/rant-parking/</link>
+      <pubDate>Fri, 17 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/09/17/rant-parking/</guid>
+      <description>So as of a few weeks ago, they finally got the parking deck close enough to &amp;ldquo;finished&amp;rdquo; to open it. By &amp;ldquo;finished&amp;rdquo;, I mean the bulk of the structure is there, but they&amp;rsquo;re still actively working on it. Like putting in the sidewalks around it, putting in the street to the south, actually building up the 1st floor interior (where all the &amp;ldquo;retail&amp;rdquo; is supposed to go). Oh, and of course installing the elevators.</description>
+    </item>
+    
+    <item>
+      <title>Rant: FedEx and Vultures</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/09/15/fedex_vultures/</link>
+      <pubDate>Wed, 15 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/09/15/fedex_vultures/</guid>
+      <description>Got two rants today. First off, what is up with FedEx? I bought something online that was shipped via 3-day FedEx. Estimated delivery is for tomorrow (to hit the 3-day deadline). Well, turns out they had it sitting in their local office this morning before they pack up the trucks for the day&amp;rsquo;s deliveries. But since I had only paid for 3-day, they decided to leave it sitting on the dock to be delivered tomorrow so that I&amp;rsquo;d know what I was missing out on by not going with 2-day.</description>
+    </item>
+    
+    <item>
+      <title>Rant: Phriggin&#39; Philips</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/07/15/rant_phriggin_philips/</link>
+      <pubDate>Thu, 15 Jul 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/07/15/rant_phriggin_philips/</guid>
+      <description>So I have officially sworn off Philips. Not the screwdriver, the electronic manufacturer. I was a little confused when I pulled the dead/flaky CDRW/DVD drive out of Amanda&amp;rsquo;s folk&amp;rsquo;s computer last week when it turned out to be a Philips instead of some no name manufacturer. Seemed a little odd that something they made would give out in a year and a half of normal use. Turns out it may be par for the course.</description>
+    </item>
+    
+    <item>
+      <title>A4 paper</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/14/a4_paper/</link>
+      <pubDate>Fri, 14 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/14/a4_paper/</guid>
+      <description>So I finally have the remotest clue what the deal is with A4 paper (and as a result why the rest of the world feels the need to use it and screw up my print jobs, and make life difficult in LaTeX sometimes). Basically, there&amp;rsquo;s a slashdot post on it that points to this page that discusses some of the ideas behind why A4 is the size it is. Apparently all metric paper has a height-to-width ratio of the square root of 2.</description>
+    </item>
+    
+  </channel>
+</rss>

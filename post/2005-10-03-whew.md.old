@@ -1,0 +1,13 @@
+---
+categories:
+- Work
+comments: true
+date: '2005-10-03'
+slug: whew
+title: WHEW!
+url: /2005/10/03/whew
+wordpress_id: 895
+---
+
+
+What a relief!  Just got news the RAID card has come in, was installed, and with a fair bit of manual tinkering the admins managed to restore access to our unbacked-up mount.  They're in the process of migrating the data elsewhere and we should have a temporary workaround up and running in short order.  Looks like we haven't lost anything since some files have access times from last Friday.  Will have to do some testing to see if anything was corrupted, but I'm feeling a whole lot better about it than I was earlier today.  They're starting to look into replacing the fileserver with a more reliable box, but at least in the interim I'm going to start synching my own offsite backup on my home machine as soon as the dust settles from moving the data off the now flaky server.

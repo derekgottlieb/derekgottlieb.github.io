@@ -1,0 +1,14 @@
+---
+categories:
+- Geek
+- Work
+comments: true
+date: '2005-10-11'
+slug: sanjay-in-cpu-mag
+title: Sanjay in CPU Mag
+url: /2005/10/11/sanjay-in-cpu-mag
+wordpress_id: 896
+---
+
+
+Sanjay's in this month's issue of CPU Magazine talking about life at [AGEIA](http://www.computerpoweruser.com/email.asp?emid=134357).  Pretty neat!  For those not in the know, Sanjay's a professor in the ECE department here at UIUC and has been working as chief architect at AGEIA for a while now.  AGEIA has been developing a custom physics processor to improve gaming performance/experience by pushing all such calculations onto a dedicated chip thus freeing up the cpu and the gpu to do what they do best (ie handle the ai and such and push pixels).

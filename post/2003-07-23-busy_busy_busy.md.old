@@ -1,0 +1,25 @@
+---
+categories:
+- Work
+comments: true
+date: '2003-07-23'
+slug: busy_busy_busy
+title: Busy busy busy...
+url: /2003/07/23/busy_busy_busy
+wordpress_id: 33
+---
+
+
+Well, as you probably could have guessed by the lack of posts, I've been quite busy this summer.  Submitted a paper to [HPCA](http://www.ac.uma.es/hpca10/) (International Symposium on High-Performance Computer Architecture for those not in the know).  Crossing my fingers that it gets accepted because I've been working my ass off for it, and it would be cool for my work to appear in a big conference like HPCA, and hella cool to get to go to Madrid to present it.    
+  
+
+
+I'm pretty psyched that I managed to pull this paper off because Nick originally had three separate papers shooting for this one.  One was axed toward the end of last week, and until I updated him on my progress, Nick was figuring the other remaining paper was in better shape than mine.  Turns out, the other paper also fell through some time early Monday afternoon.  Nick told me around 2PM that the other paper had "imploded."  Oh well, at least that meant that Nick completely put his all into cleaning up my paper which we got submitted within a minute or so of the deadline.  Very stressful, but now over.  
+  
+
+
+I'm not sure cuz I was pretty hazy by the time it got submitted, but I think it turned out pretty well.  Looks real impressive.  It's got some figures, some snazzy formulas, a table full of numbers, and all sorts of fancy plots.  Looks real professional like.  For those who are interested, it focuses on how the increasing component latencies resulting from deep submicron technologies affect the performance of clustered microarchitectures.   Now that I've lost most of you...  
+  
+
+
+Since I have been so totally and completely burned out for several days, I'm largely taking this week off, and next week I'll be visiting the folk with Amanda.  Will be nice to just get away for a while.

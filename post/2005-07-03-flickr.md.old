@@ -1,0 +1,15 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-07-03'
+slug: flickr
+title: Flickr
+url: /2005/07/03/flickr
+wordpress_id: 875
+---
+
+
+This is a test post from [![flickr](http://www.flickr.com/images/flickr_logo_blog.gif)](http://www.flickr.com/r/testpost), a fancy photo sharing thing.
+
+Pretty cool.  Looks like flickr will let you upload 20M of photos per month, and makes the last 200 you've posted visible.  Has assorted useful features such as tagging photos, controlling who can see photos, etc.  Seems pretty cool.  I might just use it some for more temporary stuff (ie stuff I don't want to archive on the web forever and take up precious space on my webhost).  And they even provide hooks to post about photos you've uploaded directly to your blog (hence the above test post blurb).

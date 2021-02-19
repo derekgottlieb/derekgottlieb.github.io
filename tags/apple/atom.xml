@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apple on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/apple/</link>
+    <description>Recent content in apple on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Feb 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/apple/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Woz takes job at Fusion-io</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2009/02/08/the-woz-takes-job-at-fusion-io/</link>
+      <pubDate>Sun, 08 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2009/02/08/the-woz-takes-job-at-fusion-io/</guid>
+      <description>So this story has been all over the place (at least if you read computing/HPC news). Steve Wozniak, co-founder of Apple Computer and designer of the historically significant Apple I and Apple II, took a job as chief scientist at a startup I was already aware of, Fusion-io. They&amp;rsquo;ve been designing PCIe boards loaded with flash memory to deliver super high performance storage to servers and maybe high-end gamers. In theory it&amp;rsquo;s using similar technology to SSDs, but they&amp;rsquo;re able to achieve significantly higher bandwidth and IOPs than has been achieved in an SSD that is focused on stuffing flash into a conventional SATA hard drive form factor.</description>
+    </item>
+    
+    <item>
+      <title>Apple Updates... higher res PowerBooks</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/20/apple-updates-higher-res-powerbooks/</link>
+      <pubDate>Thu, 20 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/20/apple-updates-higher-res-powerbooks/</guid>
+      <description>Looks like Apple has finally realized that there are a lot of people who would like a high res notebook. Previously, their &amp;ldquo;pro&amp;rdquo; line of notebooks (aka PowerBooks) topped out at a piddly 1440x900 on a 17&amp;quot; LCD. Just think about that a moment. My Thinkbrick (that&amp;rsquo;s a couple years old at this point) does 1400x1050 on a 14&amp;quot; display. Their 15&amp;quot; was equally pathetic at 1280x854. They&amp;rsquo;ve just bumped up the 15&amp;quot; model to 1440x960 and the 17&amp;quot; to 1680x1050.</description>
+    </item>
+    
+    <item>
+      <title>First x86, now a multibutton mouse?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/08/03/first-x86-now-a-multibutton-mouse/</link>
+      <pubDate>Wed, 03 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/08/03/first-x86-now-a-multibutton-mouse/</guid>
+      <description>Apple is full of interesting surprises this year. First they announced they&amp;rsquo;d be ditching PowerPC in favor of x86. Now, they&amp;rsquo;ve gone and released a multibutton mouse. But without any buttons. Er&amp;hellip; something like that.
+In place of buttons, it features touch-sensitive capacitive sensors beneath the top shell (ala the iPod) that &amp;ldquo;detect where your fingers are and predict your clicking intentions&amp;rdquo;. Or at least that&amp;rsquo;s according to their marketing speak.</description>
+    </item>
+    
+    <item>
+      <title>Apple/x86?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/06/10/applex86/</link>
+      <pubDate>Fri, 10 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/06/10/applex86/</guid>
+      <description>I&amp;rsquo;m a little late in posting this (ISCA &amp;lsquo;05 in Madison and all that rot), but in Steve Jobs&amp;rsquo; keynote at Apple&amp;rsquo;s WWDC he dropped a bombshell&amp;hellip; Apple&amp;rsquo;s dropping the PowerPC and switching to Intel/x86. Engadget has some analysis on the decision, but I guess it largely boils down to limitations they&amp;rsquo;ve experienced with the PowerPC platform. To recap, Motorola had been making all the PowerPC chips for Apple until their G5 schedule didn&amp;rsquo;t meet Apple&amp;rsquo;s needs.</description>
+    </item>
+    
+    <item>
+      <title>Tiger X.4.1</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/19/tiger-x41/</link>
+      <pubDate>Thu, 19 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/19/tiger-x41/</guid>
+      <description>As I suspected, the 10.4.1 update for Tiger has been released. Looks like they&amp;rsquo;ve fixed quite a number of things (seems to have possibly solved some of the crashes/lockups I&amp;rsquo;d experienced so far&amp;hellip; at least, don&amp;rsquo;t think I&amp;rsquo;ve had one since I updated).</description>
+    </item>
+    
+    <item>
+      <title>Playing tunes on OS X</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/12/playing-tunes-on-os-x/</link>
+      <pubDate>Thu, 12 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/12/playing-tunes-on-os-x/</guid>
+      <description>So it would seem that the release of iTunes by Apple largely killed off the other music playing apps (ie mp3 players). Which is lame because I find the interface a little bulky, doesn&amp;rsquo;t seem like I can have it sort based on directory structure, and I find it a little annoying that by default it wants to copy all of your music to a &amp;ldquo;My Music&amp;rdquo; type folder when you import new stuff.</description>
+    </item>
+    
+    <item>
+      <title>Whoops!  Dashboard is now officially creepy!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/07/whoops-dashboard-is-now-officially-creepy/</link>
+      <pubDate>Sat, 07 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/07/whoops-dashboard-is-now-officially-creepy/</guid>
+      <description>Looks like Tiger&amp;rsquo;s new Dashboard could use some refinement when it comes to security. Looks like it&amp;rsquo;s pretty trivial to make a user auto-download a widget when they visit a webpage in Safari, it&amp;rsquo;ll then auto-install if they&amp;rsquo;re using the default Safari settings, and then they&amp;rsquo;ll be running a potentially very obnoxious (and possibly even malicious) widget that&amp;rsquo;s impossible for average Joe user to remove. With any luck they&amp;rsquo;ll refine this a bit in 10.</description>
+    </item>
+    
+    <item>
+      <title>Java 1.5 on Tiger</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</link>
+      <pubDate>Thu, 05 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</guid>
+      <description>Looks like Apples&amp;rsquo;s released Java 1.5 for Tiger. Not quite sure why people aren&amp;rsquo;t talking about this (was released same day as Tiger&amp;rsquo;s &amp;ldquo;official&amp;rdquo; release date) since a lot of people had mentioned it being present in the Tiger developer test releases and that it was absent from the final version released to the public. Looks like I can finally see about getting Liberty&amp;rsquo;s LSE up and running on OS X.</description>
+    </item>
+    
+    <item>
+      <title>Adium X 0.80</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/04/adium-x-080/</link>
+      <pubDate>Wed, 04 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/04/adium-x-080/</guid>
+      <description>Looks like there&amp;rsquo;s a new version of Adium X out. Looks like there&amp;rsquo;s all sorts of new stuff in this release:
+ Adium 0.80 brings a completely new status system with available messages and invisibility on supported protocols, built-in secure encrypted messaging via Off-the-Record Messaging, the long-awaited file transfer progress interface, customizable built-in Growl notification system support, blocking, customizable service and status icons, full OS X 10.4 compatibility, and much, much more.</description>
+    </item>
+    
+    <item>
+      <title>GCC4</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/04/17/gcc4/</link>
+      <pubDate>Sun, 17 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/04/17/gcc4/</guid>
+      <description>So apparently GCC4 should be released before too long. Release candidates are out and release date is set for some time in April. Recently found out Fedora Core 4 will include it, which made me a little wary of trying it out (seems like it took a while for the GCC3 release to settle down and for apps to fix compatibility issues). Weird thing is, I was looking through a feature comparison for OS X (Tiger.</description>
+    </item>
+    
+    <item>
+      <title>Tiger release date set</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/04/12/tiger-release-date-set/</link>
+      <pubDate>Tue, 12 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/04/12/tiger-release-date-set/</guid>
+      <description>Saw this post at slashdot. Looks like the next release of OS X, 10.4 to be exact, will be released on April 29th. Supposed to be a pretty hefty update.</description>
+    </item>
+    
+    <item>
+      <title>More Mac mini software</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/19/more-mac-mini-software/</link>
+      <pubDate>Sat, 19 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/19/more-mac-mini-software/</guid>
+      <description>I&amp;rsquo;ve switched IM clients already. Fire just wasn&amp;rsquo;t as featureful/configurable as I would like, so I&amp;rsquo;ve started using Adium X. Got Firefox for the pages that don&amp;rsquo;t work right in Safari. Fink of course for additional Unix goodies (mostly extra compilation stuff). SSHKeychain provides a convenient interface to ssh-agent and simplifies key management. DoubleCommand lets me remap some keys (ie I can make my Ctrl key act like an Apple Command key), and the next version should differentiate between left and right keys allowing me to have both a Ctrl and a Command key (since Ctrl is sorta essential for emacs).</description>
+    </item>
+    
+    <item>
+      <title>Ich bin impressed!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/12/ich-bin-impressed/</link>
+      <pubDate>Sat, 12 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/12/ich-bin-impressed/</guid>
+      <description>I&amp;rsquo;ve had the mini for a couple of days now, and so far I have to say I&amp;rsquo;m impressed. Cute little box and so far I&amp;rsquo;ve largely been impressed with the speed and &amp;ldquo;fluidity&amp;rdquo; of it. OS X seems awful slick so far, barring the inevitable learning curve. In fairly short order I&amp;rsquo;d found the Terminal and was greeted with a familiar bash prompt and even things like emacs (text-only) and ssh out of the box.</description>
+    </item>
+    
+    <item>
+      <title>On its way!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/07/on-its-way/</link>
+      <pubDate>Mon, 07 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/07/on-its-way/</guid>
+      <description>Looks like my Mac mini is finally on its way! Granted, it looks like it&amp;rsquo;s just been picked up in China today (Shenzhen?), so it&amp;rsquo;ll likely be a while. But still very cool!</description>
+    </item>
+    
+    <item>
+      <title>Anandtech: Mac</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/30/anandtech-mac/</link>
+      <pubDate>Sun, 30 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/30/anandtech-mac/</guid>
+      <description>Turns out Anandtech has started providing some Mac coverage. Anand starts off with A Month with a Mac: A Die-Hard PC User&amp;rsquo;s Perspective providing his take on the Mac experience to the &amp;ldquo;uninitiated&amp;rdquo; with a hefty Dual-G5 desktop. This led to the mobile experience with a Powerbook. Most recently, he&amp;rsquo;s taken a look at the Mac mini.</description>
+    </item>
+    
+    <item>
+      <title>More Mac mini</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/28/more-mac-mini/</link>
+      <pubDate>Fri, 28 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/28/more-mac-mini/</guid>
+      <description>Macworld has lots of good coverage on the Mac mini. They&amp;rsquo;ve got a nice review with benchmark results, discussion of some of the available options, and even some cool findings (looks like some of the 40GB machines come with 5400rpm drives instead of 4200, and some systems may come with faster RAM, but I don&amp;rsquo;t know whether it&amp;rsquo;s actually being clocked any higher than PC2700). They&amp;rsquo;ve got coverage on disassembly with lots of pictures (opening it up and stripping it down to bare components).</description>
+    </item>
+    
+    <item>
+      <title>Bit the Bullet</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/21/bit-the-bullet/</link>
+      <pubDate>Fri, 21 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/21/bit-the-bullet/</guid>
+      <description>Finally bit the bullet and ordered myself a Mac mini. There&amp;rsquo;s a good 3-4 week lead time on them currently, so I still have time to back out if I get cold feet. But I&amp;rsquo;ve been wanting a machine that&amp;rsquo;d run OS X for some time now. Every so often I look into &amp;ldquo;cheap&amp;rdquo; used Macs on fleabay, but have always been thwarted by the remarkably high prices that old Macs go for.</description>
+    </item>
+    
+    <item>
+      <title>Mac mini Dissection</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/19/mac-mini-dissection/</link>
+      <pubDate>Wed, 19 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/19/mac-mini-dissection/</guid>
+      <description>It was only a matter of time. Someone got their hands on one of the new Mac minis and figured out how to open it without destroying it (Slashdot). Some fellow has the video up on his blog (wonder how long he&amp;rsquo;ll survive the slashdot effect). I&amp;rsquo;ve managed to snag the video already, so if he does go down, I may make it available to interested parties. A review site has also gotten their hands on a bare motherboard.</description>
+    </item>
+    
+    <item>
+      <title>Mac mini</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/12/mac-mini/</link>
+      <pubDate>Wed, 12 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/12/mac-mini/</guid>
+      <description>So the Macworld Expo started yesterday. The big deal as I see it is the announcement of the Mac mini. That&amp;rsquo;s actually got me kinda excited. It&amp;rsquo;s a cute, little sub-$500 Mac that&amp;rsquo;ll run OS X. The dimensions on this thing are quite impressive (6.5&amp;quot; x 6.5&amp;quot; x 2&amp;quot;). That&amp;rsquo;s awful tiny. Comes with a 1.25GHz G4, a 40GB ATA HDD, DVD/CD-RW, 256MB DDR RAM, 32MB Radeon 9200 DVI, and the usual plethora of I/O (10/100 ethernet, modem, audio out, Firewire, USB2).</description>
+    </item>
+    
+    <item>
+      <title>OS X</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/25/os_x/</link>
+      <pubDate>Tue, 25 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/25/os_x/</guid>
+      <description>Looks like you actually can emulate a PPC on an x86 well enough to install OS X. It&amp;rsquo;s still a little on the slow side (basic emulation results in 500:1 slowdown over the host processor, while their JIT compiler for x86 brings that up to more like 40:1 slowdown since they cache the translated code), but the project seems pretty active, and there&amp;rsquo;s lots of room for improvement. Still pretty need to see Mac OS X running on a PC (either Windows or Linux, but I&amp;rsquo;ve just tried Linux at this point).</description>
+    </item>
+    
+    <item>
+      <title>Emulate PPC on x86?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/19/emulate_ppc_on_x86/</link>
+      <pubDate>Wed, 19 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/19/emulate_ppc_on_x86/</guid>
+      <description>I must be in one heck of a blogging mood today. I saw this Slashdot post and thought it sounded pretty sweet. Turns out, they&amp;rsquo;ve released a GPL&amp;rsquo;d PPC emulator for x86 that is actually capable of booting OS X. Here&amp;rsquo;s the OS-News article that includes all the pretty pictures. Sounds like it&amp;rsquo;s still got a few problems (reviewer ran into a few infinite loop explosions once OS X had started, and it guzzles the whole CPU), but it actually kinda worked.</description>
+    </item>
+    
+  </channel>
+</rss>

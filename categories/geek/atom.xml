@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geek on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/categories/geek/</link>
+    <description>Recent content in Geek on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Oct 2015 19:32:26 -0500</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/categories/geek/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog software du jour - Hugo</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/10/09/blog-software-du-jour-hugo/</link>
+      <pubDate>Fri, 09 Oct 2015 19:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/10/09/blog-software-du-jour-hugo/</guid>
+      <description>A few years ago, I&amp;rsquo;d migrated from Wordpress to a static site generator for my blog as part of migrating off a shared web host to a VPS. I&amp;rsquo;d started with Octopress since it had been getting a fair bit of buzz at the time. I was pretty happy with the rendered output, but the underlying software had its flaws. The author (Brandon Mathis) highlighted some of those flaws in his post on the road to Octopress 3.</description>
+    </item>
+    
+    <item>
+      <title>Intel CMP</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/10/intel_cmp/</link>
+      <pubDate>Mon, 10 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/10/intel_cmp/</guid>
+      <description>Well, it looks like Intel is finally going CMP (@ The Register and Reuters). They&amp;rsquo;re apparently going to address some of the issues associated with continuing to push for high performance with big monolithic superscalars (namely: power consumption associated with crazy-high clock frequencies, scaling limitations of centralized hardware structures, and the benefits of supporting higher throughput through parallelism instead of only relying on low-latency for sequential code). Pretty exciting if you&amp;rsquo;re a geek like me&amp;hellip; and would love a multiprocessor system.</description>
+    </item>
+    
+    <item>
+      <title>Blue</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/02/blue/</link>
+      <pubDate>Sun, 02 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/02/blue/</guid>
+      <description>So I&amp;rsquo;ve finally decided the previous color scheme for Malkier was a little too bleak. And I&amp;rsquo;ve been doing the whole black background thing for a bit too long (started way back in undergrad when everyone had plain grey backgrounds or awful background images and almost no one went black). Hopefully the new scheme is a little more festive&amp;hellip; although I&amp;rsquo;m not quite happy with it yet. And I finally got around to installing my own copy of my blog software (the old stuff was provided by the host and didn&amp;rsquo;t allow me to customize the comments pages, or really control the blog as much as I would&amp;rsquo;ve liked).</description>
+    </item>
+    
+    <item>
+      <title>SysadminCo</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/04/21/sysadminco/</link>
+      <pubDate>Wed, 21 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/04/21/sysadminco/</guid>
+      <description>So every so often I&amp;rsquo;ll read through some of the stuff at SysadminCo. It&amp;rsquo;s a collection of stupid user questions and such send to the sysadmins at some ISP. They have some entertaining stuff sometimes, and have an amusing shell-like interface. Anyway, as I was skimming a bit today, I ran across this one techism that I got a kick out of.</description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/04/18/css/</link>
+      <pubDate>Sun, 18 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/04/18/css/</guid>
+      <description>So I realized that IE and Mozilla parse CSS stuff differently. Apparently, Mozilla will interpret everything on a line after # as a comment (at least where appropriate) whereas IE seems to interpret it normally. As a result, my movie db looked absolutely awful in IE since I almost never use it. Anyway, now that I know, I&amp;rsquo;ve taken care of it. Should looke the same in IE and Mozilla now (at least it does for me in IE6).</description>
+    </item>
+    
+    <item>
+      <title>Movie DB</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/04/15/movie_db/</link>
+      <pubDate>Thu, 15 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/04/15/movie_db/</guid>
+      <description>So my movie database continues to evolve. I guess first I should mention what it does at this point. Basically, I feed movie title in, my script searches for it in the IMDB, presents the possible matches, and then fills in all the info from IMDB (title, year, genres, director, stars, etc). Then I can easily edit it as needed. Tonight I added some basic caching of the main page. In other words, if you aren&amp;rsquo;t doing any sort of special query (ie list everything), it will dump the webpage to a file and simply display that if it&amp;rsquo;s current, and only recreate it when the database has been updated.</description>
+    </item>
+    
+    <item>
+      <title>Cubic Cyclonium</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/03/24/cubic_cyclonium/</link>
+      <pubDate>Wed, 24 Mar 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/03/24/cubic_cyclonium/</guid>
+      <description>So early last week, I received the coolest thing from a guy at Altera. It&amp;rsquo;s called the Cubic Cyclonium, and it makes one heck of a paperweight. In essence, it&amp;rsquo;s a small system designed around an Altera Cyclone FPGA and includes a bunch of cool stuff (168 LED array, 1MB of SRAM, VGA out), all embedded in a block of clear Lexan plastic. It draws power over a USB cable, includes software to program it to do a variety of neat demos (defaults to displaying time and date, can display a scrolling marquee text message, stock quotes, and several games/screensavers including tetris, pong, life, etc).</description>
+    </item>
+    
+    <item>
+      <title>Machine Names</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/03/23/machine_names/</link>
+      <pubDate>Tue, 23 Mar 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/03/23/machine_names/</guid>
+      <description>So I don&amp;rsquo;t think I&amp;rsquo;ve explicitly mentioned it, but I ended up renaming most of my machines a while back. I decided to switch to a theme as opposed to the random naming scheme I was using before (ie Malaise, Elysium, Nicosia, Sulaco, Aragorn, etc). At this point, most of my stuff is named after characters in Shakespeare&amp;rsquo;s Hamlet. My aging Athlon box (Elysium) has been named after Polonius, the doddering old fool.</description>
+    </item>
+    
+    <item>
+      <title>malkier.com</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/03/22/malkiercom/</link>
+      <pubDate>Mon, 22 Mar 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/03/22/malkiercom/</guid>
+      <description>Well, I finally did it. I signed myself for an actual, bonafide web hosting service. No more being limited to what will fit on my University server (and having to move that every so often) or running off my Linux box over really slow uplink. I&amp;rsquo;m still in the process of moving in (which will involve a rework of my website to some extent), but have managed to relocate my blog and start transferring some of the pictures in my gallery.</description>
+    </item>
+    
+    <item>
+      <title>Audioscrobbler.com</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/05/23/audioscrobblercom/</link>
+      <pubDate>Fri, 23 May 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/05/23/audioscrobblercom/</guid>
+      <description>So I ran across this site (audioscrobbler.com) that seems kinda cool. The idea is you create an account, install a plugin for your favorite MP3 player software (be it Winamp, XMMS, SLIMP3, etc etc). This thing then aims to track your listening habits/preferences. In theory, after you&amp;rsquo;ve listened to enough (200 songs I think), it starts suggesting other artists based on your preferences and the preferences of other users who have similar interests.</description>
+    </item>
+    
+    <item>
+      <title>Buffy test</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/03/16/buffy_test/</link>
+      <pubDate>Sun, 16 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/03/16/buffy_test/</guid>
+      <description>There is a test for Buffy (probably more than one, but this is the first one I found).
+You are Xander
+&amp;ldquo;Cavalry&amp;rsquo;s here! Cavalry&amp;rsquo;s a frightened guy with a rock, but it&amp;rsquo;s here!&amp;rdquo; What &amp;ldquo;Buffy&amp;rdquo; Character Are You?</description>
+    </item>
+    
+    <item>
+      <title>Sliders</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/03/16/sliders/</link>
+      <pubDate>Sun, 16 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/03/16/sliders/</guid>
+      <description>Hmm. In the same spirit as the tests at Fuali.com, I ran across this one for the show Sliders. Man that was a good show. Wish I had Sci-Fi so I could watch it. Been looking around the net some, and it sounds like they&amp;rsquo;re slated to release the first season on DVD in April&amp;hellip; That would be pretty cool. Haven&amp;rsquo;t seen that show in ages. Oh yeah, my test results for Sliders:</description>
+    </item>
+    
+    <item>
+      <title>Dual-headed goodness</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/03/01/dual-headed_goodness/</link>
+      <pubDate>Sat, 01 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/03/01/dual-headed_goodness/</guid>
+      <description>Finally got around to setting up dual-head on Sulaco. I now have the GeForce 4 MX driving my 21&amp;quot; Hitachi and my old Matrox Millenium driving the Dell 15&amp;quot; LCD. Sweet! Perhaps I&amp;rsquo;ll take a pic at some point to show it off.</description>
+    </item>
+    
+    <item>
+      <title>Elysium update</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/20/elysium_update/</link>
+      <pubDate>Thu, 20 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/20/elysium_update/</guid>
+      <description>I think I&amp;rsquo;ve figured out what&amp;rsquo;s been troubling Elysium as of recent. After trying all sorts of stuff (updating my drivers, reinstalling the system from scratch several times, swapping out RAM, switching all partitions in the system over to NTFS&amp;hellip;), I finally noticed that the fan on the video card is dead. That would likely account for some of my problems (ie chunky video whenever I stress the video card by going to full screen or doing any 3d).</description>
+    </item>
+    
+    <item>
+      <title>Times of sadness</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/01/times_of_sadness/</link>
+      <pubDate>Sat, 01 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/01/times_of_sadness/</guid>
+      <description>Grr. Looks like the storm we had last night managed to screw up my DSL service. Analog voice is fine, but I can&amp;rsquo;t get my DSL modem to remain synched long enough to log in, let alone use it. Guess it&amp;rsquo;s been like that since some time around 2AM (according to my system logs, that&amp;rsquo;s when errors started showing up). Hopefully this&amp;rsquo;ll be resolved soon or I&amp;rsquo;m gonna be a very unhappy camper.</description>
+    </item>
+    
+    <item>
+      <title>Year of the Geek?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/01/31/year_of_the_geek/</link>
+      <pubDate>Fri, 31 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/01/31/year_of_the_geek/</guid>
+      <description>So, it looks like 2003 might be the year of the geek. At least as far as movies go. We&amp;rsquo;ve got the Matrix sequels (Matrix Reloaded and Matrix Revolutions). We&amp;rsquo;ve got the final installment of the LOTR trilogy. We&amp;rsquo;ve got the third Harry Potter movie. And we&amp;rsquo;ve got a slew of Marvel comic movies coming out (The Hulk, X-Men 2, Daredevil). Lookin&#39; pretty sweet if I do say so myself.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s new?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/01/25/whats_new/</link>
+      <pubDate>Sat, 25 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/01/25/whats_new/</guid>
+      <description>So what all is new in my life at the moment:
+  Broke down and bought a Pioneer DVR-105 (4x DVD-R/2x DVD-RW) burner. Now if only I could get media for it&amp;hellip;
+  Been enjoying the Back to the Future trilogy on DVD. That DeLorean is SO COOL!
+  Oh, and I&amp;rsquo;ve finally started work again on AMALSIM. Just committed a whole boatload of changes into the repository.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comparch on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/comparch/</link>
+    <description>Recent content in comparch on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2005 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/comparch/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sanjay in CPU Mag</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/11/sanjay-in-cpu-mag/</link>
+      <pubDate>Tue, 11 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/11/sanjay-in-cpu-mag/</guid>
+      <description>Sanjay&amp;rsquo;s in this month&amp;rsquo;s issue of CPU Magazine talking about life at AGEIA. Pretty neat! For those not in the know, Sanjay&amp;rsquo;s a professor in the ECE department here at UIUC and has been working as chief architect at AGEIA for a while now. AGEIA has been developing a custom physics processor to improve gaming performance/experience by pushing all such calculations onto a dedicated chip thus freeing up the cpu and the gpu to do what they do best (ie handle the ai and such and push pixels).</description>
+    </item>
+    
+    <item>
+      <title>UR-5beta</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/26/ur-5beta/</link>
+      <pubDate>Wed, 26 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/26/ur-5beta/</guid>
+      <description>I&amp;rsquo;ve decided to work a bit on porting over some of my old content to the new site/format. So far, I&amp;rsquo;ve converted over the pages about the senior design project I developed with John, the UR-5beta. Figure I may put up a copy of my public key at some point, but since the only one I use with any regularity is already up at my CRHC site, I&amp;rsquo;m not sure there&amp;rsquo;s much point.</description>
+    </item>
+    
+    <item>
+      <title>Dual-Core CPU article</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/24/dual-core-cpu-article/</link>
+      <pubDate>Sun, 24 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/24/dual-core-cpu-article/</guid>
+      <description>Saw an interesting CPU-related post over at /.. There&amp;rsquo;s a good article over at Anandtech summarizing what&amp;rsquo;s currently known about near-term dual-core CPUs, along with some of their predictions.</description>
+    </item>
+    
+    <item>
+      <title>Workalicious</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/03/27/workalicious/</link>
+      <pubDate>Thu, 27 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/03/27/workalicious/</guid>
+      <description>Finished the final touches on my MSE paper and uploaded it to their server. I already faxed over the copyright form, so I should be good to go to head out to Anaheim in June. Pretty sweet. I&amp;rsquo;ve got postscript and pdf versions of the paper ready to go up on my work page whenever I decide it&amp;rsquo;s appropriate to be publicly available.
+The conference should prove interesting seeing as it falls smack between the abstract and paper deadlines for MICRO&amp;hellip; Hopefully I&amp;rsquo;ll be in a position to worry about it at that point instead of still debugging the local data caches and getting more benchmarks up and running.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Beginnings of Coherency&#34; and the &#34;Mess we call a GUI&#34;</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</link>
+      <pubDate>Wed, 05 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</guid>
+      <description>So my local data caches finally started doing stuff today. Cluster 0 requests M[0x0]. The main cache sends all words in that local cache line and informs cluster 0 that it has exclusive access. Cluster 1 then requests M[0x0]. The main cache informs Cluster 0 that the block is now shared and waits for an ACK to confirm that it hasn&amp;rsquo;t become modified. Pretty sweet! I may actually have it all up and running before much longer.</description>
+    </item>
+    
+  </channel>
+</rss>

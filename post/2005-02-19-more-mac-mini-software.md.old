@@ -1,0 +1,25 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-02-19'
+slug: more-mac-mini-software
+title: More Mac mini software
+url: /2005/02/19/more-mac-mini-software
+wordpress_id: 821
+---
+
+
+I've switched IM clients already.  [Fire](http://fire.sf.net/) just wasn't as featureful/configurable as I would like, so I've started using [Adium X](http://www.adiumx.com/).  Got [Firefox](http://getfirefox.com) for the pages that don't work right in Safari.  [Fink](http://fink.sf.net/) of course for additional Unix goodies (mostly extra compilation stuff).  [SSHKeychain](http://www.sshkeychain.org/) provides a convenient interface to ssh-agent and simplifies key management.  [DoubleCommand](http://doublecommand.sourceforge.net/) lets me remap some keys (ie I can make my Ctrl key act like an Apple Command key), and the next version should differentiate between left and right keys allowing me to have both a Ctrl and a Command key (since Ctrl is sorta essential for emacs).  That reminds me, I've also come up with a nicely packaged copy of [emacs](http://home.att.ne.jp/alpha/z123/emacs-mac-e.html) (from cvs).
+
+On the Unix/server side of things, I've got postfix enabled so I can send and receive email from the mini.  Installed [Complete MySQL](http://www.serverlogistics.com/mysql.php) from ServerLogistics (nicely packaged and includes a preferences panel) in preparation for serving up php/mysql webpages.  I got [lighttpd](http://lighttpd.net/) installed since I figured it would perform better than apache since I don't need all of the features present in apache (although it looks like it'll support just about everything I need... php, fastcgi, ssi, authentication, compression, etc).  Since I had to build that from source (many thanks to [The Exciter](http://theexciter.com/archives/2005/02/09/installing-lighttpd-1310-on-osx/) for documenting the build on OSX and providing a path to get it to build), I got [encap's](http://encap.org/) epkg utility to build under OSX.  Encap is a tool developed at [UIUC](http://www.uiuc.edu/) that facilitates sane Unix package management.  From the Encap FAQ:
+
+
+
+> Encap is a package management system for handling third-party package management on a Unix system. Through the magic of symbolic links, it allows you to install each package in its own directory, but still have everything accessible via the traditional location in /usr/local.
+
+
+
+If you ever build Unix packages from source, I'd highly recommend it.  I'm not sure whether I just wasn't finding/setting the right configure option, but I had to manually hack a Makefile to get it to build under OSX (found a hardwired "-arch i386" in there somewhere).
+
+I'm still looking for a slick FTP/SFTP app.  I've tried Fetch that's been around since the dawn of time.  It was nice, but I'd rather find freeware/opensource if I can.  And at some point I should get gnupg set up and integrate it with Apple's Mail.app.

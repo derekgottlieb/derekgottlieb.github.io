@@ -1,0 +1,21 @@
+---
+categories:
+- Geek
+- Work
+- HPC
+comments: true
+date: '2009-04-01'
+slug: rackable-acquires-sgi
+title: Rackable acquires SGI?
+url: /2009/04/01/rackable-acquires-sgi
+wordpress_id: 1029
+---
+
+
+Well this is certainly not something I expected.  SGI is one of the few HPC vendors out there that I'm aware of who are still doing neat things with hardware.  We've got some of their large SMP Itanium boxes on the floor where I work, and I think they're pretty slick machines.  Pricy, but slick.  And so far their support is about the best I've dealt with.  That's not saying their perfect (try getting a CXFS guru on the phone when you need one without sitting on a major outage for several hours), but they generally seem better than most of the other HPC vendors I've worked with (IBM, Cray).  But SGI's certainly had its share of financial woes and I think there was a recent warning from NASDAC that they'd be delisted.  So I'm not necessarily surprised that someone's buying them out, but that it's Rackable specifically.
+
+I've never had real day-to-day experience with a Rackable system, but they seemed to work at the other extreme of value commodity systems.  I've chatted with some of their sales/technical folks and they push their cluster in a cargo container idea pretty hard.  Their distinguishing features seem to be power distribution (aiming at higher efficiency by doing a single AC -> DC conversion and distributing DC to all the servers in a rack), and cooling efficiency (half depth servers loaded from both sides of a rack and blasting hot air into the gab between them in the middle of the rack).  These are certainly aimed at addressing some of the big issues in datacenters everyone's facing (power & cooling), but a lot of the big vendors are attacking those same problems, so I couldn't guess whether Rackable really stands out in the commodity cluster space.  But I suppose if they've got VC cash lying around, buying up the engineering assets at SGI may go a long ways toward giving them some more unusual products to set them apart.
+
+I have to admit there's a small part of me that thinks today was not the best day for them to announce the acquisition given the history of April 1st online shenanigans everyone's expecting.
+
+[[Press release](http://www.sgi.com/company_info/newsroom/press_releases/2009/april/rackable.html)]

@@ -1,0 +1,37 @@
+---
+categories:
+- Geek
+comments: true
+date: '2004-08-29'
+slug: gmail_hacksutils
+title: Gmail Hacks/Utils
+url: /2004/08/29/gmail_hacksutils
+wordpress_id: 758
+---
+
+
+Been poking around looking for useful/interesting add-ons for Gmail.  Here's a few I've come up with:  
+
+
+
+  * [Gmail notifier](http://toolbar.google.com/gmail-helper/) - Windows tray app that checks for new mail, sets Gmail as the default mailto handler, official Google add-on
+  
+
+
+  * [GNOME GTray](http://fraggle.alkali.org/projects/gtray/) - notifier for Linux
+  
+
+
+  * [GML (GMail loader)](http://www.marklyon.org/gmail/) - import mail from your old mail client (supports a wide variety)
+  
+
+
+  * [gExodus](http://blog.codefront.net/archives/2004/06/21/gexodus-a-graphical-gmail-import-tool) - graphical import util
+  
+
+
+  * [FreePOPs](http://freepops.sourceforge.net/en/) - POP3 interface for a variety of webmails, including Gmail
+  
+
+
+  * [GmailFS](http://richard.jones.name/google-hacks/gmail-filesystem/gmail-filesystem.html) - turns a Gmail account into a mountable Linux filesystem

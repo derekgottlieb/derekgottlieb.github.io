@@ -1,0 +1,21 @@
+---
+categories:
+- Geek
+comments: true
+date: '2007-07-11'
+slug: social-micro-blogging
+title: Social micro-blogging?
+url: /2007/07/11/social-micro-blogging
+wordpress_id: 971
+---
+
+
+There's been a fair bit of hubbub about the social network/micro-blog services [twitter](http://twitter.com/) and most recently [pownce](http://pownce.com/).
+
+twitter is a bit of an interesting concept as it boils down to very short (less than 140 characters), text-only posts about what you're up to.  You can post updates in a variety of ways (web, email, im, sms message via cell, desktop client) and receive updates from your circle of twittery friends in a similar way (web, email, im, sms, desktop client, or rss feed).
+
+pownce is a new contender to the field (so new it's still in private beta).  As far as I can tell, a fair chunk of the excitement about this platform is the involvement of Kevin Rose (of [digg](http://digg.com) fame, all things [revision3](http://revision3.com), and formerly of TechTV back when it had some actual tech).  It also appears to be one of the first apps to be built using Adobe AIR (platform for developing net-based desktop apps).  They don't appear to have as many ways to send/receive updates (just web and desktop client at this point?), but they provide a number of other features that aren't present in twitter.  Notably: ability to send updates to subsets of your friends list (not just "everyone"), and the option of sending more media-rich updates (music, photos, videos, etc).
+
+Since there's been a fair bit of commotion on the web about these two services, I thought I might give them a spin and see what I think.  You can check out my feeds at [twitter](https://twitter.com/derekgottlieb) and [pownce](http://pownce.com/derekgottlieb/).  Don't think I actually know anyone who's currently using either service, which may make this experiment somewhat pointless, but I thought it might at least be worth a look-see.
+
+Since pownce is currently in private beta, let me know if you need an invite to check it out yourself, as I have a handful to give out at this point.  twitter is publicly available, so you can easily register for your own account if you'd like to check it out.

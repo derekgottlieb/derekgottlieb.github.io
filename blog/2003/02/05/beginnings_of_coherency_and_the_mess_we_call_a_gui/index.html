@@ -1,0 +1,192 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="D.G.">
+		<meta name="description" content="">
+		<meta name="generator" content="Hugo 0.75.1" />
+		<title>&#34;Beginnings of Coherency&#34; and the &#34;Mess we call a GUI&#34; &middot; Thoughts</title>
+		<link rel="shortcut icon" href="https://thoughts.derekgottlieb.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/style.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/highlight.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/dbgcustom.css">
+                
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-16x16.png" sizes="16x16">
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+		<a href='https://thoughts.derekgottlieb.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://thoughts.derekgottlieb.com/atom.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>&#34;Beginnings of Coherency&#34; and the &#34;Mess we call a GUI&#34;</h1>
+                    <h2 class="headline">
+                    February 5, 2003 
+                    <br>
+                    
+                    
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/research">research</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/amalgam">amalgam</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/programming">programming</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/comparch">comparch</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>So my local data caches finally started doing stuff today.  Cluster 0 requests
+M[0x0].  The main cache sends all words in that local cache line and informs
+cluster 0 that it has exclusive access.  Cluster 1 then requests M[0x0].  The
+main cache informs Cluster 0 that the block is now shared and waits for an ACK
+to confirm that it hasn&rsquo;t become modified.  Pretty sweet!  I may actually have
+it all up and running before much longer.</p>
+<p>Oh, and I keep finding bugs and other annoyances in the GUI.  It&rsquo;s just not all
+that useful for debugging the simulator in its current state.  If I&rsquo;m lucky,
+maybe I&rsquo;ll actually get Chi-Wei to fix some of the more glaring problems&hellip;
+especially if I get annoyed enough to post my thoughts to the mailing list and
+let everyone else know (particularly Nick).</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+            
+            &lt;&lt;&lt; <a class="basic-alignment left" href="https://thoughts.derekgottlieb.com/blog/2003/02/06/define_sinew/" title="Older Post: #define sinew">#define sinew</a>
+            
+            -----
+            
+            <a class="basic-alignment right" href="https://thoughts.derekgottlieb.com/blog/2003/02/01/gamecube_goodness/" title="Newer Post: GameCube Goodness">GameCube Goodness</a> >>>
+            
+            </footer>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/derekgottlieb">
+                        <img class="avatar" src="https://thoughts.derekgottlieb.com/images/avatar.png">
+                        <div>
+                            <span class="dark">D.G.</span>
+                            <span>Trained in the ancient art of yak shaving</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fthoughts.derekgottlieb.com%2fblog%2f2003%2f02%2f05%2fbeginnings_of_coherency_and_the_mess_we_call_a_gui%2f - %22Beginnings%20of%20Coherency%22%20and%20the%20%22Mess%20we%20call%20a%20GUI%22 by @derekgottlieb"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/06/3d-print-extra-car-cup-holders/">3D Print: Extra Car Cup Holders<aside class="dates">Nov 6 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-usb-stylus-holder/">3D Print: USB Stylus Holder<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-collapsible-dice-tower/">3D Print: Collapsible Dice Tower<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-wine-bottle-bird-feeder/">3D Print: Wine Bottle Bird Feeder<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-dragon-eggs-with-escher-lizards/">3D Print: Dragon Eggs with Escher Lizards<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-playing-card-case/">3D Print: Playing Card Case<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-basalt-pencil-holder/">3D Print: Basalt Pencil Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-baby-dragon-pen-holder/">3D Print: Baby Dragon Pen Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-cute-dragon/">3D Print: Cute Dragon<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/10/31/3d-print-chip-bag-clip/">3D Print: Chip Bag Clip<aside class="dates">Oct 31 2020</aside></a>
+        </li>
+    
+</ul>
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/derekgottlieb">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/derekgottlieb">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2021 D.G.
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/main.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

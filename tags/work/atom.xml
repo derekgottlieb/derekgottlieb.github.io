@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>work on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/work/</link>
+    <description>Recent content in work on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2015 16:32:26 -0500</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/work/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ramblings About IT Philosophy</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/10/10/ramblings-about-it-philosophy/</link>
+      <pubDate>Sat, 10 Oct 2015 16:32:26 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/10/10/ramblings-about-it-philosophy/</guid>
+      <description>&lt;p&gt;Recently, I&amp;rsquo;ve been thinking that I should write down some of my views on IT. I
+don&amp;rsquo;t believe in a black &amp;amp; white world, but in one that&amp;rsquo;s full of realities,
+tradeoffs, and compromises. I&amp;rsquo;ve worked with people who refuse to (or are
+unable to) recognize that and spend energy trying to dictate instead of
+collaborate, typically to the detriment of themselves and frustration of
+everyone around them. IT exists to support and enable an organization, and
+should not be an end unto itself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First big project went public!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/01/30/first-big-project-went-public/</link>
+      <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/01/30/first-big-project-went-public/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been busy week, but I feel I&amp;rsquo;ve at least got something to show for it.
+The first big project I&amp;rsquo;ve worked on has gone public at ITEXPO East 2015 and I
+can actually talk about it now. The new service is called &lt;a href=&#34;http://www.digium.com/rescue&#34;&gt;Switchvox Rescue&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New job adventures</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/01/25/new-job-adventures/</link>
+      <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/01/25/new-job-adventures/</guid>
+      <description>&lt;p&gt;About six months ago, I took a new job and left the position I&amp;rsquo;d held at the
+Alabama Supercomputer Center for roughly seven years. I&amp;rsquo;ve struggled whether I
+should write a post about why I chose to leave my old job or focus on the
+positive and talk about my new job. If you&amp;rsquo;re curious, &lt;a href=&#34;http://www.bizjournals.com/washington/blog/fedbiz_daily/2014/04/morale-problems-at-csc-employees-sound-off.html?full=true&#34;&gt;this article at the
+Washington Business
+Journal&lt;/a&gt;
+covers some of the shenanigans that motivated me to leave my job with CSC.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NUMA and torque/Moab</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</guid>
+      <description>&lt;p&gt;TL;DR Support for NUMA systems in torque/Moab breaks existing means of
+specifying shared memory jobs and limits scheduling flexibility in
+heterogeneous compute environments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Btrfs production experiences</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/</guid>
+      <description>&lt;p&gt;My experience is based on SUSE SLES 11 SP1/SP2 with a stock kernel, so YMMV if
+you&amp;rsquo;re running a newer mainline kernel without all the backports.&lt;/p&gt;
+&lt;p&gt;I tested on two Supermicro systems. One with an LSI HBA card with 22x 2TB
+enterprise SATA drives (originally purchased to run OpenSolaris/ZFS). Second
+has an Adaptec hardware RAID controller with 36x 2TB enterprise SATA drives.
+Some of the data loss and stability issues I experienced may be attributed to
+later discovering the &amp;ldquo;enterprise&amp;rdquo; drives used in the first system turned out
+to be less RAID-friendly than the manufacturer claimed, eventually leading to
+them to replace ALL of my drives with a different model.&lt;/p&gt;
+&lt;p&gt;Btrfs was a preview in SLES SP1 and is &amp;ldquo;supported&amp;rdquo; in SP2 but with major
+restrictions if you wanted a supported configuration. Support in SP2 requires
+that you create btrfs filesystems using Yast and live with the limited options
+it allows.  I&amp;rsquo;m guessing what you can do via Yast is the subset of features
+they tested enough to be willing to try and support.  I tried using Yast to set
+up btrfs on one of our systems, but found their constraints too limiting given
+my use case and the organization I&amp;rsquo;d settled on in the SP1 days.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The cost of supercomputing</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2010/11/12/the-cost-of-supercomputing/</link>
+      <pubDate>Fri, 12 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2010/11/12/the-cost-of-supercomputing/</guid>
+      <description>&lt;p&gt;So this upcoming week is the big annual supercomputing convention,
+&lt;a href=&#34;http://sc10.supercomputing.org&#34;&gt;SC10&lt;/a&gt;, down in New Orleans.  Since I&amp;rsquo;m
+skipping out (anxiously waiting for the arrival of Little Miss Sunshine), I&amp;rsquo;ve
+got time to actually try and read through the slew of new product announcements
+and news coverage.  So today I saw this quote on twitter from
+&lt;a href=&#34;http://twitter.com/hpc_guru&#34;&gt;hpc_guru&lt;/a&gt; and just had to share:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Cost of the building next generation of supercomputers is not the problem. The cost of running the machines is what concerns engineers.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rackable acquires SGI?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2009/04/01/rackable-acquires-sgi/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2009/04/01/rackable-acquires-sgi/</guid>
+      <description>Well this is certainly not something I expected. SGI is one of the few HPC vendors out there that I&amp;rsquo;m aware of who are still doing neat things with hardware. We&amp;rsquo;ve got some of their large SMP Itanium boxes on the floor where I work, and I think they&amp;rsquo;re pretty slick machines. Pricy, but slick. And so far their support is about the best I&amp;rsquo;ve dealt with. That&amp;rsquo;s not saying their perfect (try getting a CXFS guru on the phone when you need one without sitting on a major outage for several hours), but they generally seem better than most of the other HPC vendors I&amp;rsquo;ve worked with (IBM, Cray).</description>
+    </item>
+    
+    <item>
+      <title>Research in Alabama - scorpions fight cancer at UAB</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2008/04/10/research-in-alabama-scorpions-fight-cancer-at-uab/</link>
+      <pubDate>Thu, 10 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2008/04/10/research-in-alabama-scorpions-fight-cancer-at-uab/</guid>
+      <description>Medical researchers at the University of Alabama at Birmingham (UAB) have discovered a new use for scorpion venom &amp;ndash; cancer medication. Each year, some 9,000 Americans are diagnosed with malignant glioma, a form of brain cancer that kills about half its victims within a year of diagnosis.
+Glioma cells work a lot like cockroach muscle cells. And while that fact is pretty disgusting, it also got UAB researchers thinking about the giant Israeli scorpion, whose venom is harmless to humans but deadly to its cockroach prey.</description>
+    </item>
+    
+    <item>
+      <title>More photos from Savannah trip: Museum of Aviation</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2008/03/23/more-photos-from-savannah-trip-museum-of-aviation/</link>
+      <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2008/03/23/more-photos-from-savannah-trip-museum-of-aviation/</guid>
+      <description>On the drive back from Savannah, Charles and I quickly stopped in to visit the Robins Air Force Base Museum of Aviation. Didn&amp;rsquo;t spend very long there, but it wasn&amp;rsquo;t too much out of the way for the drive back and had a chance to take a few pics. There were some more unusual planes there that I&amp;rsquo;d meant to go back and look up info on, but obviously hadn&amp;rsquo;t since I only just pulled the photos off my camera a few days ago with the rest of the photos from Savannah.</description>
+    </item>
+    
+    <item>
+      <title>Savannah</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2008/03/19/savannah/</link>
+      <pubDate>Wed, 19 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2008/03/19/savannah/</guid>
+      <description>Took a trip for work back in December to provide cluster training for some of the engineers at Gulfstream. Seems like we also did some very minor maintenance on the cluster we administer there. Anyway, I brought the camera along and had a chance to take a few pics while wandering around the riverfront. Only got around to pulling them off my camera today, so here they are:</description>
+    </item>
+    
+    <item>
+      <title>Life in Alabama</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2007/08/25/life-in-alabama/</link>
+      <pubDate>Sat, 25 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2007/08/25/life-in-alabama/</guid>
+      <description>We&amp;rsquo;ve been here in Alabama for 2 weeks now. Things seem to be going pretty well so far. We somehow survived the move and I don&amp;rsquo;t think left anything too critical behind. The truck full of half our stuff (and pulling the Civic), the CRV full of cats and guitars, and all the occupants got down here safely and relatively uneventfully. The POD full of the other half of our stuff arrived this past Thursday and we&amp;rsquo;re slowly working on unloading it.</description>
+    </item>
+    
+    <item>
+      <title>As you may have noticed...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2007/07/25/as-you-may-have-noticed/</link>
+      <pubDate>Wed, 25 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2007/07/25/as-you-may-have-noticed/</guid>
+      <description>Amanda and I are buying a new house. In a land far far from CU&amp;hellip; Huntsville, AL to be exact&amp;hellip; or technically Madison, AL to be even more exact (suburb to the west of Huntsville).
+No, Derek didn&amp;rsquo;t graduate. While one could ask &amp;ldquo;why is he leaving sans-degree&amp;rdquo;, a better question might be &amp;ldquo;why is he referring to himself in the third person?&amp;rdquo; To put it simply, I just got fed up with how things have been going (or not going to be more precise) and decided it was time for a change.</description>
+    </item>
+    
+    <item>
+      <title>Life and ASPLOS</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/10/20/life/</link>
+      <pubDate>Fri, 20 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/10/20/life/</guid>
+      <description>So life has been pretty&amp;hellip; something recently. Too much going on and not quite enough sanity to go around. Fortunately, I get to head out to San Jose this Sunday to visit with Rich and Carrie&amp;hellip; oh yeah and go to ASPLOS (Architectural Support for Programming Languages and Operating Systems). Looks like it should be an interesting conference and the best part is I don&amp;rsquo;t have to foot the bill. :)</description>
+    </item>
+    
+    <item>
+      <title>Bad Computer Mojo</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/25/bad-computer-mojo/</link>
+      <pubDate>Tue, 25 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/25/bad-computer-mojo/</guid>
+      <description>I&amp;rsquo;ve been suffering from some bad computer mojo as of recent.
+ First our group fileserver tanked. Not that I really came into physical contact with it, but I talked to it over the network all the time. Then my brand spankin&#39; new NAS drive (got a Buffalo LinkStation, basically an external hard drive enclosure with ethernet instead of USB/Firewire) had some sort of catastrophic firmware failure while I was using it and I was forced to RMA it.</description>
+    </item>
+    
+    <item>
+      <title>That time of year again... Ethics Training!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/25/that-time-of-year-again-ethics-training/</link>
+      <pubDate>Tue, 25 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/25/that-time-of-year-again-ethics-training/</guid>
+      <description>What an unbelievable waste of time. Some state law passed last year (at least I assume last year&amp;hellip; I started having to do this last year anyway) requires that all state employees must go through ethics training every year. Interesting how grad students are considered employees when it means additional requirements/constraints be placed on us and students when they&amp;rsquo;re talking about salary/benefits/parking/etc. Fortunately it&amp;rsquo;s done through the web instead of requiring us to attend an actual class.</description>
+    </item>
+    
+    <item>
+      <title>OTR architect joins the ECE department!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/14/otr-architect-joins-the-ece-department/</link>
+      <pubDate>Fri, 14 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/14/otr-architect-joins-the-ece-department/</guid>
+      <description>I should really pay closer attention to who joins our department. Nikita Borisov apparently just started here this semester and is currently doing work on anonymous peer-to-peer networks. Nick introduced him to Jeff and I today with the intention of giving him some of our spare computers to get his group started.
+Afterwards I took a look at his past work and realized he was one of the primary architects for Off-the-Record Messaging that I use in Gaim (Linux/Windows) and AdiumX (OSX).</description>
+    </item>
+    
+    <item>
+      <title>Sanjay in CPU Mag</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/11/sanjay-in-cpu-mag/</link>
+      <pubDate>Tue, 11 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/11/sanjay-in-cpu-mag/</guid>
+      <description>Sanjay&amp;rsquo;s in this month&amp;rsquo;s issue of CPU Magazine talking about life at AGEIA. Pretty neat! For those not in the know, Sanjay&amp;rsquo;s a professor in the ECE department here at UIUC and has been working as chief architect at AGEIA for a while now. AGEIA has been developing a custom physics processor to improve gaming performance/experience by pushing all such calculations onto a dedicated chip thus freeing up the cpu and the gpu to do what they do best (ie handle the ai and such and push pixels).</description>
+    </item>
+    
+    <item>
+      <title>You eeediot!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/11/you-eeediot/</link>
+      <pubDate>Tue, 11 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/11/you-eeediot/</guid>
+      <description>What&amp;rsquo;s the deal with stupid people getting union secretary gigs in Universities? Don&amp;rsquo;t get me wrong, I&amp;rsquo;ve met some great and helpful secretaries in my time. But so many of them are just so useless! I&amp;rsquo;ve been dealing a bit with one in the business office for our department trying to place orders for my students in senior design. Here are my two experiences so far:
+ Took a couple of days to get my first order placed.</description>
+    </item>
+    
+    <item>
+      <title>ARGH!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/03/argh/</link>
+      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/03/argh/</guid>
+      <description>Fairly recently, the company that made our group fileserver was bought up by Sun. So we&amp;rsquo;re not really sure whether we&amp;rsquo;ll be able to renew our service contract (which runs out October 20th), or if we&amp;rsquo;ll be forced to buy a new Sun fileserver at a discount. The cynic in all of us should know what&amp;rsquo;s coming next&amp;hellip;
+On Friday, our group fileserver sorta flaked. Took the admins an hour or more to get it back up and running, and when it did our current group mount (ie the one with all the stuff I really care about right now) did not come up with it.</description>
+    </item>
+    
+    <item>
+      <title>WHEW!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/03/whew/</link>
+      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/03/whew/</guid>
+      <description>What a relief! Just got news the RAID card has come in, was installed, and with a fair bit of manual tinkering the admins managed to restore access to our unbacked-up mount. They&amp;rsquo;re in the process of migrating the data elsewhere and we should have a temporary workaround up and running in short order. Looks like we haven&amp;rsquo;t lost anything since some files have access times from last Friday. Will have to do some testing to see if anything was corrupted, but I&amp;rsquo;m feeling a whole lot better about it than I was earlier today.</description>
+    </item>
+    
+    <item>
+      <title>Soda prices</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/07/20/soda-prices/</link>
+      <pubDate>Wed, 20 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/07/20/soda-prices/</guid>
+      <description>Was just down to the basement in CSL to buy a soda only to find they&amp;rsquo;ve jacked the 20oz price up to $1.25. Lame. They don&amp;rsquo;t provide us with free espresso-based beverages, they don&amp;rsquo;t provide us with a convenient places to buy espresso-based beverages, and now they&amp;rsquo;re mugging us on the sodas. How are grad students supposed to work into the wee hours without a cheap source of caffeine? :( Might have to just start bringing my own.</description>
+    </item>
+    
+    <item>
+      <title>Stupid people suck!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/07/18/stupid-people-suck/</link>
+      <pubDate>Mon, 18 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/07/18/stupid-people-suck/</guid>
+      <description>I hate stupid people. I can accept that the population at large is generally clueless about all things tech, and so I have a fairly high tolerance level when they do annoying newb things. The people that really tick me off are the ones who are clearly in a technical field (say, a whole bunch of people in academia on a FPGA research/education mailing list), and are clearly clueless about very basic concepts such as email&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Wedding, wedding, and more weddings...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/30/weddings-wedding-and-more-weddings/</link>
+      <pubDate>Mon, 30 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/30/weddings-wedding-and-more-weddings/</guid>
+      <description>Been rather busy lately. Went to my cousin&amp;rsquo;s wedding 3 weekends ago in Missouri/Kansas. Then flew down to Amanda&amp;rsquo;s cousin&amp;rsquo;s wedding in Texas 2 weekends ago. My folks have been visiting this past week and just left on Sunday morning. To top that off, I&amp;rsquo;ve had some sort of nasty sinus infection for the past week. Next weekend we&amp;rsquo;re off to Iowa for Amanda&amp;rsquo;s coworker&amp;rsquo;s wedding and on the way back I&amp;rsquo;ll be going to ISCA &amp;lsquo;05 in Wisconsin for a few days.</description>
+    </item>
+    
+    <item>
+      <title>Java 1.5 on Tiger</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</link>
+      <pubDate>Thu, 05 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</guid>
+      <description>Looks like Apples&amp;rsquo;s released Java 1.5 for Tiger. Not quite sure why people aren&amp;rsquo;t talking about this (was released same day as Tiger&amp;rsquo;s &amp;ldquo;official&amp;rdquo; release date) since a lot of people had mentioned it being present in the Tiger developer test releases and that it was absent from the final version released to the public. Looks like I can finally see about getting Liberty&amp;rsquo;s LSE up and running on OS X.</description>
+    </item>
+    
+    <item>
+      <title>Blech... It&#39;s Hot!!!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/03/02/blech-its-hot/</link>
+      <pubDate>Wed, 02 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/03/02/blech-its-hot/</guid>
+      <description>Wouldn&amp;rsquo;t think I&amp;rsquo;d be complaining about how hot it is in winter. Truth be told, it&amp;rsquo;s ass cold outside. But when I came into the office today it was close to 90 degrees in there! I&amp;rsquo;ve propped the door open and tried to get in touch with Dan the friendly building manager guy any way possible. I think they&amp;rsquo;ve tweaked something since it&amp;rsquo;s started to come down (about 86 now), but it&amp;rsquo;s taking a while.</description>
+    </item>
+    
+    <item>
+      <title>Long overdue</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/12/01/long-overdue/</link>
+      <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/12/01/long-overdue/</guid>
+      <description>So this update is long overdue. I&amp;rsquo;ve been really busy recently with&amp;hellip; well, life. First there was the big annual ISCA crunch where I helped Jim get his submission from 0 to paper in less than a week. Part of that was help getting him up and running on NCSA&amp;rsquo;s Itanium-2 cluster (Teragrid) so that he could have results to write about. The other part was helping him get an actual paper together the day of the deadline since Nick was focused on the other project he wanted to submit for.</description>
+    </item>
+    
+    <item>
+      <title>KERBOOOOM! Update</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/19/kerboooom-update/</link>
+      <pubDate>Tue, 19 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/19/kerboooom-update/</guid>
+      <description>Got some more info on all of yesterday&amp;rsquo;s hub-bub. Apparently, one of the Lieberts (air conditioners) blew up in the server room yesterday, spraying cold water everywhere. The admins spent all day yesterday cleaning up the mess (disassembling the servers, cleaning them out, drying everying, testing them, etc). The main servers are all back up as of this morning, so email, home directories, and the firewall are all available again. The bad news is our group fileserver was directly in front of the Liebert when it blew up.</description>
+    </item>
+    
+    <item>
+      <title>KERBOOOOM!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/18/kerboooom/</link>
+      <pubDate>Mon, 18 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/18/kerboooom/</guid>
+      <description>I got an unexpected day off today. Things were all hunky dorey this morning, but then around 11 something happened. I&amp;rsquo;m not entirely clear on what. Sounded like someone was doing some sort of maintenance work down in the basement, something went boom, and several fire sprinklers went off in the machine room. Needless to say, the admins quickly shut everything down and went about cleaning up the mess, drying out all the computers and trying to get everything shifted over to another room.</description>
+    </item>
+    
+    <item>
+      <title>Bleh</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/07/27/bleh/</link>
+      <pubDate>Tue, 27 Jul 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/07/27/bleh/</guid>
+      <description>Derek brain stopped. Derek need lunch. Derek need talk in third person. Derek should be president. Derek tired.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/tech/</link>
+    <description>Recent content in tech on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jul 2007 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/tech/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social micro-blogging?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2007/07/11/social-micro-blogging/</link>
+      <pubDate>Wed, 11 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2007/07/11/social-micro-blogging/</guid>
+      <description>There&amp;rsquo;s been a fair bit of hubbub about the social network/micro-blog services twitter and most recently pownce.
+twitter is a bit of an interesting concept as it boils down to very short (less than 140 characters), text-only posts about what you&amp;rsquo;re up to. You can post updates in a variety of ways (web, email, im, sms message via cell, desktop client) and receive updates from your circle of twittery friends in a similar way (web, email, im, sms, desktop client, or rss feed).</description>
+    </item>
+    
+    <item>
+      <title>Joost coolness</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2007/07/09/joost-coolness/</link>
+      <pubDate>Mon, 09 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2007/07/09/joost-coolness/</guid>
+      <description>I&amp;rsquo;m not sure how to describe Joost aside from on-demand, internet tv clips from the crew that put together Skype and Kazaa. A while back I managed to land an invite from Joost for their private beta test, and have enjoyed running it on my Macbook Pro (they support Windows and Intel Macs at this point). Very little lag when you first fire up a program, and haven&amp;rsquo;t had any issues once a show starts.</description>
+    </item>
+    
+    <item>
+      <title>Google Reader</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/04/07/google-reader/</link>
+      <pubDate>Fri, 07 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/04/07/google-reader/</guid>
+      <description>So Google seems to be releasing all sorts of cool tech these days. You&amp;rsquo;ve got Gmail, which I&amp;rsquo;ve been pretty pleased with (all my email accounts forward there now). There&amp;rsquo;s Google Bookmarks that I think are tied into their &amp;ldquo;personalized home&amp;rdquo; stuff. I know you can view/add them via the Google toolbar in IE, but last I knew there wasn&amp;rsquo;t an equivalent for browsers that don&amp;rsquo;t suck (eg Firefox). It&amp;rsquo;s kinda nice to have a web-based place for me to store bookmarks (so I can access them at home/work/etc), but I wish there was a better way to add links independent of the IE toolbar (eg a button to add a bookmark vs.</description>
+    </item>
+    
+    <item>
+      <title>#define luddite</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/03/25/define-luddite/</link>
+      <pubDate>Sat, 25 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/03/25/define-luddite/</guid>
+      <description>Pronunciation:	&amp;lsquo;l&amp;amp;-&amp;ldquo;dIt Function:	noun Etymology:	After Ned Ludd, an English laborer who was supposed to have destroyed weaving machinery around 1779. 1 : Any of a group of British workers who between 1811 and 1816 rioted and destroyed laborsaving textile machinery in the belief that such machinery would diminish employment. 2 : One who opposes technical or technological change.
+[Source]</description>
+    </item>
+    
+    <item>
+      <title>Apple Updates... higher res PowerBooks</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/20/apple-updates-higher-res-powerbooks/</link>
+      <pubDate>Thu, 20 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/20/apple-updates-higher-res-powerbooks/</guid>
+      <description>Looks like Apple has finally realized that there are a lot of people who would like a high res notebook. Previously, their &amp;ldquo;pro&amp;rdquo; line of notebooks (aka PowerBooks) topped out at a piddly 1440x900 on a 17&amp;quot; LCD. Just think about that a moment. My Thinkbrick (that&amp;rsquo;s a couple years old at this point) does 1400x1050 on a 14&amp;quot; display. Their 15&amp;quot; was equally pathetic at 1280x854. They&amp;rsquo;ve just bumped up the 15&amp;quot; model to 1440x960 and the 17&amp;quot; to 1680x1050.</description>
+    </item>
+    
+    <item>
+      <title>Sanjay in CPU Mag</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/11/sanjay-in-cpu-mag/</link>
+      <pubDate>Tue, 11 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/11/sanjay-in-cpu-mag/</guid>
+      <description>Sanjay&amp;rsquo;s in this month&amp;rsquo;s issue of CPU Magazine talking about life at AGEIA. Pretty neat! For those not in the know, Sanjay&amp;rsquo;s a professor in the ECE department here at UIUC and has been working as chief architect at AGEIA for a while now. AGEIA has been developing a custom physics processor to improve gaming performance/experience by pushing all such calculations onto a dedicated chip thus freeing up the cpu and the gpu to do what they do best (ie handle the ai and such and push pixels).</description>
+    </item>
+    
+    <item>
+      <title>Malkier back up...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/09/01/malkier-back-up/</link>
+      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/09/01/malkier-back-up/</guid>
+      <description>Finally got the site back up. Turns out there was some sort of security breach this past weekend that slipped evil javascript into all of my php/html pages on the site. Looked like it was intended to be some sort of browser buffer overflow attack or something along those lines (the support folk at ipowerweb said it would download a virus?). Anyway, things should be cleared up and safe again for now.</description>
+    </item>
+    
+    <item>
+      <title>mobiBLU DAH-1500i</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/09/01/mobiblu-dah-1500i/</link>
+      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/09/01/mobiblu-dah-1500i/</guid>
+      <description>So I broke down and bought a new mp3 player to take with me when I go jogging&amp;hellip; well jogging/walking&amp;hellip; well really more walking than jogging, but I&amp;rsquo;m still building up toward that. Anyway, looks like it should be a pretty cute little unit. Key features:
+ It&amp;rsquo;s about a 1&amp;quot; cube has a little OLED display comes in 256MB, 512MB, and 1GB versions (I got the 512) has an FM radio (can even record it at up to 160kbps) 8-10 hours of battery life when playing mp3s USB2.</description>
+    </item>
+    
+    <item>
+      <title>talk.google.com</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/08/24/talkgooglecom/</link>
+      <pubDate>Wed, 24 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/08/24/talkgooglecom/</guid>
+      <description>There&amp;rsquo;s been some rumors making their way through the geek community that Google has been working on its own IM service (ala ICQ, AIM, MSN, Yahoo, etc). Turns out it&amp;rsquo;s live! Mike was ever so kind as to hook me up with an invite, and it seems fairly slick so far. Appears that anyone with a Gmail account can use it.
+They&amp;rsquo;ve only got a Windows client that integrates with your Gmail account and even supports voice chats, but their server&amp;rsquo;s running Jabber (opensource IM server).</description>
+    </item>
+    
+    <item>
+      <title>OpenSUSE</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/08/09/opensuse/</link>
+      <pubDate>Tue, 09 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/08/09/opensuse/</guid>
+      <description>I know this was posted last week on slashdot, but it looks like the website for OpenSUSE finally went live. Pretty exciting stuff. First RedHat split their distro into a commercial, &amp;ldquo;enterprise&amp;rdquo; class distro and the bleeding-edge, completely open distro Fedora (open in the sense that more than just RedHat employees were actively contributing to its development and direction). Now Novell has opened up SUSE. If I remember correctly, it used to be an exclusively commercial distro if I remember correctly&amp;hellip; wasn&amp;rsquo;t available for free download.</description>
+    </item>
+    
+    <item>
+      <title>First x86, now a multibutton mouse?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/08/03/first-x86-now-a-multibutton-mouse/</link>
+      <pubDate>Wed, 03 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/08/03/first-x86-now-a-multibutton-mouse/</guid>
+      <description>Apple is full of interesting surprises this year. First they announced they&amp;rsquo;d be ditching PowerPC in favor of x86. Now, they&amp;rsquo;ve gone and released a multibutton mouse. But without any buttons. Er&amp;hellip; something like that.
+In place of buttons, it features touch-sensitive capacitive sensors beneath the top shell (ala the iPod) that &amp;ldquo;detect where your fingers are and predict your clicking intentions&amp;rdquo;. Or at least that&amp;rsquo;s according to their marketing speak.</description>
+    </item>
+    
+    <item>
+      <title>Stupid people suck!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/07/18/stupid-people-suck/</link>
+      <pubDate>Mon, 18 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/07/18/stupid-people-suck/</guid>
+      <description>I hate stupid people. I can accept that the population at large is generally clueless about all things tech, and so I have a fairly high tolerance level when they do annoying newb things. The people that really tick me off are the ones who are clearly in a technical field (say, a whole bunch of people in academia on a FPGA research/education mailing list), and are clearly clueless about very basic concepts such as email&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Flickr</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/07/03/flickr/</link>
+      <pubDate>Sun, 03 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/07/03/flickr/</guid>
+      <description>This is a test post from , a fancy photo sharing thing.
+Pretty cool. Looks like flickr will let you upload 20M of photos per month, and makes the last 200 you&amp;rsquo;ve posted visible. Has assorted useful features such as tagging photos, controlling who can see photos, etc. Seems pretty cool. I might just use it some for more temporary stuff (ie stuff I don&amp;rsquo;t want to archive on the web forever and take up precious space on my webhost).</description>
+    </item>
+    
+    <item>
+      <title>Neat!  Now maybe I can avoid those destroyers!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/07/02/neat-now-maybe-i-can-avoid-those-destroyers/</link>
+      <pubDate>Sat, 02 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/07/02/neat-now-maybe-i-can-avoid-those-destroyers/</guid>
+      <description>Ran across this site recently. Seems pretty cool. They&amp;rsquo;ve posted a copy of a declassified WWII US submarine manual (well, immediately following the war to be more exact), including scans of all the neat pictures/diagrams/etc and ocr&amp;rsquo;d text.</description>
+    </item>
+    
+    <item>
+      <title>Apple/x86?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/06/10/applex86/</link>
+      <pubDate>Fri, 10 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/06/10/applex86/</guid>
+      <description>I&amp;rsquo;m a little late in posting this (ISCA &amp;lsquo;05 in Madison and all that rot), but in Steve Jobs&amp;rsquo; keynote at Apple&amp;rsquo;s WWDC he dropped a bombshell&amp;hellip; Apple&amp;rsquo;s dropping the PowerPC and switching to Intel/x86. Engadget has some analysis on the decision, but I guess it largely boils down to limitations they&amp;rsquo;ve experienced with the PowerPC platform. To recap, Motorola had been making all the PowerPC chips for Apple until their G5 schedule didn&amp;rsquo;t meet Apple&amp;rsquo;s needs.</description>
+    </item>
+    
+    <item>
+      <title>Tiger X.4.1</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/19/tiger-x41/</link>
+      <pubDate>Thu, 19 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/19/tiger-x41/</guid>
+      <description>As I suspected, the 10.4.1 update for Tiger has been released. Looks like they&amp;rsquo;ve fixed quite a number of things (seems to have possibly solved some of the crashes/lockups I&amp;rsquo;d experienced so far&amp;hellip; at least, don&amp;rsquo;t think I&amp;rsquo;ve had one since I updated).</description>
+    </item>
+    
+    <item>
+      <title>Playing tunes on OS X</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/12/playing-tunes-on-os-x/</link>
+      <pubDate>Thu, 12 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/12/playing-tunes-on-os-x/</guid>
+      <description>So it would seem that the release of iTunes by Apple largely killed off the other music playing apps (ie mp3 players). Which is lame because I find the interface a little bulky, doesn&amp;rsquo;t seem like I can have it sort based on directory structure, and I find it a little annoying that by default it wants to copy all of your music to a &amp;ldquo;My Music&amp;rdquo; type folder when you import new stuff.</description>
+    </item>
+    
+    <item>
+      <title>Whoops!  Dashboard is now officially creepy!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/07/whoops-dashboard-is-now-officially-creepy/</link>
+      <pubDate>Sat, 07 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/07/whoops-dashboard-is-now-officially-creepy/</guid>
+      <description>Looks like Tiger&amp;rsquo;s new Dashboard could use some refinement when it comes to security. Looks like it&amp;rsquo;s pretty trivial to make a user auto-download a widget when they visit a webpage in Safari, it&amp;rsquo;ll then auto-install if they&amp;rsquo;re using the default Safari settings, and then they&amp;rsquo;ll be running a potentially very obnoxious (and possibly even malicious) widget that&amp;rsquo;s impossible for average Joe user to remove. With any luck they&amp;rsquo;ll refine this a bit in 10.</description>
+    </item>
+    
+    <item>
+      <title>Java 1.5 on Tiger</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</link>
+      <pubDate>Thu, 05 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</guid>
+      <description>Looks like Apples&amp;rsquo;s released Java 1.5 for Tiger. Not quite sure why people aren&amp;rsquo;t talking about this (was released same day as Tiger&amp;rsquo;s &amp;ldquo;official&amp;rdquo; release date) since a lot of people had mentioned it being present in the Tiger developer test releases and that it was absent from the final version released to the public. Looks like I can finally see about getting Liberty&amp;rsquo;s LSE up and running on OS X.</description>
+    </item>
+    
+    <item>
+      <title>Adium X 0.80</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/04/adium-x-080/</link>
+      <pubDate>Wed, 04 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/04/adium-x-080/</guid>
+      <description>Looks like there&amp;rsquo;s a new version of Adium X out. Looks like there&amp;rsquo;s all sorts of new stuff in this release:
+ Adium 0.80 brings a completely new status system with available messages and invisibility on supported protocols, built-in secure encrypted messaging via Off-the-Record Messaging, the long-awaited file transfer progress interface, customizable built-in Growl notification system support, blocking, customizable service and status icons, full OS X 10.4 compatibility, and much, much more.</description>
+    </item>
+    
+    <item>
+      <title>GCC4</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/04/17/gcc4/</link>
+      <pubDate>Sun, 17 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/04/17/gcc4/</guid>
+      <description>So apparently GCC4 should be released before too long. Release candidates are out and release date is set for some time in April. Recently found out Fedora Core 4 will include it, which made me a little wary of trying it out (seems like it took a while for the GCC3 release to settle down and for apps to fix compatibility issues). Weird thing is, I was looking through a feature comparison for OS X (Tiger.</description>
+    </item>
+    
+    <item>
+      <title>Tiger release date set</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/04/12/tiger-release-date-set/</link>
+      <pubDate>Tue, 12 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/04/12/tiger-release-date-set/</guid>
+      <description>Saw this post at slashdot. Looks like the next release of OS X, 10.4 to be exact, will be released on April 29th. Supposed to be a pretty hefty update.</description>
+    </item>
+    
+    <item>
+      <title>Misconceptions: GCC (followup)</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/03/08/misconceptions-gcc-followup/</link>
+      <pubDate>Tue, 08 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/03/08/misconceptions-gcc-followup/</guid>
+      <description>Ack! My pants are on fire. Was just perusing the gcc website when I noticed they&amp;rsquo;re refering to it as the GNU Compiler Collection. Hmm. Wonder if it&amp;rsquo;s always been that way, or just since they added other languages&amp;hellip;
+Edit: Dug around their wiki some more. Looks like it used to be GNU C Compiler (at least the initial release was), just as I thought.</description>
+    </item>
+    
+    <item>
+      <title>Misconceptions: GCC</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/25/misconceptions-gcc/</link>
+      <pubDate>Fri, 25 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/25/misconceptions-gcc/</guid>
+      <description>Don&amp;rsquo;t know what made me think of it this morning, but I was remembering something my first programming teacher said. He was teaching a course in introductory C programming for engineering applications and we were using gcc as our compiler. At the time, he claimed GCC stood for Good C Compiler. Seems pretty suspect since the gcc most everyone knows is actually the GNU C Compiler since it&amp;rsquo;s been developed by the GNU organization which was founded back in 1984 (although the first release of gcc wasn&amp;rsquo;t until 1987, but that was long before I took this course).</description>
+    </item>
+    
+    <item>
+      <title>More Mac mini software</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/19/more-mac-mini-software/</link>
+      <pubDate>Sat, 19 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/19/more-mac-mini-software/</guid>
+      <description>I&amp;rsquo;ve switched IM clients already. Fire just wasn&amp;rsquo;t as featureful/configurable as I would like, so I&amp;rsquo;ve started using Adium X. Got Firefox for the pages that don&amp;rsquo;t work right in Safari. Fink of course for additional Unix goodies (mostly extra compilation stuff). SSHKeychain provides a convenient interface to ssh-agent and simplifies key management. DoubleCommand lets me remap some keys (ie I can make my Ctrl key act like an Apple Command key), and the next version should differentiate between left and right keys allowing me to have both a Ctrl and a Command key (since Ctrl is sorta essential for emacs).</description>
+    </item>
+    
+    <item>
+      <title>Ich bin impressed!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/12/ich-bin-impressed/</link>
+      <pubDate>Sat, 12 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/12/ich-bin-impressed/</guid>
+      <description>I&amp;rsquo;ve had the mini for a couple of days now, and so far I have to say I&amp;rsquo;m impressed. Cute little box and so far I&amp;rsquo;ve largely been impressed with the speed and &amp;ldquo;fluidity&amp;rdquo; of it. OS X seems awful slick so far, barring the inevitable learning curve. In fairly short order I&amp;rsquo;d found the Terminal and was greeted with a familiar bash prompt and even things like emacs (text-only) and ssh out of the box.</description>
+    </item>
+    
+    <item>
+      <title>On its way!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/02/07/on-its-way/</link>
+      <pubDate>Mon, 07 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/02/07/on-its-way/</guid>
+      <description>Looks like my Mac mini is finally on its way! Granted, it looks like it&amp;rsquo;s just been picked up in China today (Shenzhen?), so it&amp;rsquo;ll likely be a while. But still very cool!</description>
+    </item>
+    
+    <item>
+      <title>Anandtech: Mac</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/30/anandtech-mac/</link>
+      <pubDate>Sun, 30 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/30/anandtech-mac/</guid>
+      <description>Turns out Anandtech has started providing some Mac coverage. Anand starts off with A Month with a Mac: A Die-Hard PC User&amp;rsquo;s Perspective providing his take on the Mac experience to the &amp;ldquo;uninitiated&amp;rdquo; with a hefty Dual-G5 desktop. This led to the mobile experience with a Powerbook. Most recently, he&amp;rsquo;s taken a look at the Mac mini.</description>
+    </item>
+    
+    <item>
+      <title>More Mac mini</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/28/more-mac-mini/</link>
+      <pubDate>Fri, 28 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/28/more-mac-mini/</guid>
+      <description>Macworld has lots of good coverage on the Mac mini. They&amp;rsquo;ve got a nice review with benchmark results, discussion of some of the available options, and even some cool findings (looks like some of the 40GB machines come with 5400rpm drives instead of 4200, and some systems may come with faster RAM, but I don&amp;rsquo;t know whether it&amp;rsquo;s actually being clocked any higher than PC2700). They&amp;rsquo;ve got coverage on disassembly with lots of pictures (opening it up and stripping it down to bare components).</description>
+    </item>
+    
+    <item>
+      <title>Bit the Bullet</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/21/bit-the-bullet/</link>
+      <pubDate>Fri, 21 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/21/bit-the-bullet/</guid>
+      <description>Finally bit the bullet and ordered myself a Mac mini. There&amp;rsquo;s a good 3-4 week lead time on them currently, so I still have time to back out if I get cold feet. But I&amp;rsquo;ve been wanting a machine that&amp;rsquo;d run OS X for some time now. Every so often I look into &amp;ldquo;cheap&amp;rdquo; used Macs on fleabay, but have always been thwarted by the remarkably high prices that old Macs go for.</description>
+    </item>
+    
+    <item>
+      <title>Mac mini Dissection</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/19/mac-mini-dissection/</link>
+      <pubDate>Wed, 19 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/19/mac-mini-dissection/</guid>
+      <description>It was only a matter of time. Someone got their hands on one of the new Mac minis and figured out how to open it without destroying it (Slashdot). Some fellow has the video up on his blog (wonder how long he&amp;rsquo;ll survive the slashdot effect). I&amp;rsquo;ve managed to snag the video already, so if he does go down, I may make it available to interested parties. A review site has also gotten their hands on a bare motherboard.</description>
+    </item>
+    
+    <item>
+      <title>Mac mini</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/01/12/mac-mini/</link>
+      <pubDate>Wed, 12 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/01/12/mac-mini/</guid>
+      <description>So the Macworld Expo started yesterday. The big deal as I see it is the announcement of the Mac mini. That&amp;rsquo;s actually got me kinda excited. It&amp;rsquo;s a cute, little sub-$500 Mac that&amp;rsquo;ll run OS X. The dimensions on this thing are quite impressive (6.5&amp;quot; x 6.5&amp;quot; x 2&amp;quot;). That&amp;rsquo;s awful tiny. Comes with a 1.25GHz G4, a 40GB ATA HDD, DVD/CD-RW, 256MB DDR RAM, 32MB Radeon 9200 DVI, and the usual plethora of I/O (10/100 ethernet, modem, audio out, Firewire, USB2).</description>
+    </item>
+    
+    <item>
+      <title>Firefox 1.0!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/11/10/firefox-10/</link>
+      <pubDate>Wed, 10 Nov 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/11/10/firefox-10/</guid>
+      <description>Firefox made it&amp;rsquo;s 1.0 release yesterday. If you haven&amp;rsquo;t tried this attractive alternative to IE, go do so now! It&amp;rsquo;s substantially faster than old Mozilla/Netscape, standards compliant (unlike IE), less likely to allow your machine to be filled with spyware (unlike IE), has all sorts of cool extensions to add additional functionality (even redefine existing functionality)&amp;hellip; oh and it won&amp;rsquo;t give you the plague either (unlike IE)! ;) It&amp;rsquo;s just dripping in plague juice!</description>
+    </item>
+    
+    <item>
+      <title>New Dell 20&#34; LCD</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/11/04/new-dell-20-lcd/</link>
+      <pubDate>Thu, 04 Nov 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/11/04/new-dell-20-lcd/</guid>
+      <description>So apparently Dell is now shipping a 20&amp;quot; widescreen LCD ala the Apple Cinema dispay. Looks like it&amp;rsquo;s got pretty sweet specs in addition to being priced several hundred less than Apple&amp;rsquo;s. Now if only Dell would have some outrageous deal on it. :)
+ 1680x1050 resolution 16:10 aspect ratio 16ms refresh (12ms gray-to-gray) 600:1 contrast ratio 300cd/m2 brightness analog (VGA) and digital (DVI) inputs, as well as video inputs for S-video and composite connections Picture-in-Picture and picture-by-picture support four USB2.</description>
+    </item>
+    
+    <item>
+      <title>MP3 Players</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/26/mp3-players/</link>
+      <pubDate>Tue, 26 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/26/mp3-players/</guid>
+      <description>So I&amp;rsquo;ve been drooling over new MP3 players recently. There&amp;rsquo;s been all sorts of activity in iPod-land. You&amp;rsquo;ve got the 4th gen iPods that bump battery life up to ~12 hours per charge. You&amp;rsquo;ve got the U2 Special Edition iPod that comes in a snazzy black color scheme with a sharply contrasting red click-wheel, band member autographs engraved on the back, and a $50 iTunes coupon good toward the purchase of &amp;ldquo;The Complete U2&amp;rdquo; (I&amp;rsquo;m guessing that only partially covers the price of admission, and isn&amp;rsquo;t all that great a deal since they&amp;rsquo;ve bumped up the price of the unit by $50).</description>
+    </item>
+    
+    <item>
+      <title>Dual-Core CPU article</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/24/dual-core-cpu-article/</link>
+      <pubDate>Sun, 24 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/24/dual-core-cpu-article/</guid>
+      <description>Saw an interesting CPU-related post over at /.. There&amp;rsquo;s a good article over at Anandtech summarizing what&amp;rsquo;s currently known about near-term dual-core CPUs, along with some of their predictions.</description>
+    </item>
+    
+    <item>
+      <title>del.icio.us</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/10/14/delicious/</link>
+      <pubDate>Thu, 14 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/10/14/delicious/</guid>
+      <description>So everyone&amp;rsquo;s been raving about this del.icio.us thing. Essentially, it&amp;rsquo;s a big online, social bookmarking site. You set up an account, add your bookmarks to it, and categorize them with tags of your choosing (i.e. instead of simple folders, you can associate a link with tags &amp;ldquo;programming&amp;rdquo; and &amp;ldquo;C&amp;rdquo; so that you can access it when you click on either the programming or C categories). Social aspect comes into play when you look at who else has posted a given bookmark, or who else has posted stuff in a given category, or what the most popular links of the day are, etc etc etc.</description>
+    </item>
+    
+    <item>
+      <title>Firefox: SwitchProxy</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/09/22/firefox-switchproxy/</link>
+      <pubDate>Wed, 22 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/09/22/firefox-switchproxy/</guid>
+      <description>Ran across SwitchProxy for Firefox. Looks pretty cool. Basically you can set it up to download a list of open anonymous proxy servers, and hop between them at a specified interval (ie every minute it looks like you&amp;rsquo;re surfing from a different IP). Good deal for anyone who&amp;rsquo;s a little concerned about anonymity.</description>
+    </item>
+    
+    <item>
+      <title>Die Spyware Die!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/09/05/die-spyware-die/</link>
+      <pubDate>Sun, 05 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/09/05/die-spyware-die/</guid>
+      <description>Spyware and Adware are really icky. At the moment, I&amp;rsquo;m using a three-pronged approach:
+ Ad-Aware is designed to provide advanced protection from known Data-mining, aggressive advertising, Parasites, Scumware, selected traditional Trojans, Dialers, Malware, Browser hijackers, and tracking components. You fire it up and it scans your hard disk for nasty crap that has invited itself in. Been using this for a long time. Spybot Search &amp;amp; Destroy is pretty similar, but can catch some stuff that Ad-Aware misses (as Ad-Aware will catch some stuff that Spybot misses).</description>
+    </item>
+    
+    <item>
+      <title>Even more Gmail</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/08/30/even_more_gmail/</link>
+      <pubDate>Mon, 30 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/08/30/even_more_gmail/</guid>
+      <description>I haven&amp;rsquo;t had much luck getting the GNOME GTray app to work under Fedora. Dug around a little bit, and came up with a Firefox extension that largely does the trick (although you should probably just go to the front page and look for the newest version). Now I have to check my browser window to see if I&amp;rsquo;ve got new Gmail as opposed to simply looking at the GNOME system tray, but at least it works.</description>
+    </item>
+    
+    <item>
+      <title>Gmail Hacks/Utils</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/08/29/gmail_hacksutils/</link>
+      <pubDate>Sun, 29 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/08/29/gmail_hacksutils/</guid>
+      <description>Been poking around looking for useful/interesting add-ons for Gmail. Here&amp;rsquo;s a few I&amp;rsquo;ve come up with:
+ Gmail notifier - Windows tray app that checks for new mail, sets Gmail as the default mailto handler, official Google add-on GNOME GTray - notifier for Linux GML (GMail loader) - import mail from your old mail client (supports a wide variety) gExodus  graphical import util   FreePOPs - POP3 interface for a variety of webmails, including Gmail GmailFS  turns a Gmail account into a mountable Linux filesystem    </description>
+    </item>
+    
+    <item>
+      <title>Gmail!!!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/08/27/gmail/</link>
+      <pubDate>Fri, 27 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/08/27/gmail/</guid>
+      <description>Just got my hands on a Gmail account thanks to a very nice person from Oswego, NY. Many thanks to her. People who know me, I&amp;rsquo;ll hook you up as soon as I have any invites (let me know if you&amp;rsquo;re interested).</description>
+    </item>
+    
+    <item>
+      <title>MS on Linux</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/08/10/ms_on_linux/</link>
+      <pubDate>Tue, 10 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/08/10/ms_on_linux/</guid>
+      <description>So apparently, MS is actually testing out Linux now before making their claims that Windows is better. The part I found most entertaining was a quote from a former IBM Linux supporter who&amp;rsquo;s been hired on at MS. &amp;ldquo;There&amp;rsquo;s no set architecture in Linux. All roads lead to madness.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>The Screensavers</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/08/06/the_screensavers/</link>
+      <pubDate>Fri, 06 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/08/06/the_screensavers/</guid>
+      <description>So I&amp;rsquo;ve been pretty religiously watching The Screensavers on G4/TechTV since I noticed the cable company added it to the lineup. Pretty entertaining show, and they sometimes have some cool bits on there. This past week they had a Best of: Free and Cheap episode detailing a number of free/cheap downloads and tips. I found a couple of segments of particular interest:
+ Linksys WRT54G - a lot of the Linksys network hardware runs Linux, and so they&amp;rsquo;ve had to release the source under GPL.</description>
+    </item>
+    
+    <item>
+      <title>Leather?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/08/02/leather/</link>
+      <pubDate>Mon, 02 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/08/02/leather/</guid>
+      <description>Ok. So I was poking around Gamestop, and ran across this. Can you believe it? For those of you who just couldn&amp;rsquo;t get enough leather, a leather computer mouse?
+Anyway, I can&amp;rsquo;t wait till Doom 3 hits shelves, hopefully tomorrow. Now I just have to wait for Half-Life 2, which looks awesome.</description>
+    </item>
+    
+    <item>
+      <title>Ebay Auctions: Tools and ...?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/07/15/ebay_auctions_tools_and_/</link>
+      <pubDate>Thu, 15 Jul 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/07/15/ebay_auctions_tools_and_/</guid>
+      <description>So, can anyone tell me what&amp;rsquo;s not quite right about this ebay store?</description>
+    </item>
+    
+    <item>
+      <title>GPS?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/07/15/gps/</link>
+      <pubDate>Thu, 15 Jul 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/07/15/gps/</guid>
+      <description>So earlier this week I noticed they had added an LED array display inside every bus. Reason I noticed this is because one of them was randomly displaying some info. Most of it was debugging stuff. What&amp;rsquo;s the version number of this unit, how much memory does it have, what time/day is it (which was totally wrong), etc. You get the idea. Occasionally, it would scroll street intersection info across the screen (like &amp;ldquo;PROSPECT AND KIRBY&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>Rant: Phriggin&#39; Philips</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/07/15/rant_phriggin_philips/</link>
+      <pubDate>Thu, 15 Jul 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/07/15/rant_phriggin_philips/</guid>
+      <description>So I have officially sworn off Philips. Not the screwdriver, the electronic manufacturer. I was a little confused when I pulled the dead/flaky CDRW/DVD drive out of Amanda&amp;rsquo;s folk&amp;rsquo;s computer last week when it turned out to be a Philips instead of some no name manufacturer. Seemed a little odd that something they made would give out in a year and a half of normal use. Turns out it may be par for the course.</description>
+    </item>
+    
+    <item>
+      <title>OS X</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/25/os_x/</link>
+      <pubDate>Tue, 25 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/25/os_x/</guid>
+      <description>Looks like you actually can emulate a PPC on an x86 well enough to install OS X. It&amp;rsquo;s still a little on the slow side (basic emulation results in 500:1 slowdown over the host processor, while their JIT compiler for x86 brings that up to more like 40:1 slowdown since they cache the translated code), but the project seems pretty active, and there&amp;rsquo;s lots of room for improvement. Still pretty need to see Mac OS X running on a PC (either Windows or Linux, but I&amp;rsquo;ve just tried Linux at this point).</description>
+    </item>
+    
+    <item>
+      <title>Emulate PPC on x86?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/19/emulate_ppc_on_x86/</link>
+      <pubDate>Wed, 19 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/19/emulate_ppc_on_x86/</guid>
+      <description>I must be in one heck of a blogging mood today. I saw this Slashdot post and thought it sounded pretty sweet. Turns out, they&amp;rsquo;ve released a GPL&amp;rsquo;d PPC emulator for x86 that is actually capable of booting OS X. Here&amp;rsquo;s the OS-News article that includes all the pretty pictures. Sounds like it&amp;rsquo;s still got a few problems (reviewer ran into a few infinite loop explosions once OS X had started, and it guzzles the whole CPU), but it actually kinda worked.</description>
+    </item>
+    
+    <item>
+      <title>Fedora Core 2</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/19/fedora_core_2/</link>
+      <pubDate>Wed, 19 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/19/fedora_core_2/</guid>
+      <description>So Fedora Core 2 is officially out. I actually snagged it a few days early thanks to this Slashdot post that included this friendly torrent. Spent a while getting it up and running under VMware and it looked pretty good. Just when I starting to think about updating my RH9 box, the computer up and imploded on me. I&amp;rsquo;m not sure what happened, but suddenly X refused to start and I couldn&amp;rsquo;t even get it to give me access to a text console so that I could back everything up and reinstall.</description>
+    </item>
+    
+    <item>
+      <title>Fedora Core 2: Tettnang</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/19/fedora_core_2_tettnang/</link>
+      <pubDate>Wed, 19 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/19/fedora_core_2_tettnang/</guid>
+      <description>So I was kinda curious what the story was behind the name for FC2 (Tettnang). Honestly, I was a little curious about FC1 (Yarrow), but never looked into it. Historically, Redhat has largely stuck with a naming convention where each release name relates to the immediate predecessor in some way, but not that predecessor&amp;rsquo;s predecessor (grandparent?). Anyway, this page at the Fedora site seems to cover it to some extent, and here&amp;rsquo;s a little more discussion on what some of those release names mean (and how they relate) (even more here).</description>
+    </item>
+    
+    <item>
+      <title>Job Predictor</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/19/job_predictor/</link>
+      <pubDate>Wed, 19 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/19/job_predictor/</guid>
+      <description>Here&amp;rsquo;s a silly little webpage I Richy clued me into. It supposedly predicts your ideal career based on your name (since it&amp;rsquo;s probably based on some sort of hash function or something, inclusion of middle and/or last name may improve your career path). For example:
+ Derek, Your ideal jobs is a Kids TV Presenter Derek Gottlieb, Your ideal job is a Bearded Lady in the circus. Derek Brendan Gottlieb, Your ideal job is a Office numpty.</description>
+    </item>
+    
+    <item>
+      <title>A4 paper</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/05/14/a4_paper/</link>
+      <pubDate>Fri, 14 May 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/05/14/a4_paper/</guid>
+      <description>So I finally have the remotest clue what the deal is with A4 paper (and as a result why the rest of the world feels the need to use it and screw up my print jobs, and make life difficult in LaTeX sometimes). Basically, there&amp;rsquo;s a slashdot post on it that points to this page that discusses some of the ideas behind why A4 is the size it is. Apparently all metric paper has a height-to-width ratio of the square root of 2.</description>
+    </item>
+    
+  </channel>
+</rss>

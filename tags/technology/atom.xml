@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/technology/atom/index.xml</link>
+    <description>Recent content in Technology on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://thoughts.derekgottlieb.com/tags/technology/atom/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>#define luddite</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/03/25/define-luddite</link>
+      <pubDate>Sat, 25 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/03/25/define-luddite</guid>
+      <description>&lt;p&gt;Pronunciation:  &amp;lsquo;l&amp;amp;-&amp;ldquo;dIt
+Function:   &lt;em&gt;noun&lt;/em&gt;
+Etymology:  After Ned Ludd, an English laborer who was supposed to have destroyed weaving machinery around 1779.
+&lt;strong&gt;1&lt;/strong&gt; : Any of a group of British workers who between 1811 and 1816 rioted and destroyed laborsaving textile machinery in the belief that such machinery would diminish employment.
+&lt;strong&gt;2&lt;/strong&gt; : One who opposes technical or technological change.&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href=&#34;http://www.thefreedictionary.com/dict.asp?Word=luddite&#34;&gt;Source&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

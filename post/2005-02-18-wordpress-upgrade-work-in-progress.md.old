@@ -1,0 +1,17 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-02-18'
+slug: wordpress-upgrade-work-in-progress
+title: WordPress upgrade... work in progress
+url: /2005/02/18/wordpress-upgrade-work-in-progress
+wordpress_id: 811
+---
+
+
+Slowly making progress on the transition to 1.5.  You'll note I sorta have the links back up in the header, but they aren't formatted like the rest of the site quite yet...  And I still need to integrate the rest of the site with the new theme code instead of having to keep around the old blog code.
+
+I've made a mock-up of the malkier frontpage that you can see [here](http://malkier.com/?page_id=810).  The style is mostly on target, but I need to figure out how to hack the title of the page (currently showing up as "Malkier: Blog >>"), and how to make it come up from the main page for the site (and hopefully have the url formatted like the main page as opposed to linking into the blog).  Surprisingly simple to add the page in though.
+
+Oh, and I've noticed my list of monthly archives is getting a little long (and likely to get quite long if I leave it this way).  Should look into alternatives (small calendar-like monthly view with forward/back buttons or month/year pulldown menus or something like that).

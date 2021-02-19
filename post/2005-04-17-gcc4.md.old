@@ -1,0 +1,15 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-04-17'
+slug: gcc4
+title: GCC4
+url: /2005/04/17/gcc4
+wordpress_id: 835
+---
+
+
+So apparently GCC4 should be released before too long.  Release candidates are out and release date is set for some time in April.  Recently found out Fedora Core 4 will include it, which made me a little wary of trying it out (seems like it took a while for the GCC3 release to settle down and for apps to fix compatibility issues).  Weird thing is, I was looking through a [feature comparison for OS X](http://www.apple.com/macosx/upgrade/compare.html) (Tiger.4 vs Panther.3 vs Jaguar.2) and noticed that the upcoming Tiger release will also rely on GCC4.  While I realize Apple's undoubtably made all sorts of changes (included in the apple-local-200502-branch no less), I'm a little surprised they're quite so bleeding edge.  I mean GCC4 hasn't hit final release status yet and I know Tiger has already [gone gold and had it's release date set](/blog/2005/04/12/tiger-release-date-set).  Wonder how long it'll be before a 10.4.1 patch is released?
+
+[![osx](/old-wp-images/topicaposx.gif)](http://www.apple.com/macosx/)

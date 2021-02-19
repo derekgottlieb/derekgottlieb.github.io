@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zfs on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/zfs/</link>
+    <description>Recent content in zfs on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/zfs/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Btrfs production experiences</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/</guid>
+      <description>&lt;p&gt;My experience is based on SUSE SLES 11 SP1/SP2 with a stock kernel, so YMMV if
+you&amp;rsquo;re running a newer mainline kernel without all the backports.&lt;/p&gt;
+&lt;p&gt;I tested on two Supermicro systems. One with an LSI HBA card with 22x 2TB
+enterprise SATA drives (originally purchased to run OpenSolaris/ZFS). Second
+has an Adaptec hardware RAID controller with 36x 2TB enterprise SATA drives.
+Some of the data loss and stability issues I experienced may be attributed to
+later discovering the &amp;ldquo;enterprise&amp;rdquo; drives used in the first system turned out
+to be less RAID-friendly than the manufacturer claimed, eventually leading to
+them to replace ALL of my drives with a different model.&lt;/p&gt;
+&lt;p&gt;Btrfs was a preview in SLES SP1 and is &amp;ldquo;supported&amp;rdquo; in SP2 but with major
+restrictions if you wanted a supported configuration. Support in SP2 requires
+that you create btrfs filesystems using Yast and live with the limited options
+it allows.  I&amp;rsquo;m guessing what you can do via Yast is the subset of features
+they tested enough to be willing to try and support.  I tried using Yast to set
+up btrfs on one of our systems, but found their constraints too limiting given
+my use case and the organization I&amp;rsquo;d settled on in the SP1 days.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

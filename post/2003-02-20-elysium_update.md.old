@@ -1,0 +1,21 @@
+---
+categories:
+- Geek
+comments: true
+date: '2003-02-20'
+slug: elysium_update
+title: Elysium update
+url: /2003/02/20/elysium_update
+wordpress_id: 19
+---
+
+
+I think I've figured out what's been troubling [Elysium](http://malaise.no-ip.com/~dgottlie/specs/elysium.html) as of recent.  After trying all sorts of stuff (updating my drivers, reinstalling the system from scratch several times, swapping out RAM, switching all partitions in the system over to NTFS...), I finally noticed that the fan on the video card is dead.  That would likely account for some of my problems (ie chunky video whenever I stress the video card by going to full screen or doing any 3d).  Contacted tech support and in theory a replacement fan has been shipped out to me.    
+  
+
+
+Crossing my fingers that this fixes it (and I didn't torch the GF4 chip during the uptime between when the fan failed and when I finally noticed it and shut down the machine).    
+  
+
+
+Stay tuned true believers for further updates...

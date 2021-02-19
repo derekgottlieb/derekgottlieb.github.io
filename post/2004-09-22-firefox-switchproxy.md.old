@@ -1,0 +1,13 @@
+---
+categories:
+- Geek
+comments: true
+date: '2004-09-22'
+slug: firefox-switchproxy
+title: 'Firefox: SwitchProxy'
+url: /2004/09/22/firefox-switchproxy
+wordpress_id: 766
+---
+
+
+Ran across [SwitchProxy](http://jgillick.nettripper.com/switchproxy/) for Firefox.  Looks pretty cool.  Basically you can set it up to download a list of open anonymous proxy servers, and hop between them at a specified interval (ie every minute it looks like you're surfing from a different IP).  Good deal for anyone who's a little concerned about anonymity.

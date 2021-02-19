@@ -1,0 +1,21 @@
+---
+categories:
+- Geek
+comments: true
+date: '2005-05-04'
+slug: adium-x-080
+title: Adium X 0.80
+url: /2005/05/04/adium-x-080
+wordpress_id: 852
+---
+
+
+Looks like there's a new version of [Adium X](http://www.adiumx.com/) out.  Looks like there's all sorts of new stuff in this release:
+
+
+
+> Adium 0.80 brings a completely new status system with available messages and invisibility on supported protocols, built-in secure encrypted messaging via [Off-the-Record Messaging](http://www.cypherpunks.ca/otr/), the long-awaited file transfer progress interface, customizable built-in [Growl](http://growl.info/) notification system support, blocking, customizable service and status icons, full OS X 10.4 compatibility, and much, much more.
+
+
+
+In addition to full Tiger compatibility (I fired the old version up in my test install and the basics appeared to work just fine), the big thing of interest to me is the OTR crypto stuff.  Apparently it's available for [Gaim](http://gaim.sourceforge.net) as well, so I'm going to have to check that out.  Been wanting a better crypto setup for IM (not that anyone I know actually uses it too), and it certainly sounds interesting.  You'll have to check their site for further details, but it provides some nice features (deniability and perfect forward security).  The tinfoil hat crowd should definitely check this out.

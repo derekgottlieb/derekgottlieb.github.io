@@ -1,0 +1,16 @@
+---
+categories:
+- Geek
+- HPC
+comments: true
+date: '2005-10-21'
+slug: great-quote-at-ibm-day
+title: Great quote at IBM day
+url: /2005/10/21/great-quote-at-ibm-day
+wordpress_id: 901
+---
+
+
+Heard this great quote from the late/great Seymour Cray: "If you were plowing a field, which would you rather use: Two strong oxen or 1024 chickens?"  Apparently he said this in response to a question about the growing use of large clusters of commodity PCs for supercomputing applications.  Traditional wisdom would suggest it's much better to design the heck out of two very powerful processors and ease the parallel programming burden to achieve high performance.  Historically it's been much more difficult to parallelize an application over large numbers of less powerful processors, and equally difficult to beat out the oxen.
+
+This was brought up yesterday in the context of IBM's Blue Gene line of supercomputers.  The NEC Earth Simulator previously held the crown with 35 gigaflops or something absurd like that (and required an equally absurd custom building to house it), and have 5,120 processors.  IBM through sanity to the wind and dreamt up Blue Gene which heads in the opposite direction: very large numbers of low-power embedded processors.  At the moment, Blue Gene systems hold like 5 of the top 10 slots (including #1 and #2) on the list of the [Top 500 Supercomputers](http://www.top500.org/lists/plists.php?Y=2005&M=06), and go up to 65,536 processors.  They'd even mentioned a Blue Gene with 131k processors.  And they're actually managing to parallelize programs on these beasts using 100k+ processors at once (when no one else in the industry has accomplished this for even 10k?).  Wild stuff.  Oh, and if I understood correctly, two Blue Gene racks equalled the number of flops churned out by that full building worth of the Earth Simulator...

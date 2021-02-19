@@ -1,0 +1,17 @@
+---
+categories:
+- Work
+comments: true
+date: '2003-02-05'
+slug: beginnings_of_coherency_and_the_mess_we_call_a_gui
+title: '"Beginnings of Coherency" and the "Mess we call a GUI"'
+url: /2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui
+wordpress_id: 12
+---
+
+
+So my local data caches finally started doing stuff today.  Cluster 0 requests M[0x0].  The main cache sends all words in that local cache line and informs cluster 0 that it has exclusive access.  Cluster 1 then requests M[0x0].  The main cache informs Cluster 0 that the block is now shared and waits for an ACK to confirm that it hasn't become modified.  Pretty sweet!  I may actually have it all up and running before much longer.  
+  
+
+
+Oh, and I keep finding bugs and other annoyances in the GUI.  It's just not all that useful for debugging the simulator in its current state.  If I'm lucky, maybe I'll actually get Chi-Wei to fix some of the more glaring problems... especially if I get annoyed enough to post my thoughts to the mailing list and let everyone else know (particularly Nick).

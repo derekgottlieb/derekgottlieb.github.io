@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ios on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/ios/</link>
+    <description>Recent content in ios on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Nov 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/ios/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Locking your Mac based on iPhone proximity</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2012/11/21/locking-your-mac-based-on-iphone-proximity/</link>
+      <pubDate>Wed, 21 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2012/11/21/locking-your-mac-based-on-iphone-proximity/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; I should note I only partially sorted out getting this to actually
+work.  Probably requires more tinkering and may be best to just go get an app
+that does the lock/unlock for you.&lt;/p&gt;
+&lt;p&gt;This procedure is roughly based on &lt;a href=&#34;http://bazscott.com/blog/2012/10/09/lock-your-mac-when-your-iphone-is-out-of-range/&#34;&gt;Lock Your Mac When Your iPhone Is Out of
+Range&lt;/a&gt;.
+I&amp;rsquo;d seen this in the past, but never got around to figuring out how to set it
+up.  Since I&amp;rsquo;ve got an iPhone with good battery life, leaving Bluetooth on
+isn&amp;rsquo;t as scary as it was on my old Android phone, so I thought I&amp;rsquo;d give it a
+shot.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve gone the extra steps of figuring out how to retrieve your password from
+Keychain in order to do the unlock.  The sample unlock AppleScript in that post
+suggests storing your Mac account password in plain text in the script (not so
+great) and offers that you can save your script as &amp;ldquo;Run-only&amp;rdquo; to obfuscate it.
+I tried that for kicks and while the script itself is obfuscated, your plain
+text password is still there if you just cat the file.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adieu Android, or bienvenue iPhone!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2011/12/23/adieu-android-or-bienvenue-iphone/</link>
+      <pubDate>Fri, 23 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2011/12/23/adieu-android-or-bienvenue-iphone/</guid>
+      <description>&lt;p&gt;My foray into the world of Android phones is finally at an end, and am now the
+owner of a shiny iPhone 4S.  It was an interesting experiment, and there were a
+few features that I will miss that I haven&amp;rsquo;t found a way to do on the iPhone,
+but the Android experience finally got bad enough (and I hit my 2 year contract
+anniversary) to push for a phone upgrade at work.  There were just too many
+issues with my Droid and Android in general from a usability standpoint to
+suffer it any further.  Issues with the Android ecosystem (at least as I&amp;rsquo;ve
+been able to experience it&amp;hellip; maybe 4.0 will really start to address some of
+their problems):&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

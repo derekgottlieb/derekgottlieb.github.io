@@ -1,0 +1,225 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="D.G.">
+		<meta name="description" content="">
+		<meta name="generator" content="Hugo 0.75.1" />
+		<title>Distributed Monoliths &middot; Thoughts</title>
+		<link rel="shortcut icon" href="https://thoughts.derekgottlieb.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/style.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/highlight.css">
+		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/dbgcustom.css">
+                
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-16x16.png" sizes="16x16">
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+		<a href='https://thoughts.derekgottlieb.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://thoughts.derekgottlieb.com/atom.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Distributed Monoliths</h1>
+                    <h2 class="headline">
+                    June 7, 2015 
+                    <br>
+                    
+                    
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/programming">programming</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/monolith">monolith</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/microservices">microservices</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/books">books</a>
+                        
+                            <a href="https://thoughts.derekgottlieb.com/tags/rants">rants</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>As part of developing RESTful HTTP APIs at work, there&rsquo;s been a lot of
+discussion over the &ldquo;best&rdquo; way to architect/implement everything. To avoid
+relying strictly on my own instincts and relearning mistakes that many others
+have already learned from, I&rsquo;ve been reading O&rsquo;Reilly&rsquo;s <a href="http://shop.oreilly.com/product/0636920033158.do">Building
+Microservices</a>. I haven&rsquo;t
+finished it yet, but have gotten a lot out of what I&rsquo;ve read so far (and been
+pleased to see that my instincts have been largely supported by someone who&rsquo;s
+experienced implementing such systems).</p>
+<p>The chapter on Integration presents the idea of &ldquo;the shared database&rdquo; <!-- raw HTML omitted -->[<a href="#buildingmicroservices%5D">p.
+41, 1</a>]<!-- raw HTML omitted --> as possibly the most common and
+<em>seemingly</em> simple form of integration between different services. You&rsquo;ve split
+your environment into multiple applications/services, but decided the way they
+should operate on shared data is by hooking directly into the same database.  I
+found this section especially interesting because this approach has been
+championed by some around the office, but I had strong concerns about it and
+many of those were highlighted in the book.</p>
+<ol>
+<li>The database schema becomes a large shared API. Any schema changes you want
+to make (e.g., improved data representation, new logic in one service
+requires table changes, etc) now requires careful planning and regression
+testing to avoid breaking any of the services that interact with the
+database.</li>
+<li>You&rsquo;ve lost loose coupling between your services because you can no longer
+change implementation details (e.g., moving from an RDBMS to a NoSQL system)
+because every consumer that interacts with it is tightly coupled to those
+low-level implementation details. This can also introduce restrictions on
+the technology choices for consumers since they&rsquo;ll be limited to options
+that have the required driver support.</li>
+<li>Major DRY violations / loss of cohesion. Logic associated with interacting
+with the data in the database is now spread across every consumer. You&rsquo;re
+forced to replicate code and have to remember to update it everywhere, which
+is likely to be an error prone process.</li>
+</ol>
+<p>After thinking about it, I decided this approach is effectively building a
+<strong>distributed monolith</strong>. As with most clever things I think up, I&rsquo;m not the
+first to coin this term and a quick Googling turns up a handful of unique
+sources. Oddly enough, one was posted the same day I wrote this post. At least
+it was close to having a novel thought. Oldest reference I could find dates
+back ~7 months to November 2014. Oh well. At least it wasn&rsquo;t yet another thing
+everyone&rsquo;s excited they &ldquo;invented&rdquo; that IBM had already done back in the 1960s
+(and everyone promptly forgot about).</p>
+<p><!-- raw HTML omitted -->1<!-- raw HTML omitted -->: Sam Newman. <em>Building Microservices</em>. O&rsquo;Reilly Media, 2015.</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+            
+            &lt;&lt;&lt; <a class="basic-alignment left" href="https://thoughts.derekgottlieb.com/blog/2015/10/09/blog-software-du-jour-hugo/" title="Older Post: Blog software du jour - Hugo">Blog software du jour - Hugo</a>
+            
+            -----
+            
+            <a class="basic-alignment right" href="https://thoughts.derekgottlieb.com/blog/2015/04/27/because-im-a-princess/" title="Newer Post: Because I&#39;m a Princess!">Because I&#39;m a Princess!</a> >>>
+            
+            </footer>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/derekgottlieb">
+                        <img class="avatar" src="https://thoughts.derekgottlieb.com/images/avatar.png">
+                        <div>
+                            <span class="dark">D.G.</span>
+                            <span>Trained in the ancient art of yak shaving</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fthoughts.derekgottlieb.com%2fblog%2f2015%2f06%2f07%2fdistributed-monoliths%2f - Distributed%20Monoliths by @derekgottlieb"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/06/3d-print-extra-car-cup-holders/">3D Print: Extra Car Cup Holders<aside class="dates">Nov 6 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-usb-stylus-holder/">3D Print: USB Stylus Holder<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/03/3d-print-collapsible-dice-tower/">3D Print: Collapsible Dice Tower<aside class="dates">Nov 3 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-wine-bottle-bird-feeder/">3D Print: Wine Bottle Bird Feeder<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/02/3d-print-dragon-eggs-with-escher-lizards/">3D Print: Dragon Eggs with Escher Lizards<aside class="dates">Nov 2 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-playing-card-case/">3D Print: Playing Card Case<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-basalt-pencil-holder/">3D Print: Basalt Pencil Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-baby-dragon-pen-holder/">3D Print: Baby Dragon Pen Holder<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/11/01/3d-print-cute-dragon/">3D Print: Cute Dragon<aside class="dates">Nov 1 2020</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://thoughts.derekgottlieb.com/blog/2020/10/31/3d-print-chip-bag-clip/">3D Print: Chip Bag Clip<aside class="dates">Oct 31 2020</aside></a>
+        </li>
+    
+</ul>
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/derekgottlieb">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/derekgottlieb">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2021 D.G.
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/main.js"></script>
+<script src="https://thoughts.derekgottlieb.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

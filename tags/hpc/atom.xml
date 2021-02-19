@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hpc on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/hpc/</link>
+    <description>Recent content in hpc on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 20:46:56 -0500</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/hpc/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Stress Tests</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2016/06/01/system-stress-tests/</link>
+      <pubDate>Wed, 01 Jun 2016 20:46:56 -0500</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2016/06/01/system-stress-tests/</guid>
+      <description>I recently received a question about SGI&amp;rsquo;s pandora after someone found my run-pandora.sh script in my hpc-admin-scripts repo. They were looking for a way to test a server with a fair bit of memory in a short amount of time. They&amp;rsquo;d tried Memtest86 and found it to be incredibly slow when running single-threaded or proved too unstable when running on all cores. When they found my repo, they figured it&amp;rsquo;d be worth asking about pandora in the hopes it would be appropriate for their needs.</description>
+    </item>
+    
+    <item>
+      <title>NUMA and torque/Moab</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2013/05/09/numa-and-torque-slash-moab/</guid>
+      <description>&lt;p&gt;TL;DR Support for NUMA systems in torque/Moab breaks existing means of
+specifying shared memory jobs and limits scheduling flexibility in
+heterogeneous compute environments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Btrfs production experiences</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/</guid>
+      <description>&lt;p&gt;My experience is based on SUSE SLES 11 SP1/SP2 with a stock kernel, so YMMV if
+you&amp;rsquo;re running a newer mainline kernel without all the backports.&lt;/p&gt;
+&lt;p&gt;I tested on two Supermicro systems. One with an LSI HBA card with 22x 2TB
+enterprise SATA drives (originally purchased to run OpenSolaris/ZFS). Second
+has an Adaptec hardware RAID controller with 36x 2TB enterprise SATA drives.
+Some of the data loss and stability issues I experienced may be attributed to
+later discovering the &amp;ldquo;enterprise&amp;rdquo; drives used in the first system turned out
+to be less RAID-friendly than the manufacturer claimed, eventually leading to
+them to replace ALL of my drives with a different model.&lt;/p&gt;
+&lt;p&gt;Btrfs was a preview in SLES SP1 and is &amp;ldquo;supported&amp;rdquo; in SP2 but with major
+restrictions if you wanted a supported configuration. Support in SP2 requires
+that you create btrfs filesystems using Yast and live with the limited options
+it allows.  I&amp;rsquo;m guessing what you can do via Yast is the subset of features
+they tested enough to be willing to try and support.  I tried using Yast to set
+up btrfs on one of our systems, but found their constraints too limiting given
+my use case and the organization I&amp;rsquo;d settled on in the SP1 days.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The cost of supercomputing</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2010/11/12/the-cost-of-supercomputing/</link>
+      <pubDate>Fri, 12 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2010/11/12/the-cost-of-supercomputing/</guid>
+      <description>&lt;p&gt;So this upcoming week is the big annual supercomputing convention,
+&lt;a href=&#34;http://sc10.supercomputing.org&#34;&gt;SC10&lt;/a&gt;, down in New Orleans.  Since I&amp;rsquo;m
+skipping out (anxiously waiting for the arrival of Little Miss Sunshine), I&amp;rsquo;ve
+got time to actually try and read through the slew of new product announcements
+and news coverage.  So today I saw this quote on twitter from
+&lt;a href=&#34;http://twitter.com/hpc_guru&#34;&gt;hpc_guru&lt;/a&gt; and just had to share:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Cost of the building next generation of supercomputers is not the problem. The cost of running the machines is what concerns engineers.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rackable acquires SGI?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2009/04/01/rackable-acquires-sgi/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2009/04/01/rackable-acquires-sgi/</guid>
+      <description>Well this is certainly not something I expected. SGI is one of the few HPC vendors out there that I&amp;rsquo;m aware of who are still doing neat things with hardware. We&amp;rsquo;ve got some of their large SMP Itanium boxes on the floor where I work, and I think they&amp;rsquo;re pretty slick machines. Pricy, but slick. And so far their support is about the best I&amp;rsquo;ve dealt with. That&amp;rsquo;s not saying their perfect (try getting a CXFS guru on the phone when you need one without sitting on a major outage for several hours), but they generally seem better than most of the other HPC vendors I&amp;rsquo;ve worked with (IBM, Cray).</description>
+    </item>
+    
+    <item>
+      <title>The Woz takes job at Fusion-io</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2009/02/08/the-woz-takes-job-at-fusion-io/</link>
+      <pubDate>Sun, 08 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2009/02/08/the-woz-takes-job-at-fusion-io/</guid>
+      <description>So this story has been all over the place (at least if you read computing/HPC news). Steve Wozniak, co-founder of Apple Computer and designer of the historically significant Apple I and Apple II, took a job as chief scientist at a startup I was already aware of, Fusion-io. They&amp;rsquo;ve been designing PCIe boards loaded with flash memory to deliver super high performance storage to servers and maybe high-end gamers. In theory it&amp;rsquo;s using similar technology to SSDs, but they&amp;rsquo;re able to achieve significantly higher bandwidth and IOPs than has been achieved in an SSD that is focused on stuffing flash into a conventional SATA hard drive form factor.</description>
+    </item>
+    
+    <item>
+      <title>Savannah</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2008/03/19/savannah/</link>
+      <pubDate>Wed, 19 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2008/03/19/savannah/</guid>
+      <description>Took a trip for work back in December to provide cluster training for some of the engineers at Gulfstream. Seems like we also did some very minor maintenance on the cluster we administer there. Anyway, I brought the camera along and had a chance to take a few pics while wandering around the riverfront. Only got around to pulling them off my camera today, so here they are:</description>
+    </item>
+    
+    <item>
+      <title>Life in Alabama</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2007/08/25/life-in-alabama/</link>
+      <pubDate>Sat, 25 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2007/08/25/life-in-alabama/</guid>
+      <description>We&amp;rsquo;ve been here in Alabama for 2 weeks now. Things seem to be going pretty well so far. We somehow survived the move and I don&amp;rsquo;t think left anything too critical behind. The truck full of half our stuff (and pulling the Civic), the CRV full of cats and guitars, and all the occupants got down here safely and relatively uneventfully. The POD full of the other half of our stuff arrived this past Thursday and we&amp;rsquo;re slowly working on unloading it.</description>
+    </item>
+    
+    <item>
+      <title>As you may have noticed...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2007/07/25/as-you-may-have-noticed/</link>
+      <pubDate>Wed, 25 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2007/07/25/as-you-may-have-noticed/</guid>
+      <description>Amanda and I are buying a new house. In a land far far from CU&amp;hellip; Huntsville, AL to be exact&amp;hellip; or technically Madison, AL to be even more exact (suburb to the west of Huntsville).
+No, Derek didn&amp;rsquo;t graduate. While one could ask &amp;ldquo;why is he leaving sans-degree&amp;rdquo;, a better question might be &amp;ldquo;why is he referring to himself in the third person?&amp;rdquo; To put it simply, I just got fed up with how things have been going (or not going to be more precise) and decided it was time for a change.</description>
+    </item>
+    
+    <item>
+      <title>Great quote at IBM day</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/21/great-quote-at-ibm-day/</link>
+      <pubDate>Fri, 21 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/21/great-quote-at-ibm-day/</guid>
+      <description>Heard this great quote from the late/great Seymour Cray: &amp;ldquo;If you were plowing a field, which would you rather use: Two strong oxen or 1024 chickens?&amp;rdquo; Apparently he said this in response to a question about the growing use of large clusters of commodity PCs for supercomputing applications. Traditional wisdom would suggest it&amp;rsquo;s much better to design the heck out of two very powerful processors and ease the parallel programming burden to achieve high performance.</description>
+    </item>
+    
+    <item>
+      <title>Long overdue</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/12/01/long-overdue/</link>
+      <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/12/01/long-overdue/</guid>
+      <description>So this update is long overdue. I&amp;rsquo;ve been really busy recently with&amp;hellip; well, life. First there was the big annual ISCA crunch where I helped Jim get his submission from 0 to paper in less than a week. Part of that was help getting him up and running on NCSA&amp;rsquo;s Itanium-2 cluster (Teragrid) so that he could have results to write about. The other part was helping him get an actual paper together the day of the deadline since Nick was focused on the other project he wanted to submit for.</description>
+    </item>
+    
+  </channel>
+</rss>

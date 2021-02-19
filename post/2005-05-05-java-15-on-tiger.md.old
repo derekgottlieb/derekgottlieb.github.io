@@ -1,0 +1,16 @@
+---
+categories:
+- Geek
+- Work
+comments: true
+date: '2005-05-05'
+slug: java-15-on-tiger
+title: Java 1.5 on Tiger
+url: /2005/05/05/java-15-on-tiger
+wordpress_id: 853
+---
+
+
+Looks like Apples's released [Java 1.5 for Tiger](http://www.apple.com/support/downloads/java2se50release1.html).  Not quite sure why people aren't talking about this (was released same day as Tiger's "official" release date) since a lot of people had mentioned it being present in the Tiger developer test releases and that it was absent from the final version released to the public.  Looks like I can finally see about getting [Liberty's LSE](http://liberty.cs.princeton.edu/Software/LSE/) up and running on OS X.  Now I'm wondering if Apple bothers to provide separate packages containing the stand-alone Java runtime and the SDK...
+
+Edit: Just did a little googling and discovered that not only is OS X 10.4 codenamed "Tiger", but Java 1.5 is also codenamed "Tiger".  Weird.

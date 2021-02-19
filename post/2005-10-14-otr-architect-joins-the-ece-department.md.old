@@ -1,0 +1,18 @@
+---
+categories:
+- Geek
+- Work
+comments: true
+date: '2005-10-14'
+slug: otr-architect-joins-the-ece-department
+title: OTR architect joins the ECE department!
+url: /2005/10/14/otr-architect-joins-the-ece-department
+wordpress_id: 898
+---
+
+
+I should really pay closer attention to who joins our department.  [Nikita Borisov](http://www.crhc.uiuc.edu/~nikita/) apparently just started here this semester and is currently doing work on anonymous peer-to-peer networks.  Nick introduced him to Jeff and I today with the intention of giving him some of our spare computers to get his group started.
+
+Afterwards I took a look at his past work and realized he was one of the primary architects for [Off-the-Record Messaging](http://www.cypherpunks.ca/otr/) that I use in Gaim (Linux/Windows) and AdiumX (OSX).  I actually previously mentioned this back when I saw the changelog for [AdiumX 0.80](/blog/2005/05/04/adium-x-080).  Pretty slick stuff.  Provides encryption, authentication, deniability and perfect forward secrecy.  All open-source and ties in nicely with the IM clients I was already using.  Now if only I could find someone else to use it with me. :)
+
+Regardless, Nikita should be an interesting addition to the department.  I certainly look forward to seeing what he's got to say at seminars and such.

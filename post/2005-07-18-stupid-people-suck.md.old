@@ -1,0 +1,19 @@
+---
+categories:
+- Geek
+- Rants
+- Work
+comments: true
+date: '2005-07-18'
+slug: stupid-people-suck
+title: Stupid people suck!
+url: /2005/07/18/stupid-people-suck
+wordpress_id: 879
+---
+
+
+I hate stupid people.  I can accept that the population at large is generally clueless about all things tech, and so I have a fairly high tolerance level when they do annoying newb things.  The people that really tick me off are the ones who are clearly in a technical field (say, a whole bunch of people in academia on a FPGA research/education mailing list), and are clearly clueless about very basic concepts such as email...
+
+The trouble all started this morning when some Computer Science and Engineering associate prof at Penn State (funnily enough he got his PhD from a Florida institution...) accidently tacked the address for the aforementioned massive FPGA-related mailing list as a CC on a email intended for some prof about his proposal for an upcoming conference.  This email was clearly intended for members of the program committee, but ended up being sent out to I don't know how many hundreds of people.  I can forgive that as a relatively honest mistake (not sure how he managed to tack on a completely unrelated address, but I suppose it could happen if you weren't careful).  The real problem is the flood of idiots on the mailing list that feel the need to reply to the entire list asking why they've received this email...  Someone a few hours ago posted "hey, this guy screwed up, not meant for this list, please stop replying about it."  But it keeps on coming.  And there's this stupid .gov address that keeps marking some of the messages as quarantined and proceeds to send yet another email to the list letting everyone know that it didn't like that email...
+
+Now if I can only figure out how to get off this damn list... I didn't actually subscribe to it... went to a conference with the guy that runs it and he automatically added all the attendees, and I think it's more of an old school distribution list than a full-on automated mailing list.  Hasn't been too bad in the past, but this is just ridiculous.

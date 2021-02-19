@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sgi on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/sgi/atom/index.xml</link>
+    <description>Recent content in Sgi on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://thoughts.derekgottlieb.com/tags/sgi/atom/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rackable acquires SGI?</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2009/04/01/rackable-acquires-sgi</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2009/04/01/rackable-acquires-sgi</guid>
+      <description>&lt;p&gt;Well this is certainly not something I expected.  SGI is one of the few HPC vendors out there that I&amp;rsquo;m aware of who are still doing neat things with hardware.  We&amp;rsquo;ve got some of their large SMP Itanium boxes on the floor where I work, and I think they&amp;rsquo;re pretty slick machines.  Pricy, but slick.  And so far their support is about the best I&amp;rsquo;ve dealt with.  That&amp;rsquo;s not saying their perfect (try getting a CXFS guru on the phone when you need one without sitting on a major outage for several hours), but they generally seem better than most of the other HPC vendors I&amp;rsquo;ve worked with (IBM, Cray).  But SGI&amp;rsquo;s certainly had its share of financial woes and I think there was a recent warning from NASDAC that they&amp;rsquo;d be delisted.  So I&amp;rsquo;m not necessarily surprised that someone&amp;rsquo;s buying them out, but that it&amp;rsquo;s Rackable specifically.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve never had real day-to-day experience with a Rackable system, but they seemed to work at the other extreme of value commodity systems.  I&amp;rsquo;ve chatted with some of their sales/technical folks and they push their cluster in a cargo container idea pretty hard.  Their distinguishing features seem to be power distribution (aiming at higher efficiency by doing a single AC -&amp;gt; DC conversion and distributing DC to all the servers in a rack), and cooling efficiency (half depth servers loaded from both sides of a rack and blasting hot air into the gab between them in the middle of the rack).  These are certainly aimed at addressing some of the big issues in datacenters everyone&amp;rsquo;s facing (power &amp;amp; cooling), but a lot of the big vendors are attacking those same problems, so I couldn&amp;rsquo;t guess whether Rackable really stands out in the commodity cluster space.  But I suppose if they&amp;rsquo;ve got VC cash lying around, buying up the engineering assets at SGI may go a long ways toward giving them some more unusual products to set them apart.&lt;/p&gt;
+
+&lt;p&gt;I have to admit there&amp;rsquo;s a small part of me that thinks today was not the best day for them to announce the acquisition given the history of April 1st online shenanigans everyone&amp;rsquo;s expecting.&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href=&#34;http://www.sgi.com/company_info/newsroom/press_releases/2009/april/rackable.html&#34;&gt;Press release&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

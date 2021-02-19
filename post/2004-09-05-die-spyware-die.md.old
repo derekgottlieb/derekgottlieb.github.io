@@ -1,0 +1,33 @@
+---
+categories:
+- Geek
+comments: true
+date: '2004-09-05'
+slug: die-spyware-die
+title: Die Spyware Die!
+url: /2004/09/05/die-spyware-die
+wordpress_id: 761
+---
+
+
+Spyware and Adware are really icky.  At the moment, I'm using a three-pronged approach:
+
+
+
+
+
+  1. [Ad-Aware](http://www.lavasoftusa.com/software/adaware/) is designed to provide advanced protection from known Data-mining, aggressive advertising, Parasites, Scumware, selected traditional Trojans, Dialers, Malware, Browser hijackers, and tracking components.  You fire it up and it scans your hard disk for nasty crap that has invited itself in.  Been using this for a long time.
+
+
+
+  2. [Spybot Search & Destroy](http://www.safer-networking.org/en/spybotsd/index.html) is pretty similar, but can catch some stuff that Ad-Aware misses (as Ad-Aware will catch some stuff that Spybot misses).
+
+
+
+  3. [SpywareBlaster](http://www.javacoolsoftware.com/spywareblaster.html) takes a different approach.  It's actually a set of tweaks that prevent the installation of ActiveX-based spyware, adware, browser hijackers, dialers, and other potentially unwanted pests.  It will also block spyware/tracking cookies in Internet Explorer and Mozilla/Firefox and can restrict the actions of potentially dangerous sites in Internet Explorer.  Idea being it's better to prevent this crap from finding its way onto your hard drive than to clean it up after the fact.
+
+
+
+I know this is not a complete solution, but all three appear to receive regular updates so there's no reason that they'd be any worse than software I'd have to pay for.  You never know.  Seems that [AVG Anti-Virus](http://www.grisoft.com/) may actually be better than the Norton AV I've been using (caught some stuff that Norton missed immediately after I installed it).  And the fact that it's free is extra appealing in light of Norton's current scheme of buying a new copy every year in order to get virus updates.
+
+Anyone have any other software they'd like to recommend?

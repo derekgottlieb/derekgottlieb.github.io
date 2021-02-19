@@ -1,0 +1,19 @@
+---
+categories:
+- Work
+comments: true
+date: '2005-10-03'
+slug: argh
+title: ARGH!
+url: /2005/10/03/argh
+wordpress_id: 894
+---
+
+
+Fairly recently, the company that made our group fileserver was bought up by Sun.  So we're not really sure whether we'll be able to renew our service contract (which runs out October 20th), or if we'll be forced to buy a new Sun fileserver at a discount.  The cynic in all of us should know what's coming next...
+
+On Friday, our group fileserver sorta flaked.  Took the admins an hour or more to get it back up and running, and when it did our current group mount (ie the one with all the stuff I really care about right now) did not come up with it.  The admins contacted tech support and apparently this sounds like a "relatively common error" associated with a failing RAID controller.  A new one is en route and slated to arrive some time on Tuesday.  In the interim, another group's mount suddenly disappeared, which led the admins to actually shut down the fileserver to avoid any further damage.
+
+Here's the real kicker though.  Apparently when the admins created our current group mount, they failed to add it to the list that gets backed up to tape every night.  So there is no current backup beyond whatever's on the drives in the fileserver.  And with a flaking RAID controller, I'm not so certain what sort of shape that will be in when they install a new controller and bring the machine back up.  My data might all be there, or the controller may have done all sorts of nasty things to it.  Not really sure.  I used to keep my own offsite backups that I'd synch up every week or so, but haven't done that in a while.  I may have some version of our subversion repository, but it's not exactly current.  And since I've been working fairly feverishly as of recent, that kind of sucks.
+
+Here's hoping my data comes back up when they install the new RAID controller, and that Nick rips the admins a new one for their flakiness.  I certainly don't blame them for hardware failure, and some of them are very effective and know their stuff and are able to recover from failures pretty quickly.  But a lot of them are just complete dumbasses who can only administer machines as long as someone else has written up a step-by-step guide to what they need to do (and then they slip up and leave out steps like adding new mounts to the backup list).

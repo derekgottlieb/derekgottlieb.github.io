@@ -1,0 +1,16 @@
+---
+categories:
+- Geek
+- General
+comments: true
+date: '2006-02-11'
+slug: k2-here-i-come
+title: K2 here I come
+url: /2006/02/11/k2-here-i-come
+wordpress_id: 913
+---
+
+
+Part way through switching over to K2.  Looks like I need to fine tune the custom page themes I've previously created (for [movies](/movies) and [header_graphics](http://malkier.com/header_graphics.php)).  They work at present, but the two column setup isn't really formatted right under the new theme.
+
+I also want to set up a new header graphic, probably tweak the color scheme, and maybe look into some other cool options/extensions (such as embedding a flickr feed in the sidebar).

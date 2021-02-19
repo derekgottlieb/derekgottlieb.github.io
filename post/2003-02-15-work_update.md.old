@@ -1,0 +1,21 @@
+---
+categories:
+- Work
+comments: true
+date: '2003-02-15'
+slug: work_update
+title: Work update
+url: /2003/02/15/work_update
+wordpress_id: 16
+---
+
+
+Yeah, so I've been pretty busy this past week, and haven't really had time to post.  Chi-Wei checked in fixes for the bulk of the bugs I had encountered in the gui, so I'm pretty happy.  I can actually sorta use the thing now.  More importantly, Jeff and I have made some comments about additional features we REALLY want, so with any luck, we'll actually get some of those before long.  
+  
+
+
+I haven't gotten too much farther on actual work-work this week because I decided to hop into the class Jeff's taking this semester ([ECE443](http://www.ece.uiuc.edu/courses/coursedes.asp?443)).  Keep in mind that the semester started a few weeks ago, so I'm a little behind.  First homework was due Wednesday, so I spent a good portion of Tuesday night hammering away on it.  Not sure if any of my answers made any sense, but whatever.    
+  
+
+
+More importantly, he handed out the MP assignment on Wednesday.  This was really why I joined the course.  First assignment was to write an event-driven combinational logic simulator.  Pretty cool if I do say so myself.  Had a basic one up and running by the end of the day on Thursday.  Figure I'll hammer on it some more to improve its efficiency (optimize for speed, etc), and probably work on some of the more advanced stuff that's not specifically required (such as simulating multiple input vectors in parallel, adding support for sequential logic, etc).  Will be interested to see how the timing of mine (written in C) stacks up against Jeff's (written in [OCaml](http://www.ocaml.org/)).

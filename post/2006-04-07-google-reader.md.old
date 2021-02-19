@@ -1,0 +1,15 @@
+---
+categories:
+- Geek
+comments: true
+date: '2006-04-07'
+slug: google-reader
+title: Google Reader
+url: /2006/04/07/google-reader
+wordpress_id: 923
+---
+
+
+So Google seems to be releasing all sorts of cool tech these days.  You've got [Gmail](http://gmail.com/), which I've been pretty pleased with (all my email accounts forward there now).  There's [Google Bookmarks](http://google.com/bookmarks/) that I think are tied into their "personalized home" stuff.  I know you can view/add them via the Google toolbar in IE, but last I knew there wasn't an equivalent for browsers that don't suck (eg Firefox).  It's kinda nice to have a web-based place for me to store bookmarks (so I can access them at home/work/etc), but I wish there was a better way to add links independent of the IE toolbar (eg a button to add a bookmark vs. going to the page and manually entering the url).
+
+More recently, I've taken a look at their [Reader](http://google.com/reader/) that's an AJAXified RSS/Atom feed reader that seems pretty decent.  I'd been a little annoyed about tracking my feeds using programs in two locations (hence not synched up in any way).  Now I can get my feed fix via a web interface that's accessible everywhere.  Cool beans.

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/research/</link>
+    <description>Recent content in research on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Oct 2006 00:00:00 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/research/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life and ASPLOS</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2006/10/20/life/</link>
+      <pubDate>Fri, 20 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2006/10/20/life/</guid>
+      <description>So life has been pretty&amp;hellip; something recently. Too much going on and not quite enough sanity to go around. Fortunately, I get to head out to San Jose this Sunday to visit with Rich and Carrie&amp;hellip; oh yeah and go to ASPLOS (Architectural Support for Programming Languages and Operating Systems). Looks like it should be an interesting conference and the best part is I don&amp;rsquo;t have to foot the bill. :)</description>
+    </item>
+    
+    <item>
+      <title>OTR architect joins the ECE department!</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/10/14/otr-architect-joins-the-ece-department/</link>
+      <pubDate>Fri, 14 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/10/14/otr-architect-joins-the-ece-department/</guid>
+      <description>I should really pay closer attention to who joins our department. Nikita Borisov apparently just started here this semester and is currently doing work on anonymous peer-to-peer networks. Nick introduced him to Jeff and I today with the intention of giving him some of our spare computers to get his group started.
+Afterwards I took a look at his past work and realized he was one of the primary architects for Off-the-Record Messaging that I use in Gaim (Linux/Windows) and AdiumX (OSX).</description>
+    </item>
+    
+    <item>
+      <title>Wedding, wedding, and more weddings...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/30/weddings-wedding-and-more-weddings/</link>
+      <pubDate>Mon, 30 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/30/weddings-wedding-and-more-weddings/</guid>
+      <description>Been rather busy lately. Went to my cousin&amp;rsquo;s wedding 3 weekends ago in Missouri/Kansas. Then flew down to Amanda&amp;rsquo;s cousin&amp;rsquo;s wedding in Texas 2 weekends ago. My folks have been visiting this past week and just left on Sunday morning. To top that off, I&amp;rsquo;ve had some sort of nasty sinus infection for the past week. Next weekend we&amp;rsquo;re off to Iowa for Amanda&amp;rsquo;s coworker&amp;rsquo;s wedding and on the way back I&amp;rsquo;ll be going to ISCA &amp;lsquo;05 in Wisconsin for a few days.</description>
+    </item>
+    
+    <item>
+      <title>Java 1.5 on Tiger</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</link>
+      <pubDate>Thu, 05 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2005/05/05/java-15-on-tiger/</guid>
+      <description>Looks like Apples&amp;rsquo;s released Java 1.5 for Tiger. Not quite sure why people aren&amp;rsquo;t talking about this (was released same day as Tiger&amp;rsquo;s &amp;ldquo;official&amp;rdquo; release date) since a lot of people had mentioned it being present in the Tiger developer test releases and that it was absent from the final version released to the public. Looks like I can finally see about getting Liberty&amp;rsquo;s LSE up and running on OS X.</description>
+    </item>
+    
+    <item>
+      <title>Long overdue</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/12/01/long-overdue/</link>
+      <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/12/01/long-overdue/</guid>
+      <description>So this update is long overdue. I&amp;rsquo;ve been really busy recently with&amp;hellip; well, life. First there was the big annual ISCA crunch where I helped Jim get his submission from 0 to paper in less than a week. Part of that was help getting him up and running on NCSA&amp;rsquo;s Itanium-2 cluster (Teragrid) so that he could have results to write about. The other part was helping him get an actual paper together the day of the deadline since Nick was focused on the other project he wanted to submit for.</description>
+    </item>
+    
+    <item>
+      <title>Projects Galore</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2004/04/07/projects_galore/</link>
+      <pubDate>Wed, 07 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2004/04/07/projects_galore/</guid>
+      <description>So I&amp;rsquo;ve been going nuts working on class projects this semester. I&amp;rsquo;m trying to wrap up the last of my class work and am currently taking a couple of ECE497 courses (special topics grad courses where professors largely discuss their own research interests).
+Nick&amp;rsquo;s teaching one on Unconventional Computer Architecture that&amp;rsquo;s been pretty interesting so far. Project&amp;rsquo;s coming along pretty well for that and most of my responsibilities have been finished.</description>
+    </item>
+    
+    <item>
+      <title>Busy busy busy...</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/07/23/busy_busy_busy/</link>
+      <pubDate>Wed, 23 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/07/23/busy_busy_busy/</guid>
+      <description>Well, as you probably could have guessed by the lack of posts, I&amp;rsquo;ve been quite busy this summer. Submitted a paper to HPCA (International Symposium on High-Performance Computer Architecture for those not in the know). Crossing my fingers that it gets accepted because I&amp;rsquo;ve been working my ass off for it, and it would be cool for my work to appear in a big conference like HPCA, and hella cool to get to go to Madrid to present it.</description>
+    </item>
+    
+    <item>
+      <title>Workalicious</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/03/27/workalicious/</link>
+      <pubDate>Thu, 27 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/03/27/workalicious/</guid>
+      <description>Finished the final touches on my MSE paper and uploaded it to their server. I already faxed over the copyright form, so I should be good to go to head out to Anaheim in June. Pretty sweet. I&amp;rsquo;ve got postscript and pdf versions of the paper ready to go up on my work page whenever I decide it&amp;rsquo;s appropriate to be publicly available.
+The conference should prove interesting seeing as it falls smack between the abstract and paper deadlines for MICRO&amp;hellip; Hopefully I&amp;rsquo;ll be in a position to worry about it at that point instead of still debugging the local data caches and getting more benchmarks up and running.</description>
+    </item>
+    
+    <item>
+      <title>Work update</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/15/work_update/</link>
+      <pubDate>Sat, 15 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/15/work_update/</guid>
+      <description>Yeah, so I&amp;rsquo;ve been pretty busy this past week, and haven&amp;rsquo;t really had time to post. Chi-Wei checked in fixes for the bulk of the bugs I had encountered in the gui, so I&amp;rsquo;m pretty happy. I can actually sorta use the thing now. More importantly, Jeff and I have made some comments about additional features we REALLY want, so with any luck, we&amp;rsquo;ll actually get some of those before long.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Beginnings of Coherency&#34; and the &#34;Mess we call a GUI&#34;</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</link>
+      <pubDate>Wed, 05 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/02/05/beginnings_of_coherency_and_the_mess_we_call_a_gui/</guid>
+      <description>So my local data caches finally started doing stuff today. Cluster 0 requests M[0x0]. The main cache sends all words in that local cache line and informs cluster 0 that it has exclusive access. Cluster 1 then requests M[0x0]. The main cache informs Cluster 0 that the block is now shared and waits for an ACK to confirm that it hasn&amp;rsquo;t become modified. Pretty sweet! I may actually have it all up and running before much longer.</description>
+    </item>
+    
+    <item>
+      <title>Goals and Dreams</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2003/01/27/goals_and_dreams/</link>
+      <pubDate>Mon, 27 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2003/01/27/goals_and_dreams/</guid>
+      <description>So Nick scheduled our first Amalgam meeting of the semester for today. But unfortunately, our meetings are scheduled for right before his class (which he has never taught before). As a result, he ditched our meeting to finish preparing his lecture. Nothing like getting things done early. Anyway, he dropped by around 1/2 hour before the meeting to tell Jeff and me that he wasn&amp;rsquo;t coming and we should figure out where the project will be around the end of the semester and what conferences we should shoot for.</description>
+    </item>
+    
+  </channel>
+</rss>

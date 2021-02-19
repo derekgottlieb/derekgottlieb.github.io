@@ -1,0 +1,18 @@
+---
+categories:
+- Geek
+- General
+comments: true
+date: '2006-04-13'
+slug: googles-at-it-again
+title: Google's at it again
+url: /2006/04/13/googles-at-it-again
+wordpress_id: 925
+---
+
+
+Looks like their calendar solution has gone "live".  Looks like it has most of the stuff I'd like...  add events via web, multiple calendars, publish all info or free/busy info (or nothing), subscribing to other published calendars (such as the [UIUC Academic calendar](webcal://www.acm.uiuc.edu/iCal/UIUC_Academic_Calendar.ics) courtesy of ACM's Macwarriors), import CSV/iCal, export XML/iCal, assorted notification options, some sort of ability to auto-add event invites, manage who you share a given calendar with (including giving them the ability to manage events).
+
+You can check it out at [http://www.google.com/calendar/](http://www.google.com/calendar/).
+
+...and if you hadn't guessed, I'm having trouble falling asleep...

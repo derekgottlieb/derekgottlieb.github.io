@@ -1,0 +1,57 @@
+.profile h4 {
+	font-size: 15px;
+	  font-weight: 300;
+	  color: #aaa;
+	  margin-top: 10px;
+	  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	  font-style: normal;
+}
+
+#post-list h1 {
+	font: normal 20px/1.7em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #666;
+	max-width: 400px;
+	margin-top: 2px;
+}
+
+#post-list a {
+	display: inline;
+	font-size: 100%;
+	font-weight: normal;
+	margin-bottom: 6px;
+	color: #666;
+}
+/*
+#post-list a {
+	color: #333;
+	display: block;
+	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+}
+*/
+
+/**
+ * tags page
+ */
+
+#wrapper.tags {
+  padding: 0px 40px 20px 40px;
+}
+.page-tags {
+    text-align: center;
+}
+
+.page-tags .tags {
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.page-tags .tags a {
+    color: #666;
+}
+
+.page-tags .tags:hover a {
+    color: #5694f1;
+}

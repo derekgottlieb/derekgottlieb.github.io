@@ -1,0 +1,13 @@
+---
+categories:
+- On the bus
+comments: true
+date: '2004-07-15'
+slug: gps
+title: GPS?
+url: /2004/07/15/gps
+wordpress_id: 735
+---
+
+
+So earlier this week I noticed they had added an LED array display inside every bus.  Reason I noticed this is because one of them was randomly displaying some info.  Most of it was debugging stuff.  What's the version number of this unit, how much memory does it have, what time/day is it  (which was totally wrong), etc.  You get the idea.  Occasionally, it would scroll street intersection info across the screen (like "PROSPECT AND KIRBY").  Thing is, it seemed to be displaying this info pretty randomly (not every intersection, but not just the major ones or where there are busstops).  Very clearly still in testing because unless the bus was just sitting there when it decided to display street info (and even sometimes when it would be just sitting there), it would only display this info very briefly and quickly revert to showing system info.  What made this particularly annoying is the fact that they scrolled the street names in such a way that you'd only get to see the first street and the "AND" before it would cut off.  With any luck, they'll actually get this up and running reliably and perhaps even provide some bus location info at the fancier bus hutches or on the web like in Seattle.  Who really knows?  I haven't seen the display on since then.
