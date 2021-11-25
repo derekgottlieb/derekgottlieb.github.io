@@ -6,7 +6,16 @@
     <description>Recent content in sysadmin on Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jun 2016 20:46:56 -0500</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/sysadmin/atom.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 19:27:02 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/sysadmin/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synology DSM7 SPK for Nomad</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2021/11/24/synology-dsm7-spk-for-nomad/</link>
+      <pubDate>Wed, 24 Nov 2021 19:27:02 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2021/11/24/synology-dsm7-spk-for-nomad/</guid>
+      <description>I&amp;rsquo;ve recently been interested in experimenting with Hashicorp&amp;rsquo;s Nomad for deploying/running apps as an alternative to the the somewhat convoluted combination of Docker + ansible I currently use. Since I primarily use a Synology NAS for running Dockerized apps, my first hurdle was coming up with a way to somewhat sanely install the nomad server/client on a Synology. I found nomad-spk that was promising, but wasn&amp;rsquo;t compatible with the latest major version of the Synology OS (aka DSM7).</description>
+    </item>
+    
     <item>
       <title>System Stress Tests</title>
       <link>https://thoughts.derekgottlieb.com/blog/2016/06/01/system-stress-tests/</link>
