@@ -41,7 +41,7 @@ twitter is a bit of an interesting concept as it boils down to very short (less 
       <pubDate>Sat, 25 Mar 2006 00:00:00 +0000</pubDate>
       
       <guid>https://thoughts.derekgottlieb.com/blog/2006/03/25/define-luddite/</guid>
-      <description>Pronunciation:	&amp;lsquo;l&amp;amp;-&amp;ldquo;dIt Function:	noun Etymology:	After Ned Ludd, an English laborer who was supposed to have destroyed weaving machinery around 1779. 1 : Any of a group of British workers who between 1811 and 1816 rioted and destroyed laborsaving textile machinery in the belief that such machinery would diminish employment. 2 : One who opposes technical or technological change.
+      <description>Pronunciation:	&amp;rsquo;l&amp;amp;-&amp;ldquo;dIt Function:	noun Etymology:	After Ned Ludd, an English laborer who was supposed to have destroyed weaving machinery around 1779. 1 : Any of a group of British workers who between 1811 and 1816 rioted and destroyed laborsaving textile machinery in the belief that such machinery would diminish employment. 2 : One who opposes technical or technological change.
 [Source]</description>
     </item>
     
@@ -79,7 +79,7 @@ twitter is a bit of an interesting concept as it boils down to very short (less 
       
       <guid>https://thoughts.derekgottlieb.com/blog/2005/09/01/mobiblu-dah-1500i/</guid>
       <description>So I broke down and bought a new mp3 player to take with me when I go jogging&amp;hellip; well jogging/walking&amp;hellip; well really more walking than jogging, but I&amp;rsquo;m still building up toward that. Anyway, looks like it should be a pretty cute little unit. Key features:
- It&amp;rsquo;s about a 1&amp;quot; cube has a little OLED display comes in 256MB, 512MB, and 1GB versions (I got the 512) has an FM radio (can even record it at up to 160kbps) 8-10 hours of battery life when playing mp3s USB2.</description>
+It&amp;rsquo;s about a 1&amp;quot; cube has a little OLED display comes in 256MB, 512MB, and 1GB versions (I got the 512) has an FM radio (can even record it at up to 160kbps) 8-10 hours of battery life when playing mp3s USB2.</description>
     </item>
     
     <item>
@@ -191,7 +191,7 @@ Pretty cool. Looks like flickr will let you upload 20M of photos per month, and 
       
       <guid>https://thoughts.derekgottlieb.com/blog/2005/05/04/adium-x-080/</guid>
       <description>Looks like there&amp;rsquo;s a new version of Adium X out. Looks like there&amp;rsquo;s all sorts of new stuff in this release:
- Adium 0.80 brings a completely new status system with available messages and invisibility on supported protocols, built-in secure encrypted messaging via Off-the-Record Messaging, the long-awaited file transfer progress interface, customizable built-in Growl notification system support, blocking, customizable service and status icons, full OS X 10.4 compatibility, and much, much more.</description>
+Adium 0.80 brings a completely new status system with available messages and invisibility on supported protocols, built-in secure encrypted messaging via Off-the-Record Messaging, the long-awaited file transfer progress interface, customizable built-in Growl notification system support, blocking, customizable service and status icons, full OS X 10.4 compatibility, and much, much more.</description>
     </item>
     
     <item>
@@ -319,7 +319,7 @@ Edit: Dug around their wiki some more. Looks like it used to be GNU C Compiler (
       
       <guid>https://thoughts.derekgottlieb.com/blog/2004/11/04/new-dell-20-lcd/</guid>
       <description>So apparently Dell is now shipping a 20&amp;quot; widescreen LCD ala the Apple Cinema dispay. Looks like it&amp;rsquo;s got pretty sweet specs in addition to being priced several hundred less than Apple&amp;rsquo;s. Now if only Dell would have some outrageous deal on it. :)
- 1680x1050 resolution 16:10 aspect ratio 16ms refresh (12ms gray-to-gray) 600:1 contrast ratio 300cd/m2 brightness analog (VGA) and digital (DVI) inputs, as well as video inputs for S-video and composite connections Picture-in-Picture and picture-by-picture support four USB2.</description>
+1680x1050 resolution 16:10 aspect ratio 16ms refresh (12ms gray-to-gray) 600:1 contrast ratio 300cd/m2 brightness analog (VGA) and digital (DVI) inputs, as well as video inputs for S-video and composite connections Picture-in-Picture and picture-by-picture support four USB2.</description>
     </item>
     
     <item>
@@ -365,7 +365,7 @@ Edit: Dug around their wiki some more. Looks like it used to be GNU C Compiler (
       
       <guid>https://thoughts.derekgottlieb.com/blog/2004/09/05/die-spyware-die/</guid>
       <description>Spyware and Adware are really icky. At the moment, I&amp;rsquo;m using a three-pronged approach:
- Ad-Aware is designed to provide advanced protection from known Data-mining, aggressive advertising, Parasites, Scumware, selected traditional Trojans, Dialers, Malware, Browser hijackers, and tracking components. You fire it up and it scans your hard disk for nasty crap that has invited itself in. Been using this for a long time. Spybot Search &amp;amp; Destroy is pretty similar, but can catch some stuff that Ad-Aware misses (as Ad-Aware will catch some stuff that Spybot misses).</description>
+Ad-Aware is designed to provide advanced protection from known Data-mining, aggressive advertising, Parasites, Scumware, selected traditional Trojans, Dialers, Malware, Browser hijackers, and tracking components. You fire it up and it scans your hard disk for nasty crap that has invited itself in. Been using this for a long time. Spybot Search &amp;amp; Destroy is pretty similar, but can catch some stuff that Ad-Aware misses (as Ad-Aware will catch some stuff that Spybot misses).</description>
     </item>
     
     <item>
@@ -384,7 +384,7 @@ Edit: Dug around their wiki some more. Looks like it used to be GNU C Compiler (
       
       <guid>https://thoughts.derekgottlieb.com/blog/2004/08/29/gmail_hacksutils/</guid>
       <description>Been poking around looking for useful/interesting add-ons for Gmail. Here&amp;rsquo;s a few I&amp;rsquo;ve come up with:
- Gmail notifier - Windows tray app that checks for new mail, sets Gmail as the default mailto handler, official Google add-on GNOME GTray - notifier for Linux GML (GMail loader) - import mail from your old mail client (supports a wide variety) gExodus  graphical import util   FreePOPs - POP3 interface for a variety of webmails, including Gmail GmailFS  turns a Gmail account into a mountable Linux filesystem    </description>
+Gmail notifier - Windows tray app that checks for new mail, sets Gmail as the default mailto handler, official Google add-on GNOME GTray - notifier for Linux GML (GMail loader) - import mail from your old mail client (supports a wide variety) gExodus graphical import util FreePOPs - POP3 interface for a variety of webmails, including Gmail GmailFS turns a Gmail account into a mountable Linux filesystem </description>
     </item>
     
     <item>
@@ -412,7 +412,7 @@ Edit: Dug around their wiki some more. Looks like it used to be GNU C Compiler (
       
       <guid>https://thoughts.derekgottlieb.com/blog/2004/08/06/the_screensavers/</guid>
       <description>So I&amp;rsquo;ve been pretty religiously watching The Screensavers on G4/TechTV since I noticed the cable company added it to the lineup. Pretty entertaining show, and they sometimes have some cool bits on there. This past week they had a Best of: Free and Cheap episode detailing a number of free/cheap downloads and tips. I found a couple of segments of particular interest:
- Linksys WRT54G - a lot of the Linksys network hardware runs Linux, and so they&amp;rsquo;ve had to release the source under GPL.</description>
+Linksys WRT54G - a lot of the Linksys network hardware runs Linux, and so they&amp;rsquo;ve had to release the source under GPL.</description>
     </item>
     
     <item>
@@ -495,7 +495,7 @@ Anyway, I can&amp;rsquo;t wait till Doom 3 hits shelves, hopefully tomorrow. Now
       
       <guid>https://thoughts.derekgottlieb.com/blog/2004/05/19/job_predictor/</guid>
       <description>Here&amp;rsquo;s a silly little webpage I Richy clued me into. It supposedly predicts your ideal career based on your name (since it&amp;rsquo;s probably based on some sort of hash function or something, inclusion of middle and/or last name may improve your career path). For example:
- Derek, Your ideal jobs is a Kids TV Presenter Derek Gottlieb, Your ideal job is a Bearded Lady in the circus. Derek Brendan Gottlieb, Your ideal job is a Office numpty.</description>
+Derek, Your ideal jobs is a Kids TV Presenter Derek Gottlieb, Your ideal job is a Bearded Lady in the circus. Derek Brendan Gottlieb, Your ideal job is a Office numpty.</description>
     </item>
     
     <item>

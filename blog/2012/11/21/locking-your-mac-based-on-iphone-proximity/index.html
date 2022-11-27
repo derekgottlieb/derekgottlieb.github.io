@@ -6,14 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="D.G.">
 		<meta name="description" content="">
-		<meta name="generator" content="Hugo 0.82.1" />
+		<meta name="generator" content="Hugo 0.107.0">
 		<title>Locking your Mac based on iPhone proximity &middot; Thoughts</title>
 		<link rel="shortcut icon" href="https://thoughts.derekgottlieb.com/images/favicon.ico">
 		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/style.css">
 		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/highlight.css">
 		<link rel="stylesheet" href="https://thoughts.derekgottlieb.com/css/dbgcustom.css">
-                
-    <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://derekgottlieb.com/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="https://derekgottlieb.com/favicon-16x16.png" sizes="16x16">
@@ -76,25 +75,25 @@ but I wanted to document how I figured out to interact with the Keychain in
 Lion via shell commands (since the old AppleScript hooks were removed by
 Apple).</p>
 <h3 id="lock-script">Lock script</h3>
-<pre><code>on run
-	activate application &quot;/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app&quot;
+<pre tabindex="0"><code>on run
+	activate application &#34;/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app&#34;
 end run
 </code></pre><h3 id="unlock-script">Unlock script</h3>
 <p>The following assumes you&rsquo;ve added a password entry to your Mac Keychain named
 &ldquo;ProximityAdminPassword&rdquo; containing your Mac account password.</p>
-<pre><code>on run
-	set thePW to getPW(&quot;ProximityAdminPassword&quot;)
+<pre tabindex="0"><code>on run
+	set thePW to getPW(&#34;ProximityAdminPassword&#34;)
 	
-	tell application &quot;/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app&quot; to quit
-	tell application &quot;System Events&quot; to keystroke 125
+	tell application &#34;/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app&#34; to quit
+	tell application &#34;System Events&#34; to keystroke 125
 	delay 1
-	tell application &quot;System Events&quot; to keystroke thePW
+	tell application &#34;System Events&#34; to keystroke thePW
 	delay 1
-	tell application &quot;System Events&quot; to keystroke return
+	tell application &#34;System Events&#34; to keystroke return
 end run
 
 on getPW(keychainItemName)
-	set thePW to do shell script &quot;security 2&gt;&amp;1 &gt;/dev/null find-generic-password -gl &quot; &amp; quoted form of keychainItemName &amp; &quot; | awk '{print $2}'&quot;
+	set thePW to do shell script &#34;security 2&gt;&amp;1 &gt;/dev/null find-generic-password -gl &#34; &amp; quoted form of keychainItemName &amp; &#34; | awk &#39;{print $2}&#39;&#34;
 	return (text 2 thru -2 of result)
 end getPW
 </code></pre>
