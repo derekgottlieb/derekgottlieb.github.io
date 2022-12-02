@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reading on Thoughts</title>
+    <link>https://thoughts.derekgottlieb.com/tags/reading/</link>
+    <description>Recent content in reading on Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2022 20:48:51 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/reading/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Reading Trends and 2019 Highlights</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2022/12/01/my-reading-trends-and-2019-highlights/</link>
+      <pubDate>Thu, 01 Dec 2022 20:48:51 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2022/12/01/my-reading-trends-and-2019-highlights/</guid>
+      <description>&lt;p&gt;Starting in 2019, I decided to make a more committed effort to reading in my free time, I think
+somewhat prompted by Goodreads&amp;rsquo; annual reading challenge feature combined with the added
+convenience of reading on a Kindle. I read ~30 books that year, with a mix of books I read for
+myself and ones I read aloud to the kids as part of our long-standing nightly bedtime routine.
+With a shift to working from home during 2020 and increased work schedule flexibility, that
+ramped up to ~100 books in 2020 and ~150 in 2021. This year I discovered audiobooks and started
+listening to them during times I would have listened to podcasts previously, which meant even
+more time for books (over 250 so far this year). I&amp;rsquo;m not usually one to write a review or even
+rate books as I read them, but have been thinking it would be nice to better capture some that
+I&amp;rsquo;ve either particularly enjoyed or have made a strong impression on me. With that in mind,
+here are my highlights from 2019 (in no particular order):&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Distributed Monoliths</title>
+      <link>https://thoughts.derekgottlieb.com/blog/2015/06/07/distributed-monoliths/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/blog/2015/06/07/distributed-monoliths/</guid>
+      <description>As part of developing RESTful HTTP APIs at work, there&amp;rsquo;s been a lot of discussion over the &amp;ldquo;best&amp;rdquo; way to architect/implement everything. To avoid relying strictly on my own instincts and relearning mistakes that many others have already learned from, I&amp;rsquo;ve been reading O&amp;rsquo;Reilly&amp;rsquo;s Building Microservices. I haven&amp;rsquo;t finished it yet, but have gotten a lot out of what I&amp;rsquo;ve read so far (and been pleased to see that my instincts have been largely supported by someone who&amp;rsquo;s experienced implementing such systems).</description>
+    </item>
+    
+  </channel>
+</rss>

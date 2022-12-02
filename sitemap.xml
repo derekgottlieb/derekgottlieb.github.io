@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thoughts.derekgottlieb.com/tags/hosting/</loc>
-    <lastmod>2021-11-24T19:27:02+00:00</lastmod>
+    <loc>https://thoughts.derekgottlieb.com/blog/2022/12/01/my-reading-trends-and-2019-highlights/</loc>
+    <lastmod>2022-12-01T20:48:51+00:00</lastmod>
   </url><url>
     <loc>https://thoughts.derekgottlieb.com/post/</loc>
+    <lastmod>2022-12-01T20:48:51+00:00</lastmod>
+  </url><url>
+    <loc>https://thoughts.derekgottlieb.com/tags/reading/</loc>
+    <lastmod>2022-12-01T20:48:51+00:00</lastmod>
+  </url><url>
+    <loc>https://thoughts.derekgottlieb.com/tags/</loc>
+    <lastmod>2022-12-01T20:48:51+00:00</lastmod>
+  </url><url>
+    <loc>https://thoughts.derekgottlieb.com/</loc>
+    <lastmod>2022-12-01T20:48:51+00:00</lastmod>
+  </url><url>
+    <loc>https://thoughts.derekgottlieb.com/tags/hosting/</loc>
     <lastmod>2021-11-24T19:27:02+00:00</lastmod>
   </url><url>
     <loc>https://thoughts.derekgottlieb.com/tags/programming/</loc>
@@ -15,12 +27,6 @@
     <lastmod>2021-11-24T19:27:02+00:00</lastmod>
   </url><url>
     <loc>https://thoughts.derekgottlieb.com/tags/sysadmin/</loc>
-    <lastmod>2021-11-24T19:27:02+00:00</lastmod>
-  </url><url>
-    <loc>https://thoughts.derekgottlieb.com/tags/</loc>
-    <lastmod>2021-11-24T19:27:02+00:00</lastmod>
-  </url><url>
-    <loc>https://thoughts.derekgottlieb.com/</loc>
     <lastmod>2021-11-24T19:27:02+00:00</lastmod>
   </url><url>
     <loc>https://thoughts.derekgottlieb.com/blog/2020/11/06/3d-print-extra-car-cup-holders/</loc>
@@ -113,16 +119,10 @@
     <loc>https://thoughts.derekgottlieb.com/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url><url>
-    <loc>https://thoughts.derekgottlieb.com/tags/books/</loc>
-    <lastmod>2015-06-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://thoughts.derekgottlieb.com/blog/2015/06/07/distributed-monoliths/</loc>
     <lastmod>2015-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thoughts.derekgottlieb.com/tags/microservices/</loc>
-    <lastmod>2015-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thoughts.derekgottlieb.com/tags/monolith/</loc>
     <lastmod>2015-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thoughts.derekgottlieb.com/blog/2015/04/27/because-im-a-princess/</loc>
