@@ -65,6 +65,33 @@
     
         
             <li>
+                <a href='https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/'><aside class="dates">2013-04-29</aside></a>
+                <a href='https://thoughts.derekgottlieb.com/blog/2013/04/29/btrfs-production-experiences/'><h1>Btrfs production experiences</h1> <h2></h2></a>
+                <p><p>My experience is based on SUSE SLES 11 SP1/SP2 with a stock kernel, so YMMV if
+you&rsquo;re running a newer mainline kernel without all the backports.</p>
+<p>I tested on two Supermicro systems. One with an LSI HBA card with 22x 2TB
+enterprise SATA drives (originally purchased to run OpenSolaris/ZFS). Second
+has an Adaptec hardware RAID controller with 36x 2TB enterprise SATA drives.
+Some of the data loss and stability issues I experienced may be attributed to
+later discovering the &ldquo;enterprise&rdquo; drives used in the first system turned out
+to be less RAID-friendly than the manufacturer claimed, eventually leading to
+them to replace ALL of my drives with a different model.</p>
+<p>Btrfs was a preview in SLES SP1 and is &ldquo;supported&rdquo; in SP2 but with major
+restrictions if you wanted a supported configuration. Support in SP2 requires
+that you create btrfs filesystems using Yast and live with the limited options
+it allows.  I&rsquo;m guessing what you can do via Yast is the subset of features
+they tested enough to be willing to try and support.  I tried using Yast to set
+up btrfs on one of our systems, but found their constraints too limiting given
+my use case and the organization I&rsquo;d settled on in the SP1 days.</p></p>
+                <h6>
+                  <a  href="/blog/2013/04/29/btrfs-production-experiences/">Read More…</a>
+                </h6>
+            </li>
+        
+    
+    
+        
+            <li>
                 <a href='https://thoughts.derekgottlieb.com/blog/2012/11/21/locking-your-mac-based-on-iphone-proximity/'><aside class="dates">2012-11-21</aside></a>
                 <a href='https://thoughts.derekgottlieb.com/blog/2012/11/21/locking-your-mac-based-on-iphone-proximity/'><h1>Locking your Mac based on iPhone proximity</h1> <h2></h2></a>
                 <p><p><strong>Update</strong> I should note I only partially sorted out getting this to actually
@@ -209,26 +236,6 @@ and news coverage.  So today I saw this quote on twitter from
                 <p>To celebrate, here&rsquo;s some awesomeness from Mobile, AL:
 Leprechaun in Mobile, Alabama</p>
                 <h6></h6>
-            </li>
-        
-    
-    
-        
-            <li>
-                <a href='https://thoughts.derekgottlieb.com/blog/2010/02/28/motorola-droid-and-googles-android-os/'><aside class="dates">2010-02-28</aside></a>
-                <a href='https://thoughts.derekgottlieb.com/blog/2010/02/28/motorola-droid-and-googles-android-os/'><h1>Motorola Droid and Google&#39;s Android OS</h1> <h2></h2></a>
-                <p><p>So last November, I finally got a smartphone (through work no less).  Gotta
-love not having to pay that monthly phone+data bill.  The iPhone always had a
-lot of appeal to me, but the thought of having to switch to AT&amp;T wasn&rsquo;t
-especially attractive to me.  I&rsquo;m not big on the restrictions Verizon usually
-places on their phones (let&rsquo;s disable all the features of your phone out so we
-can force you to use an expensive VZW service instead and nickle-and-dime you
-to death).  But it&rsquo;s hard to beat their coverage.  Long story short (too late),
-I ended up with a Motorola Droid running Google&rsquo;s Android OS.</p>
-<p><img src="/old-wp-images/verizon-motorola-droid-press_1.jpg" alt="Motorola Droid"></p></p>
-                <h6>
-                  <a  href="/blog/2010/02/28/motorola-droid-and-googles-android-os/">Read More…</a>
-                </h6>
             </li>
         
     
@@ -502,8 +509,8 @@ I ended up with a Motorola Droid running Google&rsquo;s Android OS.</p>
         
         
           <a href="/tags/gaming"
-            class="tagcloud-item" style="font-size: 1.2885082546714657rem;">
-            gaming<sup>18</sup>
+            class="tagcloud-item" style="font-size: 1.2939050828133851rem;">
+            gaming<sup>19</sup>
           </a>
         
     
@@ -785,8 +792,8 @@ I ended up with a Motorola Droid running Google&rsquo;s Android OS.</p>
         
         
           <a href="/tags/programming"
-            class="tagcloud-item" style="font-size: 1.2298371497013887rem;">
-            programming<sup>10</sup>
+            class="tagcloud-item" style="font-size: 1.2393507264766421rem;">
+            programming<sup>11</sup>
           </a>
         
     
@@ -829,8 +836,8 @@ I ended up with a Motorola Droid running Google&rsquo;s Android OS.</p>
         
         
           <a href="/tags/reading"
-            class="tagcloud-item" style="font-size: 1.1606492735233578rem;">
-            reading<sup>5</sup>
+            class="tagcloud-item" style="font-size: 1.1788480654247482rem;">
+            reading<sup>6</sup>
           </a>
         
     
