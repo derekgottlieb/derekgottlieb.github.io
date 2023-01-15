@@ -6,20 +6,11 @@
     <description>Recent content in Tags on Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jan 2023 08:22:32 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/atom.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>film</title>
-      <link>https://thoughts.derekgottlieb.com/tags/film/</link>
-      <pubDate>Sat, 07 Jan 2023 08:22:32 +0000</pubDate>
-      
-      <guid>https://thoughts.derekgottlieb.com/tags/film/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 15 Jan 2023 11:13:18 +0000</lastBuildDate><atom:link href="https://thoughts.derekgottlieb.com/tags/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming</title>
       <link>https://thoughts.derekgottlieb.com/tags/gaming/</link>
-      <pubDate>Sat, 07 Jan 2023 08:22:32 +0000</pubDate>
+      <pubDate>Sun, 15 Jan 2023 11:13:18 +0000</pubDate>
       
       <guid>https://thoughts.derekgottlieb.com/tags/gaming/</guid>
       <description></description>
@@ -28,9 +19,18 @@
     <item>
       <title>reading</title>
       <link>https://thoughts.derekgottlieb.com/tags/reading/</link>
-      <pubDate>Sat, 07 Jan 2023 08:22:32 +0000</pubDate>
+      <pubDate>Sun, 15 Jan 2023 11:13:18 +0000</pubDate>
       
       <guid>https://thoughts.derekgottlieb.com/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>film</title>
+      <link>https://thoughts.derekgottlieb.com/tags/film/</link>
+      <pubDate>Sat, 07 Jan 2023 08:22:32 +0000</pubDate>
+      
+      <guid>https://thoughts.derekgottlieb.com/tags/film/</guid>
       <description></description>
     </item>
     
